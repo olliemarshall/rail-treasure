@@ -23,7 +23,7 @@ export default function Nav() {
     <nav className={styles.nav}>
       <div className={styles.container}>
         <Link href="/" className={styles.logo}>
-          <Image src="/logo2.png" alt="Rail Treasure" width={200} height={150} />
+          <Image src="/logo2.png" alt="Rail Treasure" width={300} height={100} />
           <span>Rail Treasure</span>
         </Link>
 
