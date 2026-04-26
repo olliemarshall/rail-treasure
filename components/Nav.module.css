@@ -15,24 +15,27 @@
 .logo {
   display: flex;
   align-items: center;
-  gap: 0.6rem;
-  font-family: 'Playfair Display', serif;
-  font-size: var(--text-lg);
-  font-weight: 600;
-  color: var(--ink);
+  gap: 0;
   text-decoration: none;
   flex-shrink: 0;
 }
 
 .logoIcon {
-  width: 2rem;
-  height: 2rem;
+  height: 2.4rem;
+  width: auto;
   display: flex;
   align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-  border-radius: var(--radius-sm);
-  overflow: hidden;
+}
+
+.logoIcon img {
+  height: 2.4rem;
+  width: auto;
+  display: block;
+}
+
+/* Hide text wordmark — logo image already contains RAILTREASURE */
+.logoText {
+  display: none;
 }
 
 .links {

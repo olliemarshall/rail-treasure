@@ -37,11 +37,15 @@ export default function DestinationCard({ destination, activeOrigin }) {
         </div>
       )}
       <div className={styles.header}>
+        <div className={styles.headerTop}>
+          <div className={styles.headerLeft}>
+            <div className={styles.region}>{region}</div>
+          </div>
+          <span className={styles.gemBadge}>✦ {destination.badge || 'hidden gem'}</span>
+        </div>
         {multiOrigin && (
           <span className={styles.multiOriginBadge}>🔀 multi-city</span>
         )}
-        <span className={styles.gemBadge}>✦ {destination.badge || 'hidden gem'}</span>
-        <div className={styles.region}>{region}</div>
         <h2 className={styles.name}>{name}</h2>
         <div className={styles.tags}>
           {tags.slice(0, 3).map(tag => (

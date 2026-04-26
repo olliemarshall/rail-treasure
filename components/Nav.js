@@ -23,9 +23,9 @@ export default function Nav() {
     <nav className={styles.nav} aria-label="Main navigation">
       <Link href="/" className={styles.logo} aria-label="Rail Treasure home">
         <div className={styles.logoIcon}>
-          <Image src="/logo.png" alt="Rail Treasure" width={28} height={28} priority />
+          <Image src="/logo.png" alt="Rail Treasure" width={160} height={48} priority style={{width:'auto',height:'2.4rem'}} />
         </div>
-        <span>Rail Treasure</span>
+        <span className={styles.logoText}>Rail Treasure</span>
       </Link>
 
       {/* Desktop links */}
@@ -80,6 +80,15 @@ export default function Nav() {
 
         <li>
           <Link
+            href="/newsletter"
+            className={`${styles.link} ${router.pathname === '/newsletter' ? styles.active : ''}`}
+          >
+            Newsletter
+          </Link>
+        </li>
+
+        <li>
+          <Link
             href="/about"
             className={`${styles.link} ${router.pathname === '/about' ? styles.active : ''}`}
           >
@@ -110,6 +119,7 @@ export default function Nav() {
               {r.label}
             </Link>
           ))}
+          <Link href="/newsletter" className={styles.mobileLink} onClick={() => setMenuOpen(false)}>Newsletter</Link>
           <Link href="/about" className={styles.mobileLink} onClick={() => setMenuOpen(false)}>About</Link>
         </div>
       )}
