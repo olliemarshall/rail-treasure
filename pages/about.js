@@ -14,11 +14,11 @@ export default function About() {
       <a href="#main" className="skip-link">Skip to content</a>
       <Nav />
 
-      {/* HERO — full-width North Yorkshire landscape */}
+      {/* HERO — full-width UK landscape image */}
       <div className={styles.hero}>
         <img
-          src="https://images.unsplash.com/3hjpeS3wrho?w=1400&q=85"
-          alt="North York Moors at sunset — heather fields stretching to the horizon"
+          src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=1400&q=85"
+          alt="Rolling green hills and countryside of Britain"
           className={styles.heroImg}
         />
         <div className={styles.heroOverlay}>
@@ -51,8 +51,8 @@ export default function About() {
           <section className={styles.splitSection}>
             <div className={styles.splitImage}>
               <img
-                src="https://images.unsplash.com/2WobYYQLN4s?w=700&q=85"
-                alt="A train travelling through lush green British countryside"
+                src="https://images.unsplash.com/photo-1474524955719-b9f87c50ce47?w=700&q=85"
+                alt="A scenic British train journey through countryside"
                 className={styles.splitImg}
               />
             </div>
@@ -130,8 +130,8 @@ export default function About() {
             </div>
             <div className={styles.splitImage}>
               <img
-                src="https://images.unsplash.com/photo-1535535112387-56ffe8db21ff?w=700&q=85"
-                alt="A steam train passing through spring woodland on the Severn Valley Railway, England"
+                src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=700&q=85"
+                alt="Beautiful British landscape with green hills and valleys"
                 className={styles.splitImg}
               />
             </div>
@@ -164,8 +164,8 @@ export default function About() {
         </div>
       </main>
 
-            <footer className={styles.footer}>
-        <p>Finding Britain's hidden gems, one train at a time.</p>
+      <footer className={styles.footer}>
+        <p>🚂 <strong>Rail Treasure</strong> — Finding Britain's hidden gems, one train at a time.</p>
       </footer>
     </>
   )
