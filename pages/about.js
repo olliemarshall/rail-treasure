@@ -17,8 +17,8 @@ export default function About() {
       {/* HERO — full-width North Yorkshire landscape */}
       <div className={styles.hero}>
         <img
-          src="https://images.unsplash.com/photo-1693988738703-7db9cb504a5a?w=1400&q=85"
-          alt="North York Moors at sunset — heather fields stretching to the horizon"
+          src="https://images.unsplash.com/photo-1751021156263-05e6d3592d86?w=1400&q=85"
+          alt="A train moves through a misty golden landscape"
           className={styles.heroImg}
         />
         <div className={styles.heroOverlay}>
@@ -51,8 +51,8 @@ export default function About() {
           <section className={styles.splitSection}>
             <div className={styles.splitImage}>
               <img
-                src="https://images.unsplash.com/photo-1663179717358-acd28623a728?w=700&q=85"
-                alt="A train travelling through lush green British countryside"
+                src="https://images.unsplash.com/photo-1575278168181-b8a0ace37f9d?w=700&q=85"
+                alt="Two people walking through a green grass field"
                 className={styles.splitImg}
               />
             </div>
@@ -130,8 +130,8 @@ export default function About() {
             </div>
             <div className={styles.splitImage}>
               <img
-                src="https://images.unsplash.com/photo-1535535112387-56ffe8db21ff?w=700&q=85"
-                alt="A steam train passing through spring woodland on the Severn Valley Railway, England"
+                src="https://images.unsplash.com/photo-1697099817319-579db56c417c?w=700&q=85"
+                alt="A yellow train travelling down tracks next to a lush green hillside"
                 className={styles.splitImg}
               />
             </div>

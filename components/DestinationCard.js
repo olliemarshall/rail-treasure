@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import Image from 'next/image'
 import { formatTime } from '../lib/destinations'
 import styles from './DestinationCard.module.css'
 

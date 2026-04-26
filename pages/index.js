@@ -102,17 +102,6 @@ export default function Home({ destinations, tags, origins, journeyBands, meta }
           <p className={styles.resultsCount} aria-live="polite" aria-atomic="true">
             <strong>{filtered.length}</strong> destination{filtered.length !== 1 ? 's' : ''} found
           </p>
-          <label htmlFor="sort-select" className="sr-only">Sort destinations</label>
-          <select
-            id="sort-select"
-            className={styles.sortSelect}
-            value={sortBy}
-            onChange={e => setSortBy(e.target.value)}
-          >
-            <option value="name">A–Z</option>
-            <option value="time">Quickest first</option>
-            <option value="region">By region</option>
-          </select>
         </div>
 
         {filtered.length === 0 ? (

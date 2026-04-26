@@ -1,5 +1,3 @@
-import { useState } from 'react'
-import Image from 'next/image'
 import styles from './HeroSearch.module.css'
 
 const TAG_ICONS = {
@@ -9,21 +7,11 @@ const TAG_ICONS = {
 }
 
 export default function HeroSearch({
-  tags,
-  origins,
-  journeyBands,
-  query,
-  activeTag,
-  activeOrigin,
-  activeTimeBand,
-  onQueryChange,
-  onTagChange,
-  onOriginChange,
-  onTimeBandChange,
+  tags, origins, journeyBands,
+  query, activeTag, activeOrigin, activeTimeBand,
+  onQueryChange, onTagChange, onOriginChange, onTimeBandChange,
   resultCount,
 }) {
-  const [filtersExpanded, setFiltersExpanded] = useState(false)
-
   return (
     <section className={styles.hero} aria-label="Search destinations">
 
@@ -31,12 +19,9 @@ export default function HeroSearch({
       <div className={styles.topBar}>
         <div className={styles.topBarInner}>
           <div className={styles.logoWrap}>
-            <Image
-              src="/logo2.png"
+            <img
+              src="/logo.png"
               alt="Rail Treasure"
-              width={320}
-              height={84}
-              priority
               className={styles.heroLogo}
             />
           </div>
@@ -52,8 +37,6 @@ export default function HeroSearch({
 
           {/* Row 1 — main inputs */}
           <div className={styles.inputRow}>
-
-            {/* Text search */}
             <label htmlFor="search-input" className={styles.srOnly}>Search destinations</label>
             <div className={styles.inputWrap} role="search">
               <svg className={styles.inputIcon} width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
@@ -69,50 +52,30 @@ export default function HeroSearch({
                 autoComplete="off"
               />
               {query && (
-                <button
-                  className={styles.clearBtn}
-                  onClick={() => onQueryChange('')}
-                  aria-label="Clear search"
-                >×</button>
+                <button className={styles.clearBtn} onClick={() => onQueryChange('')} aria-label="Clear search">×</button>
               )}
             </div>
 
-            {/* Origin */}
             <label htmlFor="origin-select" className={styles.srOnly}>Travelling from</label>
             <div className={styles.selectWrap}>
               <svg className={styles.selectIcon} width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
                 <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/>
                 <circle cx="12" cy="9" r="2.5"/>
               </svg>
-              <select
-                id="origin-select"
-                className={styles.select}
-                value={activeOrigin}
-                onChange={e => onOriginChange(e.target.value)}
-              >
+              <select id="origin-select" className={styles.select} value={activeOrigin} onChange={e => onOriginChange(e.target.value)}>
                 <option value="">From anywhere</option>
-                {origins.map(o => (
-                  <option key={o} value={o}>From {o}</option>
-                ))}
+                {origins.map(o => <option key={o} value={o}>From {o}</option>)}
               </select>
             </div>
 
-            {/* Journey time */}
             <label htmlFor="time-select" className={styles.srOnly}>Journey time</label>
             <div className={styles.selectWrap}>
               <svg className={styles.selectIcon} width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
                 <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
               </svg>
-              <select
-                id="time-select"
-                className={styles.select}
-                value={activeTimeBand}
-                onChange={e => onTimeBandChange(e.target.value)}
-              >
+              <select id="time-select" className={styles.select} value={activeTimeBand} onChange={e => onTimeBandChange(e.target.value)}>
                 <option value="">Any journey time</option>
-                {journeyBands.map(b => (
-                  <option key={b} value={b}>{b}</option>
-                ))}
+                {journeyBands.map(b => <option key={b} value={b}>{b}</option>)}
               </select>
             </div>
           </div>
@@ -123,9 +86,7 @@ export default function HeroSearch({
               className={`${styles.chip} ${activeTag === 'all' ? styles.chipActive : ''}`}
               onClick={() => onTagChange('all')}
               aria-pressed={activeTag === 'all'}
-            >
-              All
-            </button>
+            >All</button>
             {tags.map(tag => (
               <button
                 key={tag}

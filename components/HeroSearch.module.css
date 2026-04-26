@@ -1,11 +1,10 @@
-﻿/* â”€â”€ HERO WRAPPER â”€â”€ */
+/* ── HERO WRAPPER ── */
 .hero {
   background: var(--rail);
   position: relative;
   overflow: hidden;
 }
 
-/* Subtle texture overlay */
 .hero::before {
   content: '';
   position: absolute;
@@ -14,7 +13,7 @@
   pointer-events: none;
 }
 
-/* â”€â”€ TOP BAR â€” logo â”€â”€ */
+/* ── TOP BAR ── */
 .topBar {
   padding: var(--space-2xl) var(--space-xl) var(--space-lg);
 }
@@ -30,11 +29,11 @@
 
 .heroLogo {
   display: block;
-  width: 320px;
-  height: 84px;
-  /* Invert to white since logo is black on white background */
-  filter: brightness(0) invert(1);
+  height: 3.5rem;
+  width: auto;
   object-fit: contain;
+  /* Invert black logo to white for the green background */
+  filter: brightness(0) invert(1);
 }
 
 .heroTagline {
@@ -42,12 +41,6 @@
   color: rgba(255,255,255,0.6);
   font-weight: 300;
 }
-
-/* Keep these but they're no longer rendered — safe to leave for fallback */
-.eyebrow { display: none; }
-.headline { display: none; }
-.subline { display: none; }
-
 
 /* ── SEARCH BAR ── */
 .searchBar {
@@ -64,7 +57,7 @@
   gap: var(--space-md);
 }
 
-/* â”€â”€ INPUT ROW â”€â”€ */
+/* ── INPUT ROW ── */
 .inputRow {
   display: grid;
   grid-template-columns: 1fr 14rem 13rem;
@@ -72,7 +65,6 @@
   align-items: stretch;
 }
 
-/* Text search */
 .inputWrap {
   display: flex;
   align-items: center;
@@ -83,7 +75,6 @@
   gap: 0.6rem;
   transition: border-color 0.2s, background 0.2s;
 }
-
 .inputWrap:focus-within {
   border-color: var(--rail-mid);
   background: rgba(255,255,255,0.18);
@@ -100,16 +91,11 @@
   outline: none;
   color: #ffffff;
   font-size: var(--text-base);
-  font-weight: 400;
   width: 100%;
   padding: 0.875rem 0;
 }
+.input::placeholder { color: rgba(255,255,255,0.38); }
 
-.input::placeholder {
-  color: rgba(255,255,255,0.38);
-}
-
-/* Clear button */
 .clearBtn {
   background: none;
   border: none;
@@ -122,7 +108,6 @@
 }
 .clearBtn:hover { color: white; }
 
-/* Select wraps */
 .selectWrap {
   position: relative;
   display: flex;
@@ -143,7 +128,7 @@
   background: rgba(255,255,255,0.12);
   border: 1.5px solid rgba(255,255,255,0.2);
   border-radius: var(--radius);
-  padding: 0.875rem 0.875rem 0.875rem 2.6rem;
+  padding: 0.875rem 2.2rem 0.875rem 2.6rem;
   color: white;
   font-size: var(--text-sm);
   cursor: pointer;
@@ -152,20 +137,11 @@
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='rgba(255,255,255,0.5)' stroke-width='2.5'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
   background-repeat: no-repeat;
   background-position: right 0.875rem center;
-  padding-right: 2.2rem;
 }
+.select:focus { border-color: var(--rail-mid); background-color: rgba(255,255,255,0.18); }
+.select option { background: #1e4f3a; color: white; }
 
-.select:focus {
-  border-color: var(--rail-mid);
-  background-color: rgba(255,255,255,0.18);
-}
-
-.select option {
-  background: #1e4f3a;
-  color: white;
-}
-
-/* â”€â”€ TAGS ROW â”€â”€ */
+/* ── TAGS ROW ── */
 .tagsRow {
   display: flex;
   flex-wrap: wrap;
@@ -188,20 +164,17 @@
   transition: all 0.16s;
   font-family: 'DM Sans', sans-serif;
 }
-
 .chip:hover {
   border-color: var(--rail-mid);
   color: white;
   background: rgba(116,198,157,0.15);
 }
-
 .chipActive {
   background: rgba(255,255,255,0.95);
   border-color: white;
   color: var(--rail);
   font-weight: 600;
 }
-
 .chipActive:hover {
   background: white;
   color: var(--rail-dark);
@@ -217,27 +190,14 @@
   border: 0;
 }
 
-/* â”€â”€ RESPONSIVE â”€â”€ */
+/* ── RESPONSIVE ── */
 @media (max-width: 860px) {
-  .inputRow {
-    grid-template-columns: 1fr 1fr;
-  }
-  .inputWrap {
-    grid-column: 1 / -1;
-  }
+  .inputRow { grid-template-columns: 1fr 1fr; }
+  .inputWrap { grid-column: 1 / -1; }
 }
-
 @media (max-width: 560px) {
-  .topBar {
-    padding: var(--space-xl) var(--space-md) var(--space-md);
-  }
-  .searchBar {
-    padding: var(--space-md);
-  }
-  .inputRow {
-    grid-template-columns: 1fr;
-  }
-  .inputWrap {
-    grid-column: unset;
-  }
+  .topBar { padding: var(--space-xl) var(--space-md) var(--space-md); }
+  .searchBar { padding: var(--space-md); }
+  .inputRow { grid-template-columns: 1fr; }
+  .inputWrap { grid-column: unset; }
 }
