@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 import { formatTime } from '../lib/destinations'
 import styles from './DestinationCard.module.css'
 
@@ -25,6 +26,16 @@ export default function DestinationCard({ destination, activeOrigin }) {
 
   return (
     <Link href={`/destinations/${id}`} className={styles.card}>
+      {destination.photo_url && (
+        <div className={styles.photo}>
+          <img
+            src={destination.photo_url}
+            alt={name}
+            className={styles.photoImg}
+            loading="lazy"
+          />
+        </div>
+      )}
       <div className={styles.header}>
         {multiOrigin && (
           <span className={styles.multiOriginBadge}>🔀 multi-city</span>
@@ -56,7 +67,7 @@ export default function DestinationCard({ destination, activeOrigin }) {
               </div>
               <div className={styles.routeRight}>
                 {route.advance_fare_from_gbp
-                  ? <span className={styles.price}>from £{route.advance_fare_from_gbp}</span>
+                  ? <span className={styles.price}>from £{route.advance_fare_from_gbp.toFixed(2)}</span>
                   : <span className={styles.priceTbc}>check Trainline</span>
                 }
               </div>

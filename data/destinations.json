@@ -1,0 +1,2303 @@
+{
+  "meta": {
+    "schema_version": "1.3",
+    "last_updated": "2026-04",
+    "description": "Curated rail-accessible hidden gem destinations across the UK",
+    "total_destinations": 57,
+    "origins": [
+      "Bristol",
+      "Leeds",
+      "Liverpool",
+      "London",
+      "Manchester",
+      "York"
+    ],
+    "all_tags": [
+      "arts & culture",
+      "city break",
+      "coastal",
+      "countryside",
+      "foodie",
+      "historic",
+      "nature",
+      "quiet escape",
+      "riverside",
+      "scenic",
+      "village",
+      "walking"
+    ],
+    "journey_bands": [
+      "under 30 mins",
+      "30-60 mins",
+      "1-1.5 hrs",
+      "1.5-2 hrs",
+      "2 hrs+"
+    ],
+    "fields": {
+      "highlights": "Array of strings — 3-5 bullet points on what to do/see.",
+      "advance_fare_from_gbp": "Number — check Trainline/National Rail and update periodically.",
+      "direct": "Boolean — set false if a change is required.",
+      "operator": "e.g. 'Southeastern', 'GWR', 'TransPennine Express'."
+    },
+    "fare_note": "Advance fares are lowest available single adult fares based on research in April 2026. Always verify on Trainline or National Rail before travel.",
+    "photo_note": "Photos sourced from Unsplash under their free licence. photo_url field on each destination.",
+    "regions": [
+      {
+        "name": "East of England",
+        "slug": "east-of-england",
+        "count": 5
+      },
+      {
+        "name": "North West England",
+        "slug": "north-west-england",
+        "count": 6
+      },
+      {
+        "name": "Peak District",
+        "slug": "peak-district",
+        "count": 2
+      },
+      {
+        "name": "South East England",
+        "slug": "south-east-england",
+        "count": 23
+      },
+      {
+        "name": "South West England",
+        "slug": "south-west-england",
+        "count": 8
+      },
+      {
+        "name": "Wales",
+        "slug": "wales",
+        "count": 4
+      },
+      {
+        "name": "Yorkshire",
+        "slug": "yorkshire",
+        "count": 9
+      }
+    ]
+  },
+  "destinations": [
+    {
+      "id": "eynsford",
+      "name": "Eynsford",
+      "region": "South East England",
+      "tags": [
+        "village",
+        "countryside",
+        "riverside"
+      ],
+      "description": "One of Kent's most photogenic villages, Eynsford sits in a chalk valley where the River Darent runs shallow enough to ford on foot. A Norman castle ruin, medieval bridge and thatched cottages make it feel genuinely timeless — and remarkably, the station drops you right into the middle of it.",
+      "highlights": [
+        "Wade across the famous ford at the heart of the village — knee-deep and perfectly safe in summer",
+        "Eynsford Castle ruins: a well-preserved 11th-century flint enclosure, free to enter",
+        "The Plough pub sits directly beside the river — ideal for a long lunch after a walk",
+        "Lullingstone Roman Villa is a 20-minute walk through the valley — one of Britain's best-preserved Roman sites",
+        "The Darent Valley Path runs through the village, linking to Shoreham and Otford for longer walks"
+      ],
+      "best_time_to_visit": "April to October — the ford is at its most inviting in summer and autumn colours in the valley are spectacular",
+      "photo_credit": "Unsplash",
+      "routes": [
+        {
+          "origin": "London",
+          "departure_station": "London (multiple termini)",
+          "travel_time_mins": 50,
+          "journey_band": "30-60 mins",
+          "advance_fare_from_gbp": 7.5,
+          "anytime_fare_from_gbp": 13.4,
+          "fare_last_checked": "2026-04",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/london-to-eynsford",
+          "direct": true,
+          "operator": "Southeastern",
+          "notes": ""
+        }
+      ],
+      "photo_url": "https://images.unsplash.com/photo-1590677195409-22e8d9e58f6e?w=800&q=80",
+      "region_slug": "south-east-england"
+    },
+    {
+      "id": "arundel",
+      "name": "Arundel",
+      "region": "South East England",
+      "tags": [
+        "historic",
+        "countryside"
+      ],
+      "description": "Arundel is one of Sussex's most handsome towns, stacked dramatically up a hillside beneath its vast Victorian castle and a cathedral that wouldn't look out of place in France. The River Arun threads along the bottom of town, the high street is full of antique dealers and independent cafés, and the whole place feels quietly confident about how beautiful it is.",
+      "highlights": [
+        "Arundel Castle: still the family home of the Duke of Norfolk, with outstanding art and gardens — book ahead",
+        "Arundel Cathedral: a Gothic Revival masterpiece built in 1868 that dominates the skyline",
+        "Walk along the Arun to Amberley (5 miles) through water meadows and open farmland",
+        "The Black Rabbit pub is a 30-minute riverside walk from town — popular but worth it",
+        "Arundel Wetland Centre: 65 acres of wildlife reserve run by the Wildfowl & Wetlands Trust"
+      ],
+      "best_time_to_visit": "Year-round, but May to September for the castle grounds and gardens at their best",
+      "photo_credit": "Unsplash",
+      "routes": [
+        {
+          "origin": "London",
+          "departure_station": "London (multiple termini)",
+          "travel_time_mins": 90,
+          "journey_band": "1-1.5 hrs",
+          "advance_fare_from_gbp": 13.5,
+          "anytime_fare_from_gbp": 26.8,
+          "fare_last_checked": "2026-04",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/london-to-arundel",
+          "direct": true,
+          "operator": "Southern",
+          "notes": ""
+        }
+      ],
+      "photo_url": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
+      "region_slug": "south-east-england"
+    },
+    {
+      "id": "amberley",
+      "name": "Amberley",
+      "region": "South East England",
+      "tags": [
+        "village",
+        "nature",
+        "walking"
+      ],
+      "description": "Amberley barely qualifies as a village — a cluster of thatched and flint cottages, a Norman church and a castle ruin perched above the wild open expanse of Amberley Wild Brooks. The station sits at the foot of the South Downs, and within minutes of stepping off the train you're on chalk grassland with views across the Weald that go on forever.",
+      "highlights": [
+        "Amberley Wild Brooks: an SSSI wetland teeming with wading birds and rare plants, directly below the village",
+        "Amberley Castle: now a luxury hotel but the exterior and gatehouse are freely visible — genuinely medieval",
+        "The South Downs Way runs right through — walk west to Bury or east to Storrington",
+        "Amberley Museum: an open-air industrial heritage museum in a former chalk quarry — unexpectedly good",
+        "St Michael's Church has 12th-century wall paintings and a peaceful churchyard with open views"
+      ],
+      "best_time_to_visit": "Spring and early summer for wildflowers on the Downs; autumn for golden light across the Brooks",
+      "photo_credit": "Unsplash",
+      "routes": [
+        {
+          "origin": "London",
+          "departure_station": "London (multiple termini)",
+          "travel_time_mins": 95,
+          "journey_band": "1.5-2 hrs",
+          "advance_fare_from_gbp": 14.5,
+          "anytime_fare_from_gbp": 27.6,
+          "fare_last_checked": "2026-04",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/london-to-amberley",
+          "direct": true,
+          "operator": "Southern",
+          "notes": ""
+        }
+      ],
+      "photo_url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
+      "region_slug": "south-east-england"
+    },
+    {
+      "id": "lewes",
+      "name": "Lewes",
+      "region": "South East England",
+      "tags": [
+        "historic",
+        "walking",
+        "countryside"
+      ],
+      "description": "Lewes is quietly one of the most interesting small towns in England — a place of radical politics, independent spirit and serious architectural beauty, all packed into a hillside above the River Ouse. It has a Norman castle, a high street of bow-fronted Georgian shopfronts, more bookshops per head than almost anywhere, and the most theatrical bonfire night celebrations in Britain.",
+      "highlights": [
+        "Lewes Castle: Norman motte-and-bailey with panoramic views across the Downs and Weald",
+        "The Cliffe High Street: independent shops, bookshops and galleries in a perfectly preserved medieval lane",
+        "Harvey's Brewery: Sussex's oldest and best-loved brewery, offering tours and with a tap room in town",
+        "Lewes Bonfire Night (5th November): one of Britain's most spectacular and unusual public celebrations",
+        "Monk's House, Rodmell: Virginia Woolf's former home, a 3-mile walk along the Ouse — National Trust"
+      ],
+      "best_time_to_visit": "Year-round; May for the countryside, November 5th for the legendary bonfire celebrations",
+      "photo_credit": "Unsplash",
+      "routes": [
+        {
+          "origin": "London",
+          "departure_station": "London (multiple termini)",
+          "travel_time_mins": 65,
+          "journey_band": "1-1.5 hrs",
+          "advance_fare_from_gbp": 12.0,
+          "anytime_fare_from_gbp": 22.5,
+          "fare_last_checked": "2026-04",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/london-to-lewes",
+          "direct": true,
+          "operator": "Southern",
+          "notes": ""
+        }
+      ],
+      "photo_url": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=80",
+      "region_slug": "south-east-england"
+    },
+    {
+      "id": "rye",
+      "name": "Rye",
+      "region": "South East England",
+      "tags": [
+        "coastal",
+        "historic",
+        "village"
+      ],
+      "description": "Rye is a medieval town frozen in time — a network of cobbled lanes, timber-framed houses and secret courtyards that tumbles down a sandstone hill above the levels. Once a Cinque Port and a notorious haunt of smugglers, it's now one of the most atmospheric small towns in England, with Camber Sands just four miles away and a food scene well above its weight.",
+      "highlights": [
+        "Mermaid Street: one of the most photographed cobbled streets in England, lined with 15th-century houses",
+        "Rye Castle Museum: two medieval buildings including the Ypres Tower, overlooking the levels",
+        "Camber Sands: four miles of golden dunes — take the seasonal bus or a taxi from town",
+        "The Mermaid Inn: a 12th-century inn with one of England's great inglenook fireplaces",
+        "Rye Harbour Nature Reserve: a short walk from town, internationally important for nesting birds"
+      ],
+      "best_time_to_visit": "Shoulder seasons — spring and autumn are quieter; midsummer gets very busy but Camber Sands is worth it",
+      "photo_credit": "Unsplash",
+      "routes": [
+        {
+          "origin": "London",
+          "departure_station": "London (multiple termini)",
+          "travel_time_mins": 70,
+          "journey_band": "1-1.5 hrs",
+          "advance_fare_from_gbp": 13.0,
+          "anytime_fare_from_gbp": 24.8,
+          "fare_last_checked": "2026-04",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/london-to-rye",
+          "direct": true,
+          "operator": "Southeastern",
+          "notes": ""
+        }
+      ],
+      "photo_url": "https://images.unsplash.com/photo-1467521040052-6e94a1a26d17?w=800&q=80",
+      "region_slug": "south-east-england"
+    },
+    {
+      "id": "whitstable",
+      "name": "Whitstable",
+      "region": "South East England",
+      "tags": [
+        "coastal",
+        "foodie"
+      ],
+      "description": "Whitstable resists being trendy. Despite the weekend crowds and the London second-homers, it stays stubbornly itself — a working oyster fishing town with weatherboard houses, a proper beach of grey pebbles and wooden groynes, and a high street where fishmongers and independent coffee shops sit happily side by side. The oysters are exceptional.",
+      "highlights": [
+        "Whitstable Oyster Company: the original — eat native oysters at the harbour with a glass of white wine",
+        "The Harbour: still a working fishing port, with boats unloading catches most mornings",
+        "Tankerton Slopes: grassy clifftop walking above the beach, with views to Sheppey",
+        "The Old Neptune pub: a weatherboard pub right on the beach — possibly the best-positioned in Kent",
+        "Whitstable Oyster Festival: a week-long celebration in July, centred on the harbour"
+      ],
+      "best_time_to_visit": "May to September; the Oyster Festival in July is worth planning around",
+      "photo_credit": "Unsplash",
+      "routes": [
+        {
+          "origin": "London",
+          "departure_station": "London (multiple termini)",
+          "travel_time_mins": 80,
+          "journey_band": "1-1.5 hrs",
+          "advance_fare_from_gbp": 11.5,
+          "anytime_fare_from_gbp": 21.4,
+          "fare_last_checked": "2026-04",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/london-to-whitstable",
+          "direct": true,
+          "operator": "Southeastern",
+          "notes": ""
+        }
+      ],
+      "photo_url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80",
+      "region_slug": "south-east-england"
+    },
+    {
+      "id": "ely",
+      "name": "Ely",
+      "region": "East of England",
+      "tags": [
+        "historic",
+        "riverside",
+        "quiet escape"
+      ],
+      "description": "Ely is a revelation — a cathedral city so out of proportion with its actual size that the first glimpse of the octagonal lantern tower rising above the flat Cambridgeshire fens stops you completely. The city has 8,000 people and a medieval cathedral that took 300 years to build. The surrounding fenland landscape is strange and beautiful, and the riverside walks are among the quietest in the country.",
+      "highlights": [
+        "Ely Cathedral: the 'Ship of the Fens' — one of England's greatest medieval buildings, unmissable inside and out",
+        "The Octagon Tower: a medieval engineering miracle, best understood by taking the tower tour",
+        "Riverside walk along the Great Ouse: flat, peaceful and perfect for an hour's walking",
+        "Oliver Cromwell's House: the former home of the Lord Protector, now an excellent museum",
+        "Ely Market: held on Thursdays and Saturdays in the cathedral shadow — proper local market"
+      ],
+      "best_time_to_visit": "Year-round; the fenland light is extraordinary in winter and the cathedral is lit beautifully at Christmas",
+      "photo_credit": "Unsplash",
+      "routes": [
+        {
+          "origin": "London",
+          "departure_station": "London (multiple termini)",
+          "travel_time_mins": 75,
+          "journey_band": "1-1.5 hrs",
+          "advance_fare_from_gbp": 12.5,
+          "anytime_fare_from_gbp": 23.1,
+          "fare_last_checked": "2026-04",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/london-to-ely",
+          "direct": true,
+          "operator": "Greater Anglia",
+          "notes": ""
+        }
+      ],
+      "photo_url": "https://images.unsplash.com/photo-1548526928-6649b5e71442?w=800&q=80",
+      "region_slug": "east-of-england"
+    },
+    {
+      "id": "marlow",
+      "name": "Marlow",
+      "region": "South East England",
+      "tags": [
+        "riverside",
+        "countryside",
+        "foodie"
+      ],
+      "description": "Marlow is what a Thames-side English town looks like when everything has gone right. A graceful suspension bridge, a wide stretch of the river lined with weeping willows, a high street of independent shops and restaurants, and Quarry Wood rising behind — the very wood that inspired Kenneth Grahame to write The Wind in the Willows. It manages to be both beautiful and genuinely lived-in.",
+      "highlights": [
+        "Marlow Suspension Bridge: built in 1832, one of the loveliest river crossings in England",
+        "Walk along the Thames Path to Cookham (4 miles) or Henley (9 miles) through meadows and woodland",
+        "The Hand and Flowers: Tom Kerridge's two-Michelin-star pub — book months ahead if you want to eat",
+        "Quarry Wood: ancient woodland above the town, the real inspiration for the Wild Wood in Wind in the Willows",
+        "All Saints Church: Victorian Gothic with riverside views and a famous Percy Shelley connection"
+      ],
+      "best_time_to_visit": "Late spring through September; the river is at its best from May to August",
+      "photo_credit": "Unsplash",
+      "routes": [
+        {
+          "origin": "London",
+          "departure_station": "London (multiple termini)",
+          "travel_time_mins": 60,
+          "journey_band": "30-60 mins",
+          "advance_fare_from_gbp": 10.0,
+          "anytime_fare_from_gbp": 18.8,
+          "fare_last_checked": "2026-04",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/london-to-marlow",
+          "direct": true,
+          "operator": "Great Western Railway",
+          "notes": ""
+        }
+      ],
+      "photo_url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80",
+      "region_slug": "south-east-england"
+    },
+    {
+      "id": "bury-st-edmunds",
+      "name": "Bury St Edmunds",
+      "region": "East of England",
+      "tags": [
+        "historic",
+        "quiet escape"
+      ],
+      "description": "Bury St Edmunds is one of East Anglia's most attractive and undervisited towns — a planned medieval grid of streets centred on the ruins of one of England's wealthiest abbeys, with a Georgian high street, a striking neoclassical town centre and an excellent food and drink scene anchored by the Greene King brewery. It rewards an unrushed afternoon entirely.",
+      "highlights": [
+        "Abbey Gardens and Ruins: 14 acres of formal gardens surrounding the remains of a once-vast Norman abbey",
+        "St Edmundsbury Cathedral: completed only in 2005, its tower is one of the newest medieval-style towers in England",
+        "The Nutshell: Britain's smallest pub, barely wider than a doorway — standing room only",
+        "Greene King Brewery: tours of the UK's largest pub-owning brewery, based here since 1799",
+        "Angel Hotel: a Georgian coaching inn where Charles Dickens stayed — the lounge is worth a look"
+      ],
+      "best_time_to_visit": "Year-round; the Abbey Gardens are gorgeous in spring and summer",
+      "photo_credit": "Unsplash",
+      "routes": [
+        {
+          "origin": "London",
+          "departure_station": "London (multiple termini)",
+          "travel_time_mins": 105,
+          "journey_band": "1.5-2 hrs",
+          "advance_fare_from_gbp": 16.5,
+          "anytime_fare_from_gbp": 29.5,
+          "fare_last_checked": "2026-04",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/london-to-bury-st-edmunds",
+          "direct": true,
+          "operator": "Greater Anglia",
+          "notes": ""
+        }
+      ],
+      "photo_url": "https://images.unsplash.com/photo-1520637836862-4d197d17c20a?w=800&q=80",
+      "region_slug": "east-of-england"
+    },
+    {
+      "id": "deal",
+      "name": "Deal",
+      "region": "South East England",
+      "tags": [
+        "coastal",
+        "quiet escape"
+      ],
+      "description": "Deal is the best-kept secret on the Kent coast — a proper seaside town without a pier, without amusements, without the usual trappings, just a long shingle beach, a grid of Georgian streets full of independent shops and galleries, and a fascinating medieval and Tudor history as a key Cinque Port. It's been quietly attracting artists, writers and people who've grown tired of Whitstable for years.",
+      "highlights": [
+        "Deal Castle: a stunning Tudor rose-shaped fortress built by Henry VIII, right on the seafront",
+        "The beach: long, wide and uncrowded — the shingle gives way to sand at low tide",
+        "The high street and Middle Street: independent bookshops, galleries, wine bars and excellent cafés",
+        "Walmer Castle and Gardens: another Henry VIII fort, a mile south — beautiful gardens and sea views",
+        "Walk to Sandwich: a 4-mile coastal path through nature reserve to one of England's best-preserved medieval towns"
+      ],
+      "best_time_to_visit": "Spring and autumn — less crowded than summer and the light on the beach is extraordinary",
+      "photo_credit": "Unsplash",
+      "routes": [
+        {
+          "origin": "London",
+          "departure_station": "London (multiple termini)",
+          "travel_time_mins": 80,
+          "journey_band": "1-1.5 hrs",
+          "advance_fare_from_gbp": 14.0,
+          "anytime_fare_from_gbp": 27.2,
+          "fare_last_checked": "2026-04",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/london-to-deal",
+          "direct": true,
+          "operator": "Southeastern",
+          "notes": ""
+        }
+      ],
+      "photo_url": "https://images.unsplash.com/photo-1473116763249-2faaef81ccda?w=800&q=80",
+      "region_slug": "south-east-england"
+    },
+    {
+      "id": "seaford-seven-sisters",
+      "name": "Seaford (Seven Sisters)",
+      "region": "South East England",
+      "tags": [
+        "coastal",
+        "walking"
+      ],
+      "description": "Seaford is the quiet gateway to one of England's most spectacular coastal walks. The Seven Sisters — eight chalk cliffs (the naming has never been explained) — rise from the valley of the Cuckmere to form a sequence of dazzling white headlands that feel genuinely wild and remote. The walk from Seaford to Eastbourne via the clifftops is one of the finest in southern England.",
+      "highlights": [
+        "Seven Sisters cliffs walk: 11 miles from Seaford to Eastbourne along the clifftops — do it west to east",
+        "Cuckmere Haven: the only undeveloped estuary in Sussex, with a lagoon and sweeping beach below the cliffs",
+        "Seaford Head Nature Reserve: chalk grassland above the first of the Sisters, with orchids in early summer",
+        "The Tiger Inn, East Dean: a perfect village pub halfway along the walk — book a table for lunch",
+        "Beachy Head: the final stretch to Eastbourne passes the highest chalk sea cliff in Britain at 162 metres"
+      ],
+      "best_time_to_visit": "April to October — the cliffs are at their whitest in spring sunshine; the walk needs a clear day",
+      "photo_credit": "Unsplash",
+      "routes": [
+        {
+          "origin": "London",
+          "departure_station": "London (multiple termini)",
+          "travel_time_mins": 90,
+          "journey_band": "1-1.5 hrs",
+          "advance_fare_from_gbp": 13.5,
+          "anytime_fare_from_gbp": 24.6,
+          "fare_last_checked": "2026-04",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/london-to-seaford-seven-sisters",
+          "direct": true,
+          "operator": "Southern",
+          "notes": ""
+        }
+      ],
+      "photo_url": "https://images.unsplash.com/photo-1518173946687-a4c8892bbd9f?w=800&q=80",
+      "region_slug": "south-east-england"
+    },
+    {
+      "id": "broadstairs",
+      "name": "Broadstairs",
+      "region": "South East England",
+      "tags": [
+        "coastal",
+        "historic"
+      ],
+      "description": "Broadstairs is the quieter, more genuinely charming alternative to Margate and Ramsgate — a Victorian seaside town with a proper sandy bay, a compact and beautiful old town, and an unusually strong literary connection through Charles Dickens, who wrote much of David Copperfield here. It remains free of the self-conscious trendiness that has hit its neighbours.",
+      "highlights": [
+        "Viking Bay: the main beach, a perfect arc of sand with a harbour wall and traditional beach huts",
+        "Bleak House: Dickens's clifftop writing retreat, now a museum with panoramic sea views",
+        "Broadstairs Folk Week: one of England's oldest folk festivals, held every August",
+        "Dickens Festival: the town dresses in Victorian costume for a week every June",
+        "The Old Curiosity Shop: independent shops and galleries packed into the historic lanes above the bay"
+      ],
+      "best_time_to_visit": "June to September for the beach; June for the Dickens Festival, August for Folk Week",
+      "photo_credit": "Unsplash",
+      "routes": [
+        {
+          "origin": "London",
+          "departure_station": "London (multiple termini)",
+          "travel_time_mins": 90,
+          "journey_band": "1-1.5 hrs",
+          "advance_fare_from_gbp": 17.5,
+          "anytime_fare_from_gbp": 33.6,
+          "fare_last_checked": "2026-04",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/london-to-broadstairs",
+          "direct": true,
+          "operator": "Southeastern",
+          "notes": ""
+        }
+      ],
+      "photo_url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80",
+      "region_slug": "south-east-england"
+    },
+    {
+      "id": "chichester",
+      "name": "Chichester",
+      "region": "South East England",
+      "tags": [
+        "historic",
+        "countryside",
+        "arts & culture"
+      ],
+      "description": "Chichester is a Roman cathedral city in miniature — four straight streets meeting at a medieval cross, a cathedral that has stood since 1108, and some of the best countryside in southern England immediately to hand. It also quietly hosts one of England's greatest arts venues in the Festival Theatre, and Chichester Harbour to the south is an Area of Outstanding Natural Beauty.",
+      "highlights": [
+        "Chichester Cathedral: 900 years of history, with a Chagall window and a stunning tapestry by John Piper",
+        "Chichester Festival Theatre: one of England's finest regional theatres — book ahead for summer productions",
+        "Fishbourne Roman Palace: a mile west of the city, the largest Roman residence ever found in Britain",
+        "Chichester Harbour: boat trips, kayaking and walking around one of the south coast's finest estuaries",
+        "Goodwood: the motor circuit, racecourse and estate are close — check events before you visit"
+      ],
+      "best_time_to_visit": "May to September; the Festival Theatre season runs spring to autumn",
+      "photo_credit": "Unsplash",
+      "routes": [
+        {
+          "origin": "London",
+          "departure_station": "London (multiple termini)",
+          "travel_time_mins": 95,
+          "journey_band": "1.5-2 hrs",
+          "advance_fare_from_gbp": 15.0,
+          "anytime_fare_from_gbp": 28.4,
+          "fare_last_checked": "2026-04",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/london-to-chichester",
+          "direct": true,
+          "operator": "Southern",
+          "notes": ""
+        }
+      ],
+      "photo_url": "https://images.unsplash.com/photo-1548526928-6649b5e71442?w=800&q=80",
+      "region_slug": "south-east-england"
+    },
+    {
+      "id": "winchester",
+      "name": "Winchester",
+      "region": "South East England",
+      "tags": [
+        "historic",
+        "riverside",
+        "scenic"
+      ],
+      "description": "Winchester was the capital of England before London. That history is still utterly present — in the cathedral that stretches longer than any other Gothic building in Europe, in the medieval almshouses, in the water meadows where Keats walked writing Ode to Autumn. It's a small city that carries its past with remarkable lightness, and the Itchen valley walking on its doorstep is exceptional.",
+      "highlights": [
+        "Winchester Cathedral: the longest Gothic cathedral in Europe, with Jane Austen's grave and a sublime crypt",
+        "The Great Hall: the only surviving part of Winchester Castle, containing the legendary Round Table",
+        "Water meadows walk: follow the Itchen south from the cathedral — the walk Keats described in his ode",
+        "Winchester College: one of England's oldest schools, with guided tours of its medieval buildings",
+        "The Black Boy and The Wykeham Arms: two of Hampshire's finest pubs, within five minutes of the cathedral"
+      ],
+      "best_time_to_visit": "Year-round; the water meadows are stunning in spring and autumn",
+      "photo_credit": "Unsplash",
+      "routes": [
+        {
+          "origin": "London",
+          "departure_station": "London (multiple termini)",
+          "travel_time_mins": 60,
+          "journey_band": "30-60 mins",
+          "advance_fare_from_gbp": 11.0,
+          "anytime_fare_from_gbp": 21.5,
+          "fare_last_checked": "2026-04",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/london-to-winchester",
+          "direct": true,
+          "operator": "South Western Railway",
+          "notes": ""
+        },
+        {
+          "origin": "Bristol",
+          "departure_station": "Bristol Temple Meads",
+          "travel_time_mins": 75,
+          "journey_band": "1-1.5 hrs",
+          "advance_fare_from_gbp": 14.5,
+          "anytime_fare_from_gbp": 27.0,
+          "fare_last_checked": "2026-04",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/bristol-to-winchester",
+          "direct": true,
+          "operator": "Great Western Railway",
+          "notes": ""
+        }
+      ],
+      "photo_url": "https://images.unsplash.com/photo-1548526928-6649b5e71442?w=800&q=80",
+      "region_slug": "south-east-england"
+    },
+    {
+      "id": "guildford",
+      "name": "Guildford",
+      "region": "South East England",
+      "tags": [
+        "walking",
+        "countryside",
+        "riverside"
+      ],
+      "description": "Guildford tends to be dismissed as commuter town, which entirely misses the point. The cobbled high street running steeply down to the River Wey is one of the most handsome in Surrey, the Guildhall clock juts out over the street at a satisfying angle, and five minutes walk in any direction puts you into the Surrey Hills — an Area of Outstanding Natural Beauty that most Londoners have never explored.",
+      "highlights": [
+        "Guildford High Street: a steep cobbled descent with the 17th-century Guildhall at its heart",
+        "St Martha's Hill: a 30-minute walk from town rewards with panoramic Surrey Hills views",
+        "The Wey Navigation: towpath walking south along one of England's oldest navigable canals",
+        "Watts Gallery: an excellent gallery dedicated to the Victorian artist G.F. Watts, 3 miles from town",
+        "Shere village: a 4-mile walk through the hills brings you to one of Surrey's most beautiful villages"
+      ],
+      "best_time_to_visit": "Spring and autumn for the Surrey Hills; the bluebells around St Martha's in April are outstanding",
+      "photo_credit": "Unsplash",
+      "routes": [
+        {
+          "origin": "London",
+          "departure_station": "London (multiple termini)",
+          "travel_time_mins": 40,
+          "journey_band": "30-60 mins",
+          "advance_fare_from_gbp": 7.5,
+          "anytime_fare_from_gbp": 14.2,
+          "fare_last_checked": "2026-04",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/london-to-guildford",
+          "direct": true,
+          "operator": "South Western Railway",
+          "notes": ""
+        }
+      ],
+      "photo_url": "https://images.unsplash.com/photo-1495615080073-6b89c9839ce0?w=800&q=80",
+      "region_slug": "south-east-england"
+    },
+    {
+      "id": "st-albans",
+      "name": "St Albans",
+      "region": "East of England",
+      "tags": [
+        "historic",
+        "quiet escape"
+      ],
+      "description": "St Albans is London's most interesting near-escape — a city with nearly 2,000 years of continuous history, from the Roman town of Verulamium through its Norman cathedral to its Georgian market streets. The Roman remains are among the most extensive in England, the cathedral is magnificent, and Verulamium Park offers an hour of genuinely peaceful walking minutes from the station.",
+      "highlights": [
+        "Verulamium Museum: outstanding Roman artefacts including extraordinary in-situ mosaic floors",
+        "St Albans Cathedral: a Norman abbey church that became a cathedral in 1877 — the nave is the longest in England",
+        "Roman Theatre of Verulamium: one of only a handful of visible Roman theatres in Britain",
+        "Verulamium Park: 100 acres of parkland with a lake, surrounding the Roman city walls",
+        "St Albans Market: held Wednesday and Saturday — one of Hertfordshire's best traditional markets"
+      ],
+      "best_time_to_visit": "Year-round; close enough to London to visit any day",
+      "photo_credit": "Unsplash",
+      "routes": [
+        {
+          "origin": "London",
+          "departure_station": "London (multiple termini)",
+          "travel_time_mins": 25,
+          "journey_band": "under 30 mins",
+          "advance_fare_from_gbp": 6.0,
+          "anytime_fare_from_gbp": 11.8,
+          "fare_last_checked": "2026-04",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/london-to-st-albans",
+          "direct": true,
+          "operator": "Thameslink",
+          "notes": ""
+        }
+      ],
+      "photo_url": "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=800&q=80",
+      "region_slug": "east-of-england"
+    },
+    {
+      "id": "folkestone",
+      "name": "Folkestone",
+      "region": "South East England",
+      "tags": [
+        "coastal",
+        "arts & culture"
+      ],
+      "description": "Folkestone has been quietly reinventing itself for a decade, and it's working. The Creative Quarter — a grid of Victorian streets above the harbour that had been almost derelict — is now filled with artists' studios, independent cafés and galleries. The Harbour Arm, a converted jetty, has become one of the most atmospheric food and drink destinations on the south coast. The cliffs are dramatic and the Channel views are extraordinary.",
+      "highlights": [
+        "The Harbour Arm: independent street food, bars and live music on a converted Victorian jetty",
+        "The Creative Quarter: a network of studios, galleries and cafés in the Old High Street area",
+        "East Cliff and Warren: dramatic chalk cliff walking above a wild undercliff nature reserve",
+        "The Triennial: Folkestone's major public art festival, with permanent installations across the town",
+        "Channel Tunnel terminal: walk or cycle to the terminal area for views across to France on a clear day"
+      ],
+      "best_time_to_visit": "May to September; the Harbour Arm is at its best on a summer evening",
+      "photo_credit": "Unsplash",
+      "routes": [
+        {
+          "origin": "London",
+          "departure_station": "London (multiple termini)",
+          "travel_time_mins": 55,
+          "journey_band": "30-60 mins",
+          "advance_fare_from_gbp": 14.0,
+          "anytime_fare_from_gbp": 26.5,
+          "fare_last_checked": "2026-04",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/london-to-folkestone",
+          "direct": true,
+          "operator": "Southeastern",
+          "notes": ""
+        }
+      ],
+      "photo_url": "https://images.unsplash.com/photo-1473116763249-2faaef81ccda?w=800&q=80",
+      "region_slug": "south-east-england"
+    },
+    {
+      "id": "hastings",
+      "name": "Hastings",
+      "region": "South East England",
+      "tags": [
+        "coastal",
+        "scenic",
+        "historic"
+      ],
+      "description": "Hastings is the wild cousin of the Kent and Sussex coast — rougher, stranger and more interesting than almost anywhere nearby. The Old Town is a maze of lanes called 'the Bourne' packed into a valley between two cliffs, with Europe's tallest beach-launched fishing fleet still working from the Stade. The Jerwood Gallery, cliff railways, net huts and an unexpectedly good food scene make it a proper full-day destination.",
+      "highlights": [
+        "The Stade: the working fishing beach, with the distinctive tall black net huts used for drying gear",
+        "Hastings Old Town: the Bourne — a medieval street pattern of independent shops, pubs and galleries",
+        "The cliff railways: two Victorian funicular railways connecting the town to the clifftops",
+        "Hastings Castle and the 1066 Story: the ruins of William the Conqueror's first English castle",
+        "Rock-a-Nore Road: lined with excellent fishmongers selling the morning's catch — some of the freshest fish in England"
+      ],
+      "best_time_to_visit": "Year-round; the Old Town is atmospheric in all weathers, and summer has the Jack-in-the-Green festival",
+      "photo_credit": "Unsplash",
+      "routes": [
+        {
+          "origin": "London",
+          "departure_station": "London (multiple termini)",
+          "travel_time_mins": 90,
+          "journey_band": "1-1.5 hrs",
+          "advance_fare_from_gbp": 15.5,
+          "anytime_fare_from_gbp": 30.2,
+          "fare_last_checked": "2026-04",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/london-to-hastings",
+          "direct": true,
+          "operator": "Southeastern",
+          "notes": ""
+        }
+      ],
+      "photo_url": "https://images.unsplash.com/photo-1467521040052-6e94a1a26d17?w=800&q=80",
+      "region_slug": "south-east-england"
+    },
+    {
+      "id": "henley-on-thames",
+      "name": "Henley-on-Thames",
+      "region": "South East England",
+      "tags": [
+        "riverside",
+        "countryside",
+        "scenic"
+      ],
+      "description": "Henley is the unhurried, handsome end of the Thames — a market town with a perfect red-brick bridge, a broad reach of river lined with Georgian townhouses and boathouses, and a high street that has so far resisted chain homogenisation. The Regatta in late June to early July brings crowds; every other week it's wonderfully quiet and the river walking in both directions is among the best in the south.",
+      "highlights": [
+        "Henley Bridge: the 1786 red-brick bridge is one of the Thames's finest — walk across for the best view",
+        "Henley Royal Regatta: held late June to early July, the world's most famous amateur rowing event",
+        "Thames Path: walk north to Marlow (9 miles) or south to Reading — both outstanding stretches of river",
+        "River & Rowing Museum: a wonderful Foster & Partners building with an excellent Wind in the Willows exhibition",
+        "Fawley Court: a Christopher Wren mansion visible from the opposite bank on the riverside walk"
+      ],
+      "best_time_to_visit": "May to September; avoid Regatta week if you dislike crowds, seek it out if you don't",
+      "photo_credit": "Unsplash",
+      "routes": [
+        {
+          "origin": "London",
+          "departure_station": "London (multiple termini)",
+          "travel_time_mins": 65,
+          "journey_band": "1-1.5 hrs",
+          "advance_fare_from_gbp": 11.0,
+          "anytime_fare_from_gbp": 20.8,
+          "fare_last_checked": "2026-04",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/london-to-henley-on-thames",
+          "direct": true,
+          "operator": "Great Western Railway",
+          "notes": ""
+        }
+      ],
+      "photo_url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80",
+      "region_slug": "south-east-england"
+    },
+    {
+      "id": "harrogate",
+      "name": "Harrogate",
+      "region": "Yorkshire",
+      "tags": [
+        "scenic",
+        "countryside"
+      ],
+      "description": "Harrogate is Yorkshire's most elegant town — a place of wide boulevards, pale stone terraces and The Stray, a 200-acre sweep of common land that rings the town centre. It made its name as a Victorian spa resort, and that unhurried, prosperous character remains. Betty's tea room, the RHS Harlow Carr gardens and excellent independent shopping make it an unusually satisfying day out.",
+      "highlights": [
+        "Betty's Tea Room: an institution — queues form but they move quickly; the Fat Rascal is not to be missed",
+        "The Turkish Baths: a magnificent Victorian bathhouse still operating, with steam rooms, plunge pools and rest rooms",
+        "RHS Garden Harlow Carr: an outstanding 68-acre garden, at its best in spring and early summer",
+        "Valley Gardens and Bogs Field: beautiful municipal gardens with the largest collection of sulphur springs in Europe",
+        "The Stray: walk the full 200-acre common for views back to the town and out to the Dales"
+      ],
+      "best_time_to_visit": "April to October; the spring flower displays in Valley Gardens are extraordinary",
+      "photo_credit": "Unsplash",
+      "routes": [
+        {
+          "origin": "York",
+          "departure_station": "York",
+          "travel_time_mins": 25,
+          "journey_band": "under 30 mins",
+          "advance_fare_from_gbp": 5.5,
+          "anytime_fare_from_gbp": 10.8,
+          "fare_last_checked": "2026-04",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/york-to-harrogate",
+          "direct": true,
+          "operator": "Northern",
+          "notes": ""
+        },
+        {
+          "origin": "Leeds",
+          "departure_station": "Leeds",
+          "travel_time_mins": 30,
+          "journey_band": "under 30 mins",
+          "advance_fare_from_gbp": 5.5,
+          "anytime_fare_from_gbp": 10.4,
+          "fare_last_checked": "2026-04",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/leeds-to-harrogate",
+          "direct": true,
+          "operator": "Northern",
+          "notes": ""
+        }
+      ],
+      "photo_url": "https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=800&q=80",
+      "region_slug": "yorkshire"
+    },
+    {
+      "id": "knaresborough",
+      "name": "Knaresborough",
+      "region": "Yorkshire",
+      "tags": [
+        "riverside",
+        "historic",
+        "scenic"
+      ],
+      "description": "Knaresborough is one of Yorkshire's most visually dramatic towns — a medieval castle on a cliff edge above a gorge where the River Nidd winds in a great loop below. Viaduct views, cave houses carved into the cliff face, a market square that has been trading since 1310, and the extraordinary Dropping Well all make it one of the most unexpectedly rewarding small towns in the north.",
+      "highlights": [
+        "The Viaduct view: the classic panorama of the castle, river and houses from the railway viaduct is one of Yorkshire's finest",
+        "Knaresborough Castle Museum: explore the keep and dungeon with views over the Nidd gorge",
+        "The Dropping Well: a natural petrifying well that slowly encrusts objects in calcium — genuinely fascinating",
+        "Boat hire on the Nidd: row or hire a motorboat through the gorge below the town",
+        "Mother Shipton's Cave: a legendary Yorkshire prophetess said to have predicted the Great Fire of London"
+      ],
+      "best_time_to_visit": "Year-round; autumn colours in the gorge are spectacular; the market runs Wednesdays",
+      "photo_credit": "Unsplash",
+      "routes": [
+        {
+          "origin": "York",
+          "departure_station": "York",
+          "travel_time_mins": 20,
+          "journey_band": "under 30 mins",
+          "advance_fare_from_gbp": 5.1,
+          "anytime_fare_from_gbp": 9.6,
+          "fare_last_checked": "2026-04",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/york-to-knaresborough",
+          "direct": true,
+          "operator": "Northern",
+          "notes": ""
+        },
+        {
+          "origin": "Leeds",
+          "departure_station": "Leeds",
+          "travel_time_mins": 60,
+          "journey_band": "30-60 mins",
+          "advance_fare_from_gbp": 7.5,
+          "anytime_fare_from_gbp": 14.2,
+          "fare_last_checked": "2026-04",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/leeds-to-knaresborough",
+          "direct": true,
+          "operator": "Northern",
+          "notes": ""
+        }
+      ],
+      "photo_url": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
+      "region_slug": "yorkshire"
+    },
+    {
+      "id": "leeds",
+      "name": "Leeds",
+      "region": "Yorkshire",
+      "tags": [
+        "city break",
+        "arts & culture"
+      ],
+      "description": "Leeds is one of England's great underestimated cities — a Victorian powerhouse with extraordinary civic architecture, an independent food and drink scene that punches well above its weight, the world's first municipally-owned art gallery, and a cultural confidence that doesn't need to shout. The Corn Exchange, Kirkgate Market and the shopping arcades alone are worth the journey.",
+      "highlights": [
+        "Kirkgate Market: the largest covered market in Europe — 800 stalls under a magnificent 1904 roof",
+        "Leeds City Art Gallery: free, with an outstanding collection including Henry Moore and Atkinson Grimshaw",
+        "The Corn Exchange: a stunning elliptical Victorian building now full of independent shops",
+        "The arcades: Thorntons, Grand and County — three of Britain's finest Victorian shopping arcades in a block",
+        "Headingley: escape the centre for an afternoon at Yorkshire's cricket ground — check the fixture list"
+      ],
+      "best_time_to_visit": "Year-round; check for festivals, cricket and music events",
+      "photo_credit": "Unsplash",
+      "routes": [
+        {
+          "origin": "York",
+          "departure_station": "York",
+          "travel_time_mins": 25,
+          "journey_band": "under 30 mins",
+          "advance_fare_from_gbp": 5.5,
+          "anytime_fare_from_gbp": 10.8,
+          "fare_last_checked": "2026-04",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/york-to-leeds",
+          "direct": true,
+          "operator": "LNER / Northern",
+          "notes": ""
+        }
+      ],
+      "photo_url": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=800&q=80",
+      "region_slug": "yorkshire"
+    },
+    {
+      "id": "skipton",
+      "name": "Skipton",
+      "region": "Yorkshire",
+      "tags": [
+        "scenic",
+        "historic"
+      ],
+      "description": "Skipton is the proper gateway to the Yorkshire Dales — a market town with a perfectly preserved medieval castle, a busy canal basin and a high street that has kept its independent character against considerable pressure. The Settle–Carlisle railway runs from here into some of the most dramatic landscapes in England, making Skipton a useful launch pad as much as a destination in its own right.",
+      "highlights": [
+        "Skipton Castle: one of the most complete medieval castles in England, still roofed and largely intact",
+        "The Springs Canal: a short arm of the Leeds-Liverpool Canal leading into the castle grounds — beautiful walk",
+        "Skipton Market: held four days a week, one of the largest and oldest street markets in the North",
+        "The Dales via bus: Grassington is 40 minutes by bus — a genuine Dales village with excellent walking",
+        "Settle–Carlisle railway: board here for one of England's most spectacular rail journeys over Ribblehead Viaduct"
+      ],
+      "best_time_to_visit": "May to October for Dales walking; the castle is open year-round",
+      "photo_credit": "Unsplash",
+      "routes": [
+        {
+          "origin": "York",
+          "departure_station": "York",
+          "travel_time_mins": 60,
+          "journey_band": "30-60 mins",
+          "advance_fare_from_gbp": 9.5,
+          "anytime_fare_from_gbp": 18.4,
+          "fare_last_checked": "2026-04",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/york-to-skipton",
+          "direct": true,
+          "operator": "Northern",
+          "notes": ""
+        },
+        {
+          "origin": "Leeds",
+          "departure_station": "Leeds",
+          "travel_time_mins": 40,
+          "journey_band": "30-60 mins",
+          "advance_fare_from_gbp": 7.5,
+          "anytime_fare_from_gbp": 14.2,
+          "fare_last_checked": "2026-04",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/leeds-to-skipton",
+          "direct": true,
+          "operator": "Northern",
+          "notes": ""
+        }
+      ],
+      "photo_url": "https://images.unsplash.com/photo-1595435934249-5df7ed86e1c0?w=800&q=80",
+      "region_slug": "yorkshire"
+    },
+    {
+      "id": "malton",
+      "name": "Malton",
+      "region": "Yorkshire",
+      "tags": [
+        "foodie",
+        "quiet escape"
+      ],
+      "description": "Malton is a small market town in the Vale of Pickering that has quietly become Yorkshire's food capital. Independent producers, artisan bakers, butchers, chocolatiers and brewers have gathered here in numbers entirely disproportionate to its size. The monthly food market draws visitors from across the county, and the proximity to the North York Moors and Wolds means excellent walking is close at hand.",
+      "highlights": [
+        "Malton Food Market: held the second Saturday of each month — one of Yorkshire's best artisan markets",
+        "The town's independent food scene: Talbot Yard Food Court, Groody's, the Brass Castle brewery tap",
+        "Malton Museum: a small but excellent museum covering the town's Roman and Viking history",
+        "Castle Howard: 5 miles by bus — one of England's great baroque country houses with a stunning walled garden",
+        "Kirkham Priory: a ruined Augustinian priory in a riverside setting, a short drive or cycle from town"
+      ],
+      "best_time_to_visit": "Year-round; second Saturday of the month for the food market",
+      "photo_credit": "Unsplash",
+      "routes": [
+        {
+          "origin": "York",
+          "departure_station": "York",
+          "travel_time_mins": 30,
+          "journey_band": "under 30 mins",
+          "advance_fare_from_gbp": 5.5,
+          "anytime_fare_from_gbp": 10.4,
+          "fare_last_checked": "2026-04",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/york-to-malton",
+          "direct": true,
+          "operator": "TransPennine Express",
+          "notes": ""
+        }
+      ],
+      "photo_url": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&q=80",
+      "region_slug": "yorkshire"
+    },
+    {
+      "id": "hull",
+      "name": "Hull",
+      "region": "Yorkshire",
+      "tags": [
+        "historic",
+        "arts & culture",
+        "riverside"
+      ],
+      "description": "Hull is England's most overlooked city. The 2017 City of Culture designation changed how it sees itself, and the regenerated waterfront, extraordinary free museums and one of the north's most distinctive old towns make it a genuinely rewarding day out. It's also the birthplace of William Wilberforce and home to the Humber — a tidal estuary of real grandeur.",
+      "highlights": [
+        "The Deep: a spectacular aquarium at the confluence of the Humber and Hull rivers — architecture worth seeing",
+        "Hull's Free Museums: Maritime Museum, Streetlife Museum and Ferens Art Gallery are all free and excellent",
+        "The Old Town: a medieval street pattern with the Land of Green Ginger, Holy Trinity Church and the Guildhall",
+        "Humber Bridge: take a bus to walk or cycle across one of the world's longest single-span suspension bridges",
+        "Wilberforce House Museum: birthplace of the abolitionist, with a powerful and moving permanent exhibition"
+      ],
+      "best_time_to_visit": "Year-round; Hull Freedom Festival in late August is one of the north's best free arts events",
+      "photo_credit": "Unsplash",
+      "routes": [
+        {
+          "origin": "York",
+          "departure_station": "York",
+          "travel_time_mins": 60,
+          "journey_band": "30-60 mins",
+          "advance_fare_from_gbp": 8.5,
+          "anytime_fare_from_gbp": 16.6,
+          "fare_last_checked": "2026-04",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/york-to-hull",
+          "direct": true,
+          "operator": "TransPennine Express",
+          "notes": ""
+        }
+      ],
+      "photo_url": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=800&q=80",
+      "region_slug": "yorkshire"
+    },
+    {
+      "id": "hebden-bridge",
+      "name": "Hebden Bridge",
+      "region": "Yorkshire",
+      "tags": [
+        "arts & culture",
+        "scenic"
+      ],
+      "description": "Hebden Bridge sits in a steep wooded valley in the South Pennines, and the landscape explains everything about it — a former mill town that was too remote to be demolished and redeveloped, and was instead discovered by artists and alternative thinkers in the 1970s. It has never looked back. The result is one of England's most characterful small towns: independent, creative, politically engaged and extremely good for walking.",
+      "highlights": [
+        "Hardcastle Crags: National Trust woodland a mile from town, with a Victorian mill at the valley bottom",
+        "The Rochdale Canal: towpath walks east to Mytholmroyd or west toward Todmorden — flat and beautiful",
+        "Heptonstall: a 20-minute steep walk above town brings you to a haunting ruined church and Sylvia Plath's grave",
+        "The town centre: independent shops, cafés and the Picture House cinema along the canalside",
+        "Stoodley Pike: a 90-minute walk up onto the moor to a Napoleonic victory monument with views across the Pennines"
+      ],
+      "best_time_to_visit": "April to October for walking; the Green Festival in June and the arts scene is year-round",
+      "photo_credit": "Unsplash",
+      "routes": [
+        {
+          "origin": "Manchester",
+          "departure_station": "Manchester Piccadilly",
+          "travel_time_mins": 40,
+          "journey_band": "30-60 mins",
+          "advance_fare_from_gbp": 7.5,
+          "anytime_fare_from_gbp": 14.2,
+          "fare_last_checked": "2026-04",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/manchester-to-hebden-bridge",
+          "direct": true,
+          "operator": "Northern",
+          "notes": ""
+        },
+        {
+          "origin": "Leeds",
+          "departure_station": "Leeds",
+          "travel_time_mins": 40,
+          "journey_band": "30-60 mins",
+          "advance_fare_from_gbp": 7.5,
+          "anytime_fare_from_gbp": 14.2,
+          "fare_last_checked": "2026-04",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/leeds-to-hebden-bridge",
+          "direct": true,
+          "operator": "Northern",
+          "notes": ""
+        }
+      ],
+      "photo_url": "https://images.unsplash.com/photo-1495615080073-6b89c9839ce0?w=800&q=80",
+      "region_slug": "yorkshire"
+    },
+    {
+      "id": "buxton",
+      "name": "Buxton",
+      "region": "Peak District",
+      "tags": [
+        "walking",
+        "scenic"
+      ],
+      "description": "Buxton is a Peak District spa town of real architectural grandeur — the Crescent, modelled on Bath's Royal Crescent and now restored as a luxury hotel, the Edwardian Opera House, and the great glass dome of the Devonshire Dome (the largest unsupported dome in the world when built) make it remarkable for a town of 20,000. The surrounding limestone landscape is outstanding for walking.",
+      "highlights": [
+        "The Crescent: a stunning Grade I listed Georgian terrace, recently restored with thermal baths and hotel",
+        "Buxton Opera House: a 1903 Frank Matcham theatre — one of the north's finest — check the programme",
+        "Poole's Cavern: a show cave a 10-minute walk from the centre, with impressive stalagmite formations",
+        "Monsal Trail: the famous old Midland Railway track, now a cycling and walking trail through limestone gorges",
+        "Solomon's Temple: a 20-minute walk uphill to a folly with panoramic views across the Peak District"
+      ],
+      "best_time_to_visit": "April to October; Buxton Festival in July is one of the north's finest arts events",
+      "photo_credit": "Unsplash",
+      "routes": [
+        {
+          "origin": "Manchester",
+          "departure_station": "Manchester Piccadilly",
+          "travel_time_mins": 60,
+          "journey_band": "30-60 mins",
+          "advance_fare_from_gbp": 7.5,
+          "anytime_fare_from_gbp": 14.6,
+          "fare_last_checked": "2026-04",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/manchester-to-buxton",
+          "direct": true,
+          "operator": "Northern",
+          "notes": ""
+        }
+      ],
+      "photo_url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
+      "region_slug": "peak-district"
+    },
+    {
+      "id": "liverpool",
+      "name": "Liverpool",
+      "region": "North West England",
+      "tags": [
+        "city break",
+        "arts & culture",
+        "riverside"
+      ],
+      "description": "Liverpool is one of England's great cities — a UNESCO World Heritage waterfront, an unmatched musical heritage, Europe's finest collection of neoclassical civic architecture and a spirit of welcome that comes from being a port city for 400 years. The Royal Albert Dock, St George's Hall, the two cathedrals and the extraordinary museum quarter would make any city proud. Liverpool wears it lightly.",
+      "highlights": [
+        "Royal Albert Dock: restored Victorian dockland housing Tate Liverpool, the Beatles Story and excellent restaurants",
+        "The Beatles Story: a comprehensive and affecting museum tracing the full story of the band",
+        "St George's Hall: arguably England's finest neoclassical building — free to enter and overwhelming in scale",
+        "Liverpool's Two Cathedrals: the Anglican and Catholic cathedrals sit at opposite ends of Hope Street — walk between them",
+        "Museum of Liverpool: free, beautifully designed and genuinely excellent on the city's culture and history"
+      ],
+      "best_time_to_visit": "Year-round; the Tall Ships and Sound City festival in May are worth planning for",
+      "photo_credit": "Unsplash",
+      "routes": [
+        {
+          "origin": "Manchester",
+          "departure_station": "Manchester Piccadilly",
+          "travel_time_mins": 50,
+          "journey_band": "30-60 mins",
+          "advance_fare_from_gbp": 8.0,
+          "anytime_fare_from_gbp": 15.2,
+          "fare_last_checked": "2026-04",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/manchester-to-liverpool",
+          "direct": true,
+          "operator": "Avanti West Coast / Northern",
+          "notes": ""
+        }
+      ],
+      "photo_url": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
+      "region_slug": "north-west-england"
+    },
+    {
+      "id": "chester",
+      "name": "Chester",
+      "region": "North West England",
+      "tags": [
+        "historic"
+      ],
+      "description": "Chester is the best-preserved Roman and medieval walled city in Britain. The two-mile circuit of walls is complete and walkable, the unique two-storey medieval shopping galleries called The Rows line the main streets, and the black-and-white half-timbered architecture makes the centre look like an illustration. It shouldn't all work together as well as it does, and yet it's magnificent.",
+      "highlights": [
+        "The Walls: the most complete Roman city walls in Britain — a 2-mile circuit taking about an hour to walk",
+        "The Rows: medieval two-level covered galleries, unique to Chester — the Cross area is the best section",
+        "Chester Cathedral: a red sandstone cathedral with a superb refectory and peaceful cloisters",
+        "The Grosvenor Museum: excellent Roman collection including a reconstruction of a Roman street",
+        "River Dee: walk or take a boat along the river below the city walls — particularly beautiful in evening light"
+      ],
+      "best_time_to_visit": "Year-round; the Christmas market and summer river events are highlights",
+      "photo_credit": "Unsplash",
+      "routes": [
+        {
+          "origin": "Manchester",
+          "departure_station": "Manchester Piccadilly",
+          "travel_time_mins": 60,
+          "journey_band": "30-60 mins",
+          "advance_fare_from_gbp": 8.5,
+          "anytime_fare_from_gbp": 16.4,
+          "fare_last_checked": "2026-04",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/manchester-to-chester",
+          "direct": true,
+          "operator": "Avanti West Coast",
+          "notes": ""
+        },
+        {
+          "origin": "Liverpool",
+          "departure_station": "Liverpool Lime Street",
+          "travel_time_mins": 45,
+          "journey_band": "30-60 mins",
+          "advance_fare_from_gbp": 6.0,
+          "anytime_fare_from_gbp": 11.6,
+          "fare_last_checked": "2026-04",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/liverpool-to-chester",
+          "direct": true,
+          "operator": "Transport for Wales",
+          "notes": ""
+        }
+      ],
+      "photo_url": "https://images.unsplash.com/photo-1467521040052-6e94a1a26d17?w=800&q=80",
+      "region_slug": "north-west-england"
+    },
+    {
+      "id": "edale",
+      "name": "Edale",
+      "region": "Peak District",
+      "tags": [
+        "walking",
+        "nature"
+      ],
+      "description": "Edale is not really a village so much as a handful of farms and cottages at the head of the Hope Valley — but it's the start of the Pennine Way, England's first and most famous long-distance footpath, and the gateway to some of the Peak District's wildest and most satisfying landscapes. Kinder Scout rises directly above the valley, and on a clear day the views from the plateau are extraordinary.",
+      "highlights": [
+        "Kinder Scout: the plateau above the valley is a National Nature Reserve — the classic route is via Grindsbrook Clough",
+        "Pennine Way: even walking the first section and returning makes a brilliant day's walk",
+        "Jacob's Ladder: a historic packhorse route up onto the moor — steep but well-defined",
+        "The Nag's Head: the traditional starting point of the Pennine Way, a pub right beside the station",
+        "Hope Valley: walk down the valley to Castleton (5 miles) for blue john stone and cave visits"
+      ],
+      "best_time_to_visit": "May to October; Kinder Scout can be challenging in poor visibility — check the weather",
+      "photo_credit": "Unsplash",
+      "routes": [
+        {
+          "origin": "Manchester",
+          "departure_station": "Manchester Piccadilly",
+          "travel_time_mins": 60,
+          "journey_band": "30-60 mins",
+          "advance_fare_from_gbp": 8.5,
+          "anytime_fare_from_gbp": 16.2,
+          "fare_last_checked": "2026-04",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/manchester-to-edale",
+          "direct": true,
+          "operator": "Northern",
+          "notes": ""
+        }
+      ],
+      "photo_url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
+      "region_slug": "peak-district"
+    },
+    {
+      "id": "lancaster",
+      "name": "Lancaster",
+      "region": "North West England",
+      "tags": [
+        "historic",
+        "riverside"
+      ],
+      "description": "Lancaster is a compact, handsome city that most people pass through on the train to the Lakes without stopping — their loss. The hilltop castle (now partially a prison, historically fascinating), the Georgian quayside, the excellent Storey Gallery and the proximity of the Forest of Bowland AONB make it a thoroughly rewarding stop. The university gives it a creative energy above its size.",
+      "highlights": [
+        "Lancaster Castle: a medieval and Georgian fortress used as a prison until 2011, now offering remarkable tours",
+        "The Ashton Memorial: a Baroque folly on a hilltop above the city, viewable from miles around",
+        "St George's Quay: a Georgian quayside with the Maritime Museum in a former Custom House",
+        "Forest of Bowland: an AONB of rolling fells and deep valleys, accessible by bus from the city",
+        "The Storey Gallery: an excellent contemporary arts space in a converted Victorian building"
+      ],
+      "best_time_to_visit": "Year-round; castle tours run most days",
+      "photo_credit": "Unsplash",
+      "routes": [
+        {
+          "origin": "Manchester",
+          "departure_station": "Manchester Piccadilly",
+          "travel_time_mins": 60,
+          "journey_band": "30-60 mins",
+          "advance_fare_from_gbp": 9.5,
+          "anytime_fare_from_gbp": 18.6,
+          "fare_last_checked": "2026-04",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/manchester-to-lancaster",
+          "direct": true,
+          "operator": "Avanti West Coast",
+          "notes": ""
+        }
+      ],
+      "photo_url": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
+      "region_slug": "north-west-england"
+    },
+    {
+      "id": "southport",
+      "name": "Southport",
+      "region": "North West England",
+      "tags": [
+        "coastal",
+        "quiet escape"
+      ],
+      "description": "Southport is the quietly dignified end of the Lancashire coast — a Victorian resort town built on a grand scale, with a wide tree-lined main street, glass-covered arcades and England's second longest pier. The beach is vast and largely backed by dunes rather than promenade. Formby's National Trust pinewoods are a short hop by train, and the whole area has a calm, unhurried quality.",
+      "highlights": [
+        "Southport Pier: 1,108 metres long — England's second longest, with a tram running its length",
+        "Lord Street: a magnificent boulevard of Victorian glass-canopied shops and gardens",
+        "Southport Botanic Gardens: compact but charming Victorian gardens with a small museum",
+        "Ainsdale Sand Dunes: National Nature Reserve just south of town — rare natterjack toads and wildflowers",
+        "Royal Birkdale Golf Club: one of golf's most famous venues — visible from the beach on the south walk"
+      ],
+      "best_time_to_visit": "May to September; the Flower Show in August is one of England's finest",
+      "photo_credit": "Unsplash",
+      "routes": [
+        {
+          "origin": "Liverpool",
+          "departure_station": "Liverpool Lime Street",
+          "travel_time_mins": 30,
+          "journey_band": "under 30 mins",
+          "advance_fare_from_gbp": 5.5,
+          "anytime_fare_from_gbp": 10.4,
+          "fare_last_checked": "2026-04",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/liverpool-to-southport",
+          "direct": true,
+          "operator": "Merseyrail",
+          "notes": ""
+        }
+      ],
+      "photo_url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80",
+      "region_slug": "north-west-england"
+    },
+    {
+      "id": "manchester",
+      "name": "Manchester",
+      "region": "North West England",
+      "tags": [
+        "city break",
+        "arts & culture"
+      ],
+      "description": "Manchester is England's second cultural city and doesn't need to be told. The Whitworth and HOME, a music scene that has shaped decades of British culture, more museums than most capitals, and a food and drink scene of real ambition and diversity. It's also a city that's genuinely pleasant to walk — the canal network, the Northern Quarter and Ancoats make excellent exploring territory.",
+      "highlights": [
+        "The Whitworth: a world-class art gallery in Whitworth Park, free and outstanding",
+        "Museum of Science and Industry: the site of the world's first passenger railway station — sprawling and excellent",
+        "Northern Quarter: the city's creative neighbourhood, full of independent record shops, cafés and bars",
+        "Ancoats: a former industrial quarter now home to some of the city's best restaurants and coffee shops",
+        "Manchester Central Library: a vast circular neoclassical reading room — one of the city's great public spaces"
+      ],
+      "best_time_to_visit": "Year-round; Manchester International Festival (July, odd years) is unmissable",
+      "photo_credit": "Unsplash",
+      "routes": [
+        {
+          "origin": "Liverpool",
+          "departure_station": "Liverpool Lime Street",
+          "travel_time_mins": 50,
+          "journey_band": "30-60 mins",
+          "advance_fare_from_gbp": 8.0,
+          "anytime_fare_from_gbp": 15.2,
+          "fare_last_checked": "2026-04",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/liverpool-to-manchester",
+          "direct": true,
+          "operator": "Avanti West Coast / Northern",
+          "notes": ""
+        }
+      ],
+      "photo_url": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=800&q=80",
+      "region_slug": "north-west-england"
+    },
+    {
+      "id": "conwy",
+      "name": "Conwy",
+      "region": "Wales",
+      "tags": [
+        "historic",
+        "scenic"
+      ],
+      "description": "Conwy is one of the most complete medieval towns in Europe. The circuit of town walls — 1.3 kilometres with 22 towers — is entirely intact and walkable. Inside, the streets haven't changed shape since Edward I laid them out in 1283. The castle is one of the finest in Wales, the estuary views are dramatic, and the whole place operates in slightly admirable defiance of the 21st century.",
+      "highlights": [
+        "Conwy Castle: a UNESCO World Heritage site and one of Edward I's greatest fortresses — the views from the towers are exceptional",
+        "Town Walls: walk the full circuit of the medieval walls — free and takes about 45 minutes",
+        "Aberconwy House: the only surviving medieval merchant's house in Wales, National Trust",
+        "Conwy Suspension Bridge: Telford's 1826 bridge designed to complement the castle — pedestrian access",
+        "The Smallest House: a 3.05 metre-wide fisherman's cottage on the quayside, the smallest in Britain"
+      ],
+      "best_time_to_visit": "April to October; the estuary and mountains are at their best in summer light",
+      "photo_credit": "Unsplash",
+      "routes": [
+        {
+          "origin": "Liverpool",
+          "departure_station": "Liverpool Lime Street",
+          "travel_time_mins": 100,
+          "journey_band": "1.5-2 hrs",
+          "advance_fare_from_gbp": 15.0,
+          "anytime_fare_from_gbp": 29.4,
+          "fare_last_checked": "2026-04",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/liverpool-to-conwy",
+          "direct": true,
+          "operator": "Transport for Wales",
+          "notes": ""
+        }
+      ],
+      "photo_url": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
+      "region_slug": "wales"
+    },
+    {
+      "id": "formby",
+      "name": "Formby",
+      "region": "North West England",
+      "tags": [
+        "coastal",
+        "nature"
+      ],
+      "description": "Formby is one of Lancashire's great surprises — a National Trust reserve of ancient sand dunes and Scots pine woodland where red squirrels still live in abundance and natterjack toads breed in the slack pools. The beach stretches for miles in both directions, entirely unspoilt. You're 25 minutes from Liverpool Lime Street and it feels like another world entirely.",
+      "highlights": [
+        "Red squirrel reserve: Formby is one of England's best places to reliably see native red squirrels",
+        "The beach: miles of sand backed by dunes — undeveloped, clean and rarely overcrowded outside August",
+        "Prehistoric footprints: at low tide, human and animal footprints from 5,000 years ago are sometimes visible in the clay",
+        "Asparagus fields: Formby is famous for its asparagus — the farm shop on Victoria Road sells it in season",
+        "Woodland walks: the pine woods are criss-crossed with easy paths linking dunes to beach"
+      ],
+      "best_time_to_visit": "April to August; asparagus season is April-June; red squirrels are visible year-round",
+      "photo_credit": "Unsplash",
+      "routes": [
+        {
+          "origin": "Liverpool",
+          "departure_station": "Liverpool Lime Street",
+          "travel_time_mins": 25,
+          "journey_band": "under 30 mins",
+          "advance_fare_from_gbp": 4.8,
+          "anytime_fare_from_gbp": 9.2,
+          "fare_last_checked": "2026-04",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/liverpool-to-formby",
+          "direct": true,
+          "operator": "Merseyrail",
+          "notes": ""
+        }
+      ],
+      "photo_url": "https://images.unsplash.com/photo-1440342359743-84fcb8c21f21?w=800&q=80",
+      "region_slug": "north-west-england"
+    },
+    {
+      "id": "llandudno",
+      "name": "Llandudno",
+      "region": "Wales",
+      "tags": [
+        "coastal",
+        "historic",
+        "scenic"
+      ],
+      "description": "Llandudno is the grandest of the Victorian seaside resorts — a planned town built on a limestone headland between two bays, with a pier, a promenade of intact Victorian hotels and the Great Orme rising 207 metres above the town. It has maintained its dignity in a way most British seaside resorts have not, and the Great Orme tramway and cable car make the whole thing quietly extraordinary.",
+      "highlights": [
+        "The Great Orme: summit accessible by Victorian tramway or cable car — views to Snowdonia and the Isle of Man",
+        "Llandudno Pier: 700 metres long, the longest in Wales, restored and still with traditional pier attractions",
+        "Great Orme Bronze Age Copper Mines: the world's largest prehistoric copper mine, open to visitors",
+        "The West Shore: the quieter bay, with views to Conwy and the Carneddau mountains",
+        "Alice Liddell connection: the real Alice in Wonderland holidayed here — the White Rabbit statue marks the spot"
+      ],
+      "best_time_to_visit": "May to September; the Great Orme tramway runs April to October",
+      "photo_credit": "Unsplash",
+      "routes": [
+        {
+          "origin": "Liverpool",
+          "departure_station": "Liverpool Lime Street",
+          "travel_time_mins": 110,
+          "journey_band": "1.5-2 hrs",
+          "advance_fare_from_gbp": 16.5,
+          "anytime_fare_from_gbp": 32.8,
+          "fare_last_checked": "2026-04",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/liverpool-to-llandudno",
+          "direct": true,
+          "operator": "Transport for Wales",
+          "notes": ""
+        }
+      ],
+      "photo_url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80",
+      "region_slug": "wales"
+    },
+    {
+      "id": "york",
+      "name": "York",
+      "region": "Yorkshire",
+      "tags": [
+        "historic",
+        "city break",
+        "arts & culture"
+      ],
+      "description": "York is one of England's finest medieval cities — compact enough to walk everywhere, rich enough in history to sustain multiple visits without exhaustion. The Minster, the Shambles, the Roman walls, the Viking quarter and one of the best independent food and drink scenes in the north all coexist in a city centre you can cross in 20 minutes. It repays every hour you give it.",
+      "highlights": [
+        "York Minster: England's largest Gothic cathedral — climb the central tower for extraordinary rooftop views",
+        "The Shambles: a medieval butchers' street with overhanging timber frames, now full of independent shops",
+        "York City Walls: the most complete circuit of medieval walls in England — a 2.5-mile walk",
+        "JORVIK Viking Centre: the original Coppergate excavations beneath a brilliant reconstruction of Viking-age York",
+        "The Yorkshire Museum: outstanding collection in a beautiful Regency building in Museum Gardens"
+      ],
+      "best_time_to_visit": "Year-round; the Festival of Angels at Christmas and the Food and Drink Festival in September are highlights",
+      "photo_credit": "Unsplash",
+      "routes": [
+        {
+          "origin": "Leeds",
+          "departure_station": "Leeds",
+          "travel_time_mins": 25,
+          "journey_band": "under 30 mins",
+          "advance_fare_from_gbp": 5.5,
+          "anytime_fare_from_gbp": 10.8,
+          "fare_last_checked": "2026-04",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/leeds-to-york",
+          "direct": true,
+          "operator": "LNER / Northern",
+          "notes": ""
+        }
+      ],
+      "photo_url": "https://images.unsplash.com/photo-1598887142488-3efe670eba7b?w=800&q=80",
+      "region_slug": "yorkshire"
+    },
+    {
+      "id": "ilkley",
+      "name": "Ilkley",
+      "region": "Yorkshire",
+      "tags": [
+        "walking",
+        "riverside"
+      ],
+      "description": "Ilkley is a prosperous Wharfedale town at the foot of Ilkley Moor — the moor of the famous Yorkshire song — with Victorian spa architecture, the River Wharfe running cold and clear through the town, and immediate access to some of the most atmospheric moorland walking in England. The café scene is excellent and the Betty's branch here is (quietly) better than the Harrogate one.",
+      "highlights": [
+        "Ilkley Moor: walk up from town onto the open moorland — the Cow and Calf Rocks are the classic first destination",
+        "River Wharfe: paddle at the White Wells stepping stones or walk downstream to Bolton Abbey (8 miles)",
+        "Betty's Café Tea Rooms: the Ilkley branch is less crowded and equally excellent",
+        "Ilkley Manor House Museum: a 16th-century manor house with Roman remains and local history",
+        "Bolton Abbey: an 8-mile walk down the Wharfe leads to a stunning Augustinian priory ruin in a riverside meadow"
+      ],
+      "best_time_to_visit": "Year-round; Ilkley Moor is dramatic in all seasons but avoid the moor in poor visibility",
+      "photo_credit": "Unsplash",
+      "routes": [
+        {
+          "origin": "Leeds",
+          "departure_station": "Leeds",
+          "travel_time_mins": 30,
+          "journey_band": "under 30 mins",
+          "advance_fare_from_gbp": 5.5,
+          "anytime_fare_from_gbp": 10.4,
+          "fare_last_checked": "2026-04",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/leeds-to-ilkley",
+          "direct": true,
+          "operator": "Northern",
+          "notes": ""
+        }
+      ],
+      "photo_url": "https://images.unsplash.com/photo-1495615080073-6b89c9839ce0?w=800&q=80",
+      "region_slug": "yorkshire"
+    },
+    {
+      "id": "abergavenny",
+      "name": "Abergavenny",
+      "region": "Wales",
+      "tags": [
+        "walking",
+        "scenic",
+        "foodie"
+      ],
+      "description": "Abergavenny sits in a bowl of mountains where three rivers meet at the edge of the Brecon Beacons, and the landscape is immediately, bracingly dramatic. It has been quietly reinventing itself as Wales's great food town for 20 years, with an excellent market, a food festival that draws serious chefs from across Britain, and walking on its doorstep that ranges from easy river paths to serious ridge walks above 500 metres.",
+      "highlights": [
+        "The Sugar Loaf: a 596-metre mountain directly north of the town, a 3-hour return walk from the centre",
+        "Abergavenny Market: held Tuesday, Friday and Saturday — one of Wales's finest covered markets",
+        "Abergavenny Food Festival: held every September, one of Britain's best food festivals with a genuinely Welsh character",
+        "Skirrid Mountain Inn: possibly Wales's oldest pub, a 3-mile walk east — dating to before the Norman Conquest",
+        "The Blorenge: a vast flat-topped hill above the Usk valley, with views across the Beacons and the Bristol Channel"
+      ],
+      "best_time_to_visit": "May to October for walking; September for the Food Festival",
+      "photo_credit": "Unsplash",
+      "routes": [
+        {
+          "origin": "Bristol",
+          "departure_station": "Bristol Temple Meads",
+          "travel_time_mins": 75,
+          "journey_band": "1-1.5 hrs",
+          "advance_fare_from_gbp": 12.5,
+          "anytime_fare_from_gbp": 24.2,
+          "fare_last_checked": "2026-04",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/bristol-to-abergavenny",
+          "direct": true,
+          "operator": "Transport for Wales",
+          "notes": ""
+        }
+      ],
+      "photo_url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
+      "region_slug": "wales"
+    },
+    {
+      "id": "bath",
+      "name": "Bath",
+      "region": "South West England",
+      "tags": [
+        "historic",
+        "scenic",
+        "foodie"
+      ],
+      "description": "Bath is extraordinary — a Georgian city of such architectural consistency and beauty that UNESCO designated the entire urban area a World Heritage Site. The honey-coloured stone, the Royal Crescent, the Circus, the Pulteney Bridge and the ancient Roman baths below the medieval abbey make it unlike any other British city. The food scene matches the setting, and it's 12 minutes from Bristol.",
+      "highlights": [
+        "The Roman Baths: a remarkably complete 2,000-year-old bathing complex beneath the city — genuinely impressive",
+        "The Royal Crescent and The Circus: two masterpieces of Georgian town planning by John Wood the Elder and Younger",
+        "Pulteney Bridge: one of only four bridges in the world with shops on both sides — the weir below is beautiful",
+        "Prior Park Landscape Garden: a National Trust Palladian landscape above the city with sweeping views",
+        "The Thermae Bath Spa: bathe in naturally heated mineral waters on the rooftop pool — book ahead"
+      ],
+      "best_time_to_visit": "Year-round; avoid the busiest summer weekends if possible; the Christmas market is excellent",
+      "photo_credit": "Unsplash",
+      "routes": [
+        {
+          "origin": "Bristol",
+          "departure_station": "Bristol Temple Meads",
+          "travel_time_mins": 12,
+          "journey_band": "under 30 mins",
+          "advance_fare_from_gbp": 4.5,
+          "anytime_fare_from_gbp": 8.6,
+          "fare_last_checked": "2026-04",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/bristol-to-bath",
+          "direct": true,
+          "operator": "Great Western Railway",
+          "notes": ""
+        },
+        {
+          "origin": "London",
+          "departure_station": "London Paddington",
+          "travel_time_mins": 85,
+          "journey_band": "1-1.5 hrs",
+          "advance_fare_from_gbp": 24.0,
+          "anytime_fare_from_gbp": 47.0,
+          "fare_last_checked": "2026-04",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/london-to-bath",
+          "direct": true,
+          "operator": "Great Western Railway",
+          "notes": ""
+        }
+      ],
+      "photo_url": "https://images.unsplash.com/photo-1575931953324-fcac7094999e?w=800&q=80",
+      "region_slug": "south-west-england"
+    },
+    {
+      "id": "bradford-on-avon",
+      "name": "Bradford-on-Avon",
+      "region": "South West England",
+      "tags": [
+        "historic",
+        "riverside",
+        "village",
+        "walking"
+      ],
+      "description": "Bradford-on-Avon is a perfect small town that most people drive through without stopping. Pale limestone buildings climb steeply from the Avon, a Saxon church of extraordinary antiquity hides behind the medieval town bridge, and a massive 14th-century tithe barn in the meadows below is one of the finest medieval agricultural buildings in England. The Bridge Tea Rooms have been serving tea here since 1502.",
+      "highlights": [
+        "St Laurence Church: an Anglo-Saxon church largely intact from around 700 AD — one of England's oldest",
+        "Bradford-on-Avon Tithe Barn: a vast 14th-century barn in immaculate condition, English Heritage — free entry",
+        "The Bridge Tea Rooms: five centuries of continuous tea service in a converted bridge chapel",
+        "Kennet and Avon Canal: towpath walking east toward Bath or west toward the Dundas Aqueduct",
+        "Westwood Manor: a 15th-century manor house a mile from town, National Trust, with a beautiful garden"
+      ],
+      "best_time_to_visit": "April to October; the summer light on the limestone is exceptional",
+      "photo_credit": "Unsplash",
+      "routes": [
+        {
+          "origin": "Bristol",
+          "departure_station": "Bristol Temple Meads",
+          "travel_time_mins": 33,
+          "journey_band": "30-60 mins",
+          "advance_fare_from_gbp": 8.5,
+          "anytime_fare_from_gbp": 16.4,
+          "fare_last_checked": "2026-04",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/bristol-to-bradford-on-avon",
+          "direct": true,
+          "operator": "Great Western Railway",
+          "notes": ""
+        }
+      ],
+      "photo_url": "https://images.unsplash.com/photo-1590677195409-22e8d9e58f6e?w=800&q=80",
+      "region_slug": "south-west-england"
+    },
+    {
+      "id": "brockenhurst",
+      "name": "Brockenhurst",
+      "region": "South East England",
+      "tags": [
+        "nature",
+        "countryside",
+        "walking"
+      ],
+      "description": "Brockenhurst is where the New Forest begins. Ponies graze on the village green, ancient woodland surrounds the station and within minutes of arriving you're in one of England's oldest and most beautiful landscapes. Wild swimming in the Lymington River, cycling through heathland and cycling to Beaulieu make it a proper outdoor escape — and it's 90 minutes from London Waterloo.",
+      "highlights": [
+        "New Forest ponies: free-roaming ponies, cattle and donkeys are simply part of the landscape here",
+        "Balmerlawn: a beautiful stretch of open heath a short walk from the station — classic New Forest landscape",
+        "Lymington River: clear, shallow and perfect for wild swimming in summer",
+        "Beaulieu: a 6-mile cycle through the forest to the National Motor Museum and Palace House",
+        "Rhinefield Ornamental Drive: a canopy of giant conifers planted in the 1850s, accessible by bike from the village"
+      ],
+      "best_time_to_visit": "May to September for swimming and cycling; autumn for outstanding forest colours",
+      "photo_credit": "Unsplash",
+      "routes": [
+        {
+          "origin": "London",
+          "departure_station": "London Waterloo",
+          "travel_time_mins": 90,
+          "journey_band": "1-1.5 hrs",
+          "advance_fare_from_gbp": 17.0,
+          "anytime_fare_from_gbp": 33.8,
+          "fare_last_checked": "2026-04",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/london-to-brockenhurst",
+          "direct": true,
+          "operator": "South Western Railway",
+          "notes": ""
+        }
+      ],
+      "photo_url": "https://images.unsplash.com/photo-1440342359743-84fcb8c21f21?w=800&q=80",
+      "region_slug": "south-east-england"
+    },
+    {
+      "id": "cardiff",
+      "name": "Cardiff",
+      "region": "Wales",
+      "tags": [
+        "city break",
+        "historic",
+        "riverside",
+        "arts & culture"
+      ],
+      "description": "Cardiff is a compact, walkable capital city that continues to surprise visitors who expect less. A fairy-tale castle — complete with Gothic Revival interiors of jaw-dropping excess — sits in the city centre. The Victorian and Edwardian arcades are among the best in Britain. Cardiff Bay's regenerated waterfront houses the Wales Millennium Centre and the Senedd, and the National Museum is outstanding and free.",
+      "highlights": [
+        "Cardiff Castle: a Roman fort, Norman keep and Victorian Gothic mansion on one extraordinary site in the city centre",
+        "National Museum Cardiff: free, world-class — particularly strong on Impressionist painting and natural history",
+        "The Victorian Arcades: Royal, Morgan and Castle arcades form one of Britain's finest concentrations of covered shopping",
+        "Cardiff Bay: the regenerated waterfront with the Wales Millennium Centre, Senedd and Roald Dahl Plass",
+        "Castell Coch: a fairy-tale Victorian Gothic castle in woodland 5 miles north — book a bus from the city"
+      ],
+      "best_time_to_visit": "Year-round; summer for the Bay; the Christmas market and rugby internationals bring special energy",
+      "photo_credit": "Unsplash",
+      "routes": [
+        {
+          "origin": "Bristol",
+          "departure_station": "Bristol Temple Meads",
+          "travel_time_mins": 50,
+          "journey_band": "30-60 mins",
+          "advance_fare_from_gbp": 8.5,
+          "anytime_fare_from_gbp": 16.6,
+          "fare_last_checked": "2026-04",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/bristol-to-cardiff",
+          "direct": true,
+          "operator": "Great Western Railway",
+          "notes": ""
+        }
+      ],
+      "photo_url": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
+      "region_slug": "wales"
+    },
+    {
+      "id": "cheltenham",
+      "name": "Cheltenham",
+      "region": "South West England",
+      "tags": [
+        "historic",
+        "scenic",
+        "arts & culture",
+        "foodie"
+      ],
+      "description": "Cheltenham is Regency England's finest surviving example — broad tree-lined promenades, elegant stucco terraces, formal gardens and a sense of unhurried prosperity that the spa town never quite lost. It sits at the edge of the Cotswolds and serves as the best base for reaching them by public transport. The festivals — Literature, Jazz, Science, Music — make it one of England's great festival towns.",
+      "highlights": [
+        "The Promenade: Cheltenham's main boulevard, with the Neptune Fountain and a fine collection of Regency buildings",
+        "Montpellier Quarter: the most architecturally distinguished part of town, with caryatids decorating the Rotunda",
+        "Cheltenham Literature Festival: the world's oldest literary festival, held every October — book early",
+        "Pittville Pump Room: a stunning Greek Revival building in Pittville Park, still serving spa water",
+        "Cotswolds by bus: Bourton-on-the-Water, Stow-on-the-Wold and Northleach are all reachable by bus from the centre"
+      ],
+      "best_time_to_visit": "Year-round; October for the Literature Festival; March for the Gold Cup horse racing",
+      "photo_credit": "Unsplash",
+      "routes": [
+        {
+          "origin": "Bristol",
+          "departure_station": "Bristol Temple Meads",
+          "travel_time_mins": 45,
+          "journey_band": "30-60 mins",
+          "advance_fare_from_gbp": 8.5,
+          "anytime_fare_from_gbp": 16.8,
+          "fare_last_checked": "2026-04",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/bristol-to-cheltenham",
+          "direct": true,
+          "operator": "Great Western Railway",
+          "notes": ""
+        }
+      ],
+      "photo_url": "https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=800&q=80",
+      "region_slug": "south-west-england"
+    },
+    {
+      "id": "exeter",
+      "name": "Exeter",
+      "region": "South West England",
+      "tags": [
+        "historic",
+        "riverside",
+        "walking"
+      ],
+      "description": "Exeter rewards the curious visitor. Its cathedral — set in a medieval close with Norman towers, a stunning Gothic nave and a remarkable collection of medieval misericords — is one of England's finest and far less visited than it deserves. The Roman walls, underground passages, quayside and the emerging independent food and drink scene in the Quay area make it a genuinely rich day out.",
+      "highlights": [
+        "Exeter Cathedral: the longest unbroken stretch of Gothic vaulting in the world, and magnificent Norman towers",
+        "Exeter's Underground Passages: medieval aqueducts beneath the city streets, open for guided tours",
+        "The Quayside: a restored Victorian quayside now full of independent restaurants, kayak hire and galleries",
+        "Royal Albert Memorial Museum: free and genuinely excellent — natural history, world cultures and Exeter's history",
+        "Stepcote Hill: one of the steepest and most picturesque medieval streets in England"
+      ],
+      "best_time_to_visit": "Year-round; the Cathedral is beautiful in all seasons; summer for the Quayside",
+      "photo_credit": "Unsplash",
+      "routes": [
+        {
+          "origin": "Bristol",
+          "departure_station": "Bristol Temple Meads",
+          "travel_time_mins": 60,
+          "journey_band": "30-60 mins",
+          "advance_fare_from_gbp": 10.5,
+          "anytime_fare_from_gbp": 20.4,
+          "fare_last_checked": "2026-04",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/bristol-to-exeter",
+          "direct": true,
+          "operator": "Great Western Railway",
+          "notes": ""
+        },
+        {
+          "origin": "London",
+          "departure_station": "London Paddington",
+          "travel_time_mins": 130,
+          "journey_band": "2 hrs+",
+          "advance_fare_from_gbp": 20.0,
+          "anytime_fare_from_gbp": 39.6,
+          "fare_last_checked": "2026-04",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/london-to-exeter",
+          "direct": true,
+          "operator": "Great Western Railway",
+          "notes": ""
+        }
+      ],
+      "photo_url": "https://images.unsplash.com/photo-1548526928-6649b5e71442?w=800&q=80",
+      "region_slug": "south-west-england"
+    },
+    {
+      "id": "faversham",
+      "name": "Faversham",
+      "region": "South East England",
+      "tags": [
+        "historic",
+        "village",
+        "foodie",
+        "quiet escape"
+      ],
+      "description": "Faversham is a secret that Kent has been keeping for too long. Britain's oldest surviving brewery, Shepherd Neame, has been brewing here since 1698. A medieval guildhall overlooks a thriving market, the creekside is lined with working boatyards, and the surrounding orchards and marshes offer walking of real character. It's everything Canterbury is but quieter, more local, and entirely without crowds.",
+      "highlights": [
+        "Shepherd Neame Brewery: tours of Britain's oldest brewery, with tasting sessions in a building that's barely changed",
+        "Faversham Market: held Tuesday, Friday and Saturday — a proper working market around the medieval guildhall",
+        "The Creek: a tidal creek lined with boatyards and wooden barges — a genuinely working waterway",
+        "Oare Marshes: a 20-minute walk from town to an SSSI wetland with remarkable bird life year-round",
+        "Standard Quay: historic boatyard and antique market on the creek — weekend opening"
+      ],
+      "best_time_to_visit": "Year-round; the hop-growing season (August-September) is a particularly good time to visit",
+      "photo_credit": "Unsplash",
+      "routes": [
+        {
+          "origin": "London",
+          "departure_station": "London Victoria",
+          "travel_time_mins": 60,
+          "journey_band": "30-60 mins",
+          "advance_fare_from_gbp": 12.5,
+          "anytime_fare_from_gbp": 24.2,
+          "fare_last_checked": "2026-04",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/london-to-faversham",
+          "direct": true,
+          "operator": "Southeastern",
+          "notes": ""
+        }
+      ],
+      "photo_url": "https://images.unsplash.com/photo-1590677195409-22e8d9e58f6e?w=800&q=80",
+      "region_slug": "south-east-england"
+    },
+    {
+      "id": "frome",
+      "name": "Frome",
+      "region": "South West England",
+      "tags": [
+        "arts & culture",
+        "quiet escape"
+      ],
+      "description": "Frome has done something remarkable: a Somerset market town that was half-empty 20 years ago is now one of the most interesting small towns in England. Independent businesses, artists and makers have filled the steep medieval streets and the Westway development. The monthly Frome Independent market draws thousands. It has done this without losing its character or becoming self-consciously cool.",
+      "highlights": [
+        "Cheap Street: a medieval lane with a stream running down the middle, lined with independent shops",
+        "The Frome Independent: a monthly artisan and makers market held on the first Sunday of the month",
+        "Rook Lane Arts: an 18th-century Congregational chapel converted into an excellent contemporary arts space",
+        "The River Frome: walking south from town through the Welshmill area gives access to water meadows",
+        "Longleat: a 6-mile cycle or taxi ride to the Elizabethan stately home and safari park"
+      ],
+      "best_time_to_visit": "Year-round; first Sunday of the month for the Independent market",
+      "photo_credit": "Unsplash",
+      "routes": [
+        {
+          "origin": "Bristol",
+          "departure_station": "Bristol Temple Meads",
+          "travel_time_mins": 55,
+          "journey_band": "30-60 mins",
+          "advance_fare_from_gbp": 9.5,
+          "anytime_fare_from_gbp": 18.4,
+          "fare_last_checked": "2026-04",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/bristol-to-frome",
+          "direct": true,
+          "operator": "Great Western Railway",
+          "notes": ""
+        }
+      ],
+      "photo_url": "https://images.unsplash.com/photo-1467521040052-6e94a1a26d17?w=800&q=80",
+      "region_slug": "south-west-england"
+    },
+    {
+      "id": "gloucester",
+      "name": "Gloucester",
+      "region": "South West England",
+      "tags": [
+        "historic",
+        "riverside"
+      ],
+      "description": "Gloucester is overlooked in favour of its neighbour Cheltenham, which is a mistake. The cathedral's cloisters served as Hogwarts corridors in the early Harry Potter films, but the building deserves attention on its own extraordinary terms. The Victorian docks — the furthest inland docks in England — have been sensitively regenerated, and the medieval lane of Westgate Street is one of the most evocative in the west.",
+      "highlights": [
+        "Gloucester Cathedral: the fan-vaulted cloisters are one of the finest spaces in England — free entry",
+        "Gloucester Docks: Victorian warehouses converted to museums, restaurants and galleries around working docks",
+        "National Waterways Museum: a fascinating collection of canal and river craft in a superb dockside setting",
+        "The Folk of Gloucester museum: Gloucester's history told through objects in a half-timbered building",
+        "Westgate Street and The Cross: the historic core of the city, with Roman origins visible in the street pattern"
+      ],
+      "best_time_to_visit": "Year-round; the Christmas market and Three Choirs Festival (August, every three years) are highlights",
+      "photo_credit": "Unsplash",
+      "routes": [
+        {
+          "origin": "Bristol",
+          "departure_station": "Bristol Temple Meads",
+          "travel_time_mins": 50,
+          "journey_band": "30-60 mins",
+          "advance_fare_from_gbp": 7.5,
+          "anytime_fare_from_gbp": 14.6,
+          "fare_last_checked": "2026-04",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/bristol-to-gloucester",
+          "direct": true,
+          "operator": "Great Western Railway",
+          "notes": ""
+        }
+      ],
+      "photo_url": "https://images.unsplash.com/photo-1548526928-6649b5e71442?w=800&q=80",
+      "region_slug": "south-west-england"
+    },
+    {
+      "id": "margate",
+      "name": "Margate",
+      "region": "South East England",
+      "tags": [
+        "coastal",
+        "arts & culture"
+      ],
+      "description": "Margate has been called many things in the last decade — Shoreditch-on-Sea, the new Brighton, a cultural renaissance. All of these miss the point slightly. Margate is strange, authentic, slightly faded and genuinely interesting. Turner Contemporary brought serious contemporary art to a Victorian seaside town. Dreamland brought back the vintage fairground. The Old Town brought independent food and culture. The sea was always there.",
+      "highlights": [
+        "Turner Contemporary: a world-class contemporary art gallery on the site where Turner painted his Margate skies",
+        "Dreamland: a revived vintage fairground and music venue with the UK's oldest surviving scenic railway",
+        "Margate Old Town: independent shops, galleries, vintage dealers and excellent cafés in a grid of Georgian streets",
+        "The Shell Grotto: a mysterious underground chamber covered in 4.6 million shells — origin completely unknown",
+        "Margate Main Sands: the wide sandy bay that inspired Turner's atmospheric sea paintings — still beautiful"
+      ],
+      "best_time_to_visit": "May to September; Margate Carnival in August and the summer art season",
+      "photo_credit": "Unsplash",
+      "routes": [
+        {
+          "origin": "London",
+          "departure_station": "London St Pancras",
+          "travel_time_mins": 90,
+          "journey_band": "1-1.5 hrs",
+          "advance_fare_from_gbp": 18.5,
+          "anytime_fare_from_gbp": 36.4,
+          "fare_last_checked": "2026-04",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/london-to-margate",
+          "direct": true,
+          "operator": "Southeastern",
+          "notes": ""
+        }
+      ],
+      "photo_url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80",
+      "region_slug": "south-east-england"
+    },
+    {
+      "id": "norwich",
+      "name": "Norwich",
+      "region": "East of England",
+      "tags": [
+        "historic",
+        "arts & culture",
+        "quiet escape"
+      ],
+      "description": "Norwich was the second city of medieval England, and that history is still utterly present in its landscape. Over 30 medieval churches survive in a city centre small enough to walk across in 20 minutes. The Norman castle on its hill, the magnificent cathedral close, the Lanes shopping district and an independent food and drink scene of real quality make it one of the most rewarding day trips from London.",
+      "highlights": [
+        "Norwich Cathedral: a Norman masterpiece with the second tallest spire in England and beautiful cloister bosses",
+        "Norwich Castle Museum: a Norman keep on an artificial mound, with excellent art and archaeology collections",
+        "The Lanes: a network of medieval lanes with independent shops, the Norwich Market and Tombland",
+        "Jarrold's Department Store: a locally-owned department store in a beautiful Victorian building — an institution",
+        "The Broads by bus: Wroxham is 15 minutes by train — boat hire and broad walking from there"
+      ],
+      "best_time_to_visit": "Year-round; the Cathedral Close in spring is especially beautiful; Norwich City of Ale in May",
+      "photo_credit": "Unsplash",
+      "routes": [
+        {
+          "origin": "London",
+          "departure_station": "London Liverpool Street",
+          "travel_time_mins": 110,
+          "journey_band": "1.5-2 hrs",
+          "advance_fare_from_gbp": 19.5,
+          "anytime_fare_from_gbp": 38.6,
+          "fare_last_checked": "2026-04",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/london-to-norwich",
+          "direct": true,
+          "operator": "Greater Anglia",
+          "notes": ""
+        }
+      ],
+      "photo_url": "https://images.unsplash.com/photo-1598887142488-3efe670eba7b?w=800&q=80",
+      "region_slug": "east-of-england"
+    },
+    {
+      "id": "oxford",
+      "name": "Oxford",
+      "region": "South East England",
+      "tags": [
+        "historic",
+        "arts & culture",
+        "riverside",
+        "walking"
+      ],
+      "description": "Oxford is much more than its university, and the university is extraordinary. Thirty-eight colleges, some of the finest medieval and early-modern architecture in the world, the Bodleian Library and the Ashmolean Museum would make any city exceptional. But Oxford is also a living, breathing, cycling city with the Thames and Cherwell threading through water meadows, and an independent food and drink scene hidden behind the main drag.",
+      "highlights": [
+        "Bodleian Library: one of the world's oldest libraries and a filming location for Harry Potter — tours are essential",
+        "Christ Church Meadow: walk through the meadow to the Isis (Thames) — open, pastoral and free",
+        "The Ashmolean Museum: Britain's oldest public museum, free, with an outstanding art and antiquities collection",
+        "Punting on the Cherwell: hire a punt at Magdalen Bridge and drift south through the water meadows",
+        "The Covered Market: a Victorian market hall with butchers, bakers and independent traders since 1774"
+      ],
+      "best_time_to_visit": "Year-round; avoid Oxford during May Morning and graduation weeks if you dislike crowds",
+      "photo_credit": "Unsplash",
+      "routes": [
+        {
+          "origin": "London",
+          "departure_station": "London Paddington",
+          "travel_time_mins": 55,
+          "journey_band": "30-60 mins",
+          "advance_fare_from_gbp": 11.0,
+          "anytime_fare_from_gbp": 22.6,
+          "fare_last_checked": "2026-04",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/london-to-oxford",
+          "direct": true,
+          "operator": "Great Western Railway",
+          "notes": ""
+        },
+        {
+          "origin": "Bristol",
+          "departure_station": "Bristol Temple Meads",
+          "travel_time_mins": 80,
+          "journey_band": "1-1.5 hrs",
+          "advance_fare_from_gbp": 15.0,
+          "anytime_fare_from_gbp": 28.4,
+          "fare_last_checked": "2026-04",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/bristol-to-oxford",
+          "direct": true,
+          "operator": "Great Western Railway",
+          "notes": ""
+        }
+      ],
+      "photo_url": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=800&q=80",
+      "region_slug": "south-east-england"
+    },
+    {
+      "id": "rochester",
+      "name": "Rochester",
+      "region": "South East England",
+      "tags": [
+        "historic",
+        "riverside"
+      ],
+      "description": "Rochester is the Medway's great underperformer — a historic city with a Norman castle keep of real drama, a cathedral of quiet beauty and the strongest Charles Dickens associations of any town in England (he grew up here, set novels here and died nearby). The high street has kept its independent character, and the views from the castle over the Medway are worth the visit alone.",
+      "highlights": [
+        "Rochester Castle: a Norman keep of 1127, one of the tallest in England, with dramatic views over the Medway",
+        "Rochester Cathedral: the second oldest diocese in England, with Norman nave and a magnificent medieval doorway",
+        "The Dickens Connection: Eastgate House, Restoration House and Uncle Pumblechook's house from Great Expectations",
+        "Rochester High Street: independent shops, antique dealers and good cafés in a largely unspoilt Victorian streetscape",
+        "Chatham Historic Dockyard: 20 minutes walk, the best-preserved Georgian naval base in the world"
+      ],
+      "best_time_to_visit": "Year-round; the Dickens Festival in June fills the town with Victorian costume",
+      "photo_credit": "Unsplash",
+      "routes": [
+        {
+          "origin": "London",
+          "departure_station": "London Victoria",
+          "travel_time_mins": 35,
+          "journey_band": "30-60 mins",
+          "advance_fare_from_gbp": 9.5,
+          "anytime_fare_from_gbp": 18.4,
+          "fare_last_checked": "2026-04",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/london-to-rochester",
+          "direct": true,
+          "operator": "Southeastern",
+          "notes": ""
+        }
+      ],
+      "photo_url": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
+      "region_slug": "south-east-england"
+    },
+    {
+      "id": "saffron-walden",
+      "name": "Saffron Walden",
+      "region": "East of England",
+      "tags": [
+        "historic",
+        "village",
+        "quiet escape",
+        "countryside"
+      ],
+      "description": "Saffron Walden is one of Essex's best secrets — a medieval market town of extraordinary architectural richness, named for the saffron crocus that was cultivated here in the Middle Ages. Pargeting (decorative plasterwork) decorates dozens of houses. The town has a hedge maze, a turf maze (one of only eight in England), Bridge End Garden and a remarkable museum. Most Londoners have never heard of it.",
+      "highlights": [
+        "The Town Maze: a Victorian hedge maze in the park, and an ancient turf maze on the common — both unique",
+        "Bridge End Garden: a restored Victorian garden with a hedge maze, walled gardens and a Dutch garden",
+        "Saffron Walden Museum: an excellent local museum in a Victorian building, with natural history and local archaeology",
+        "The Town Centre: pargeted houses, a fine parish church and independent shops in a medieval street pattern",
+        "Audley End House: a magnificent Jacobean country house a mile from town, English Heritage"
+      ],
+      "best_time_to_visit": "April to October; the gardens and maze are at their best in summer",
+      "photo_credit": "Unsplash",
+      "routes": [
+        {
+          "origin": "London",
+          "departure_station": "London Liverpool Street",
+          "travel_time_mins": 50,
+          "journey_band": "30-60 mins",
+          "advance_fare_from_gbp": 12.0,
+          "anytime_fare_from_gbp": 22.8,
+          "fare_last_checked": "2026-04",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/london-to-saffron-walden",
+          "direct": true,
+          "operator": "Greater Anglia",
+          "notes": ""
+        }
+      ],
+      "photo_url": "https://images.unsplash.com/photo-1590677195409-22e8d9e58f6e?w=800&q=80",
+      "region_slug": "east-of-england"
+    },
+    {
+      "id": "salisbury",
+      "name": "Salisbury",
+      "region": "South West England",
+      "tags": [
+        "historic",
+        "countryside",
+        "quiet escape"
+      ],
+      "description": "Salisbury's cathedral spire is the tallest in England, and it appears from the water meadows to the south in a view that Constable painted repeatedly. The cathedral houses the best-preserved of the four surviving copies of Magna Carta. The medieval city centre — one of the finest in England — has twice-weekly markets and independent shops. Stonehenge is 9 miles by bus.",
+      "highlights": [
+        "Salisbury Cathedral: the tallest spire in England, and inside, one of the four original Magna Carta documents",
+        "The Cathedral Close: the largest in England, lined with medieval and Georgian houses — deeply peaceful",
+        "Stonehenge: 9 miles by bus from the town centre — English Heritage site, book ahead",
+        "Old Sarum: an Iron Age hillfort and the original site of Salisbury, with castle ruins and sweeping views",
+        "Constable's view from Harnham Mill: walk south through the water meadows for the famous cathedral vista"
+      ],
+      "best_time_to_visit": "Year-round; spring and summer for Stonehenge and the water meadows",
+      "photo_credit": "Unsplash",
+      "routes": [
+        {
+          "origin": "Bristol",
+          "departure_station": "Bristol Temple Meads",
+          "travel_time_mins": 65,
+          "journey_band": "1-1.5 hrs",
+          "advance_fare_from_gbp": 9.5,
+          "anytime_fare_from_gbp": 18.2,
+          "fare_last_checked": "2026-04",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/bristol-to-salisbury",
+          "direct": true,
+          "operator": "Great Western Railway",
+          "notes": ""
+        },
+        {
+          "origin": "London",
+          "departure_station": "London Waterloo",
+          "travel_time_mins": 85,
+          "journey_band": "1-1.5 hrs",
+          "advance_fare_from_gbp": 12.0,
+          "anytime_fare_from_gbp": 23.5,
+          "fare_last_checked": "2026-04",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/london-to-salisbury",
+          "direct": true,
+          "operator": "South Western Railway",
+          "notes": ""
+        }
+      ],
+      "photo_url": "https://images.unsplash.com/photo-1548526928-6649b5e71442?w=800&q=80",
+      "region_slug": "south-west-england"
+    },
+    {
+      "id": "sandwich",
+      "name": "Sandwich",
+      "region": "South East England",
+      "tags": [
+        "historic",
+        "village",
+        "quiet escape"
+      ],
+      "description": "Sandwich is one of England's most remarkable historic towns — a medieval Cinque Port that was stranded inland when its harbour silted up in the 16th century, and was consequently never rebuilt. As a result, it remains almost completely intact: medieval streets, town gates, a strand of old fortifications and a quiet that seems anachronistic. Almost nobody visits it, which is one of the things that makes it so good.",
+      "highlights": [
+        "The Barbican and Town Gates: the surviving medieval gatehouses of a complete fortified town",
+        "Sandwich Guildhall Museum: the town's remarkable history explained in a 16th-century guildhall",
+        "The town walls walk: a circuit of the surviving earthworks and gates takes about an hour",
+        "The Rope Walk and Stour riverbank: flat walking along the river to the Royal Cinque Ports Golf Club and beyond",
+        "Deal: a 4-mile walk along the river and coast to the excellent seaside town of Deal"
+      ],
+      "best_time_to_visit": "April to October; quiet year-round but especially peaceful mid-week",
+      "photo_credit": "Unsplash",
+      "routes": [
+        {
+          "origin": "London",
+          "departure_station": "London Charing Cross",
+          "travel_time_mins": 80,
+          "journey_band": "1-1.5 hrs",
+          "advance_fare_from_gbp": 14.5,
+          "anytime_fare_from_gbp": 28.3,
+          "fare_last_checked": "2026-04",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/london-to-sandwich",
+          "direct": true,
+          "operator": "Southeastern",
+          "notes": ""
+        }
+      ],
+      "photo_url": "https://images.unsplash.com/photo-1590677195409-22e8d9e58f6e?w=800&q=80",
+      "region_slug": "south-east-england"
+    },
+    {
+      "id": "tenterden",
+      "name": "Tenterden",
+      "region": "South East England",
+      "tags": [
+        "village",
+        "countryside",
+        "scenic",
+        "quiet escape"
+      ],
+      "description": "Tenterden is a Wealden town of considerable charm — a wide, grassy high street of weatherboard and timber-framed houses, a church tower with views across to the English Channel on clear days and the Romney, Hythe and Dymchurch Railway a short drive south. The surrounding landscape of orchards, hop gardens and oak woodland is quintessential Kent at its most quietly beautiful.",
+      "highlights": [
+        "The High Street: one of Kent's finest — broad, tree-lined and lined with independent shops and cafés",
+        "St Mildred's Church Tower: climb for views across the Weald and, on clear days, to the sea",
+        "Kent and East Sussex Railway: a heritage steam railway running south through the Weald",
+        "The Weald and downland walks: circular routes from the town through orchards and ancient woodland",
+        "Smallhythe Place: Ellen Terry's former home, a 16th-century farmhouse managed by the National Trust"
+      ],
+      "best_time_to_visit": "May to October; the Kent countryside is at its best in spring blossom and autumn colour",
+      "photo_credit": "Unsplash",
+      "routes": [
+        {
+          "origin": "London",
+          "departure_station": "London Charing Cross",
+          "travel_time_mins": 90,
+          "journey_band": "1-1.5 hrs",
+          "advance_fare_from_gbp": 14.0,
+          "anytime_fare_from_gbp": 27.5,
+          "fare_last_checked": "2026-04",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/london-to-tenterden",
+          "direct": true,
+          "operator": "Southeastern",
+          "notes": ""
+        }
+      ],
+      "photo_url": "https://images.unsplash.com/photo-1495615080073-6b89c9839ce0?w=800&q=80",
+      "region_slug": "south-east-england"
+    },
+    {
+      "id": "weston-super-mare",
+      "name": "Weston-super-Mare",
+      "region": "South West England",
+      "tags": [
+        "coastal",
+        "historic",
+        "quiet escape"
+      ],
+      "description": "Weston-super-Mare is a proper, unapologetic British seaside resort — two miles of sandy beach, a Grand Pier that has been rebuilt from fire, donkeys, fish and chips and the Bristol Channel stretching to Wales. Banksy's Dismaland brought the art world here briefly; the permanent Banksy works that remain are scattered around the town and worth finding. The sunsets over Wales are extraordinary.",
+      "highlights": [
+        "The Grand Pier: rebuilt after a 2008 fire, with amusements, restaurants and views across the Bristol Channel",
+        "Banksy works: a trail of permanent street art pieces scattered across the town",
+        "Sand sculpting: Weston is famous for its professional sand sculpture festivals — check dates",
+        "The Winter Gardens: a restored 1920s venue with year-round events and a notable Art Deco interior",
+        "Brean Down: a 3-mile walk south along the beach to a National Trust promontory with Iron Age fort and extraordinary views"
+      ],
+      "best_time_to_visit": "May to September for the beach; Banksy trail is year-round",
+      "photo_credit": "Unsplash",
+      "routes": [
+        {
+          "origin": "Bristol",
+          "departure_station": "Bristol Temple Meads",
+          "travel_time_mins": 35,
+          "journey_band": "30-60 mins",
+          "advance_fare_from_gbp": 6.5,
+          "anytime_fare_from_gbp": 12.8,
+          "fare_last_checked": "2026-04",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/bristol-to-weston-super-mare",
+          "direct": true,
+          "operator": "Great Western Railway",
+          "notes": ""
+        }
+      ],
+      "photo_url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80",
+      "region_slug": "south-west-england"
+    }
+  ]
+}

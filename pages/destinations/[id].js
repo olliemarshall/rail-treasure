@@ -47,6 +47,17 @@ export default function DestinationPage({ destination }) {
           <Link href="/">← All destinations</Link>
         </div>
 
+        {/* Hero photo */}
+        {destination.photo_url && (
+          <div className={styles.heroPhoto}>
+            <img
+              src={destination.photo_url}
+              alt={name}
+              className={styles.heroPhotoImg}
+            />
+          </div>
+        )}
+
         {/* Header */}
         <header className={styles.header}>
           <div className={styles.headerInner}>
@@ -91,13 +102,13 @@ export default function DestinationPage({ destination }) {
                       {route.advance_fare_from_gbp && (
                         <div className={styles.fare}>
                           <span className={styles.fareLabel}>Advance from</span>
-                          <span className={styles.fareValue}>£{route.advance_fare_from_gbp}</span>
+                          <span className={styles.fareValue}>£{Number(route.advance_fare_from_gbp).toFixed(2)}</span>
                         </div>
                       )}
                       {route.anytime_fare_from_gbp && (
                         <div className={styles.fare}>
                           <span className={styles.fareLabel}>Anytime from</span>
-                          <span className={styles.fareValue}>£{route.anytime_fare_from_gbp}</span>
+                          <span className={styles.fareValue}>£{Number(route.anytime_fare_from_gbp).toFixed(2)}</span>
                         </div>
                       )}
                       {route.operator && (
