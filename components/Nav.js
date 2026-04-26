@@ -1,7 +1,6 @@
 import Link from 'next/link'
 import { useState } from 'react'
 import { useRouter } from 'next/router'
-import Image from 'next/image'
 import styles from './Nav.module.css'
 
 const REGIONS = [
@@ -15,17 +14,13 @@ const REGIONS = [
 ]
 
 export default function Nav() {
-  const [menuOpen, setMenuOpen]       = useState(false)
-  const [regionsOpen, setRegionsOpen] = useState(false)
+  const [menuOpen, setMenuOpen] = useState(false)
   const router = useRouter()
 
   return (
     <nav className={styles.nav} aria-label="Main navigation">
       <Link href="/" className={styles.logo} aria-label="Rail Treasure home">
-        <div className={styles.logoIcon}>
-          <Image src="/logo.png" alt="Rail Treasure" width={160} height={48} priority style={{width:'auto',height:'2.4rem'}} />
-        </div>
-        <span className={styles.logoText}>Rail Treasure</span>
+        <img src="/logo.png" alt="Rail Treasure" className={styles.logoImg} />
       </Link>
 
       {/* Desktop links */}
@@ -39,43 +34,34 @@ export default function Nav() {
           </Link>
         </li>
 
-        {/* Regions dropdown */}
-        <li
-          className={styles.dropdown}
-          onMouseEnter={() => setRegionsOpen(true)}
-          onMouseLeave={() => setRegionsOpen(false)}
-        >
+        {/* Regions dropdown — controlled by CSS hover, no JS needed */}
+        <li className={styles.dropdown}>
           <button
             className={`${styles.link} ${styles.dropdownTrigger} ${router.pathname.startsWith('/regions') ? styles.active : ''}`}
             aria-haspopup="true"
-            aria-expanded={regionsOpen}
-            onClick={() => setRegionsOpen(!regionsOpen)}
           >
             Regions
             <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" aria-hidden="true">
               <polyline points="6 9 12 15 18 9" />
             </svg>
           </button>
-          {regionsOpen && (
-            <ul className={styles.dropdownMenu} role="list">
-              <li>
-                <Link href="/regions" className={styles.dropdownAll} onClick={() => setRegionsOpen(false)}>
-                  All regions
+          <ul className={styles.dropdownMenu} role="list">
+            <li>
+              <Link href="/regions" className={styles.dropdownAll}>
+                All regions
+              </Link>
+            </li>
+            {REGIONS.map(r => (
+              <li key={r.slug}>
+                <Link
+                  href={`/regions/${r.slug}`}
+                  className={styles.dropdownItem}
+                >
+                  {r.label}
                 </Link>
               </li>
-              {REGIONS.map(r => (
-                <li key={r.slug}>
-                  <Link
-                    href={`/regions/${r.slug}`}
-                    className={styles.dropdownItem}
-                    onClick={() => setRegionsOpen(false)}
-                  >
-                    {r.label}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          )}
+            ))}
+          </ul>
         </li>
 
         <li>

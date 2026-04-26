@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import Image from 'next/image'
 import styles from './HeroSearch.module.css'
 
 const TAG_ICONS = {
@@ -26,16 +27,20 @@ export default function HeroSearch({
   return (
     <section className={styles.hero} aria-label="Search destinations">
 
-      {/* Top bar — brand copy + stats */}
+      {/* Top bar — logo + brand copy */}
       <div className={styles.topBar}>
         <div className={styles.topBarInner}>
-          <div className={styles.brandLine}>
-            <span className={styles.eyebrow}>Britain's best kept secrets</span>
+          <div className={styles.logoWrap}>
+            <Image
+              src="/logo2.png"
+              alt="Rail Treasure"
+              width={320}
+              height={84}
+              priority
+              className={styles.heroLogo}
+            />
           </div>
-          <h1 className={styles.headline}>
-            Hidden gems,<br />found <em>by rail</em>
-          </h1>
-          <p className={styles.subline}>
+          <p className={styles.heroTagline}>
             {resultCount} curated destinations · no car needed
           </p>
         </div>

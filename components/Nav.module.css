@@ -15,27 +15,15 @@
 .logo {
   display: flex;
   align-items: center;
-  gap: 0;
   text-decoration: none;
   flex-shrink: 0;
 }
 
-.logoIcon {
-  height: 2.4rem;
-  width: auto;
-  display: flex;
-  align-items: center;
-}
-
-.logoIcon img {
+.logoImg {
   height: 2.4rem;
   width: auto;
   display: block;
-}
-
-/* Hide text wordmark — logo image already contains RAILTREASURE */
-.logoText {
-  display: none;
+  object-fit: contain;
 }
 
 .links {
@@ -66,18 +54,19 @@
   color: var(--rail);
 }
 
-/* Dropdown */
+/* Dropdown — use CSS hover so it never closes mid-click */
 .dropdown {
   position: relative;
 }
 
-.dropdownTrigger {
-  font-family: 'DM Sans', sans-serif;
+.dropdown:hover .dropdownMenu {
+  display: block;
 }
 
 .dropdownMenu {
+  display: none;
   position: absolute;
-  top: calc(100% + 0.75rem);
+  top: calc(100% + 0.5rem); /* slight gap — covered by ::before bridge */
   left: 50%;
   transform: translateX(-50%);
   background: var(--paper-card);
@@ -88,6 +77,16 @@
   padding: 0.4rem;
   list-style: none;
   z-index: 300;
+}
+
+/* Invisible bridge between trigger and menu so hover doesn't gap-out */
+.dropdownMenu::before {
+  content: '';
+  position: absolute;
+  top: -0.75rem;
+  left: 0;
+  right: 0;
+  height: 0.75rem;
 }
 
 .dropdownAll {

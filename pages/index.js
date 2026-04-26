@@ -154,8 +154,7 @@ export default function Home({ destinations, tags, origins, journeyBands, meta }
 
       <footer className={styles.footer}>
         <div className={styles.footerInner}>
-          <p className={styles.footerBrand}>🚂 <strong>Rail Treasure</strong></p>
-          <p>Finding Britain's hidden gems, one train at a time.</p>
+          <p className={styles.footerBrand}>Finding Britain's hidden gems, one train at a time.</p>
           <p className={styles.footerDisclaimer}>
             Fares are indicative advance prices. Always check{' '}
             <a href="https://www.thetrainline.com" target="_blank" rel="noopener noreferrer">Trainline</a>{' '}

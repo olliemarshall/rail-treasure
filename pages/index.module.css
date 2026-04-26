@@ -149,7 +149,7 @@
 /* ── FOOTER ── */
 .footer {
   background: var(--ink);
-  color: rgba(255,255,255,0.5);
+  color: rgba(255,255,255,0.7);
   padding: var(--space-xl) var(--space-xl);
 }
 
@@ -159,17 +159,19 @@
   text-align: center;
   display: flex;
   flex-direction: column;
-  gap: 0.4rem;
-  font-size: var(--text-sm);
+  gap: 0.5rem;
   line-height: 1.8;
 }
 
 .footerBrand {
-  font-size: var(--text-base);
+  font-family: 'Playfair Display', serif;
+  font-size: var(--text-xl);
+  font-weight: 600;
+  color: white;
+  letter-spacing: 0.01em;
 }
-.footerBrand strong { color: rgba(255,255,255,0.88); }
 
-.footerDisclaimer { font-size: var(--text-xs); color: rgba(255,255,255,0.35); }
+.footerDisclaimer { font-size: var(--text-xs); color: rgba(255,255,255,0.35); margin-top: 0.25rem; }
 .footerDisclaimer a { color: var(--rail-mid); }
 .footerDisclaimer a:hover { text-decoration: underline; }
 

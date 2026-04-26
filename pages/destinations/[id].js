@@ -182,8 +182,8 @@ export default function DestinationPage({ destination }) {
         </div>
       </div>
 
-      <footer className={styles.footer}>
-        <p><strong>Rail Treasure</strong> — Finding Britain's hidden gems, one train at a time.</p>
+            <footer className={styles.footer}>
+        <p>Finding Britain\'s hidden gems, one train at a time.</p>
       </footer>
     </>
   )

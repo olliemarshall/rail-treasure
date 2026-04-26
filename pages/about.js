@@ -17,7 +17,7 @@ export default function About() {
       {/* HERO — full-width North Yorkshire landscape */}
       <div className={styles.hero}>
         <img
-          src="https://images.unsplash.com/3hjpeS3wrho?w=1400&q=85"
+          src="https://images.unsplash.com/photo-1693988738703-7db9cb504a5a?w=1400&q=85"
           alt="North York Moors at sunset — heather fields stretching to the horizon"
           className={styles.heroImg}
         />
@@ -51,7 +51,7 @@ export default function About() {
           <section className={styles.splitSection}>
             <div className={styles.splitImage}>
               <img
-                src="https://images.unsplash.com/2WobYYQLN4s?w=700&q=85"
+                src="https://images.unsplash.com/photo-1663179717358-acd28623a728?w=700&q=85"
                 alt="A train travelling through lush green British countryside"
                 className={styles.splitImg}
               />
