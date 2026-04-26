@@ -1,4 +1,4 @@
-/* ── HERO WRAPPER ── */
+﻿/* â”€â”€ HERO WRAPPER â”€â”€ */
 .hero {
   background: var(--rail);
   position: relative;
@@ -14,7 +14,7 @@
   pointer-events: none;
 }
 
-/* ── TOP BAR — logo ── */
+/* â”€â”€ TOP BAR â€” logo â”€â”€ */
 .topBar {
   padding: var(--space-2xl) var(--space-xl) var(--space-lg);
 }
@@ -48,10 +48,6 @@
 .headline { display: none; }
 .subline { display: none; }
 
-  font-size: var(--text-base);
-  color: rgba(255,255,255,0.6);
-  font-weight: 300;
-}
 
 /* ── SEARCH BAR ── */
 .searchBar {
@@ -68,7 +64,7 @@
   gap: var(--space-md);
 }
 
-/* ── INPUT ROW ── */
+/* â”€â”€ INPUT ROW â”€â”€ */
 .inputRow {
   display: grid;
   grid-template-columns: 1fr 14rem 13rem;
@@ -169,7 +165,7 @@
   color: white;
 }
 
-/* ── TAGS ROW ── */
+/* â”€â”€ TAGS ROW â”€â”€ */
 .tagsRow {
   display: flex;
   flex-wrap: wrap;
@@ -221,7 +217,7 @@
   border: 0;
 }
 
-/* ── RESPONSIVE ── */
+/* â”€â”€ RESPONSIVE â”€â”€ */
 @media (max-width: 860px) {
   .inputRow {
     grid-template-columns: 1fr 1fr;
