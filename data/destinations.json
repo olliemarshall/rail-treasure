@@ -1,6 +1,6 @@
 {
   "meta": {
-    "schema_version": "1.3",
+    "schema_version": "1.4",
     "last_updated": "2026-04",
     "description": "Curated rail-accessible hidden gem destinations across the UK",
     "total_destinations": 57,
@@ -77,7 +77,8 @@
         "slug": "yorkshire",
         "count": 9
       }
-    ]
+    ],
+    "logo": "/logo.png"
   },
   "destinations": [
     {
@@ -115,7 +116,8 @@
         }
       ],
       "photo_url": "https://images.unsplash.com/photo-1590677195409-22e8d9e58f6e?w=800&q=80",
-      "region_slug": "south-east-england"
+      "region_slug": "south-east-england",
+      "badge": "local secret"
     },
     {
       "id": "arundel",
@@ -150,8 +152,9 @@
           "notes": ""
         }
       ],
-      "photo_url": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
-      "region_slug": "south-east-england"
+      "photo_url": "https://images.unsplash.com/photo-1688133566804-a1a4c1c66a1b?w=800&q=80",
+      "region_slug": "south-east-england",
+      "badge": "castle town"
     },
     {
       "id": "amberley",
@@ -187,8 +190,9 @@
           "notes": ""
         }
       ],
-      "photo_url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
-      "region_slug": "south-east-england"
+      "photo_url": "https://images.unsplash.com/rJ1frfKdG6I?w=800&q=80",
+      "region_slug": "south-east-england",
+      "badge": "south downs gem"
     },
     {
       "id": "lewes",
@@ -224,8 +228,9 @@
           "notes": ""
         }
       ],
-      "photo_url": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=80",
-      "region_slug": "south-east-england"
+      "photo_url": "https://images.unsplash.com/photo-1599423300746-b62533397364?w=800&q=80",
+      "region_slug": "south-east-england",
+      "badge": "hidden gem"
     },
     {
       "id": "rye",
@@ -261,8 +266,9 @@
           "notes": ""
         }
       ],
-      "photo_url": "https://images.unsplash.com/photo-1467521040052-6e94a1a26d17?w=800&q=80",
-      "region_slug": "south-east-england"
+      "photo_url": "https://images.unsplash.com/photo-1580674684081-7617fbf3d745?w=800&q=80",
+      "region_slug": "south-east-england",
+      "badge": "hidden gem"
     },
     {
       "id": "whitstable",
@@ -298,7 +304,8 @@
         }
       ],
       "photo_url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80",
-      "region_slug": "south-east-england"
+      "region_slug": "south-east-england",
+      "badge": "seaside favourite"
     },
     {
       "id": "ely",
@@ -335,7 +342,8 @@
         }
       ],
       "photo_url": "https://images.unsplash.com/photo-1548526928-6649b5e71442?w=800&q=80",
-      "region_slug": "east-of-england"
+      "region_slug": "east-of-england",
+      "badge": "cathedral city"
     },
     {
       "id": "marlow",
@@ -371,8 +379,9 @@
           "notes": ""
         }
       ],
-      "photo_url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80",
-      "region_slug": "south-east-england"
+      "photo_url": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?w=800&q=80",
+      "region_slug": "south-east-england",
+      "badge": "riverside escape"
     },
     {
       "id": "bury-st-edmunds",
@@ -407,8 +416,9 @@
           "notes": ""
         }
       ],
-      "photo_url": "https://images.unsplash.com/photo-1520637836862-4d197d17c20a?w=800&q=80",
-      "region_slug": "east-of-england"
+      "photo_url": "https://images.unsplash.com/photo-1548526928-6649b5e71442?w=800&q=80",
+      "region_slug": "east-of-england",
+      "badge": "off the radar"
     },
     {
       "id": "deal",
@@ -444,7 +454,8 @@
         }
       ],
       "photo_url": "https://images.unsplash.com/photo-1473116763249-2faaef81ccda?w=800&q=80",
-      "region_slug": "south-east-england"
+      "region_slug": "south-east-england",
+      "badge": "local secret"
     },
     {
       "id": "seaford-seven-sisters",
@@ -480,7 +491,8 @@
         }
       ],
       "photo_url": "https://images.unsplash.com/photo-1518173946687-a4c8892bbd9f?w=800&q=80",
-      "region_slug": "south-east-england"
+      "region_slug": "south-east-england",
+      "badge": "wild walks"
     },
     {
       "id": "broadstairs",
@@ -515,8 +527,9 @@
           "notes": ""
         }
       ],
-      "photo_url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80",
-      "region_slug": "south-east-england"
+      "photo_url": "https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?w=800&q=80",
+      "region_slug": "south-east-england",
+      "badge": "hidden gem"
     },
     {
       "id": "chichester",
@@ -553,7 +566,8 @@
         }
       ],
       "photo_url": "https://images.unsplash.com/photo-1548526928-6649b5e71442?w=800&q=80",
-      "region_slug": "south-east-england"
+      "region_slug": "south-east-england",
+      "badge": "city escape"
     },
     {
       "id": "winchester",
@@ -602,8 +616,9 @@
           "notes": ""
         }
       ],
-      "photo_url": "https://images.unsplash.com/photo-1548526928-6649b5e71442?w=800&q=80",
-      "region_slug": "south-east-england"
+      "photo_url": "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?w=800&q=80",
+      "region_slug": "south-east-england",
+      "badge": "cathedral city"
     },
     {
       "id": "guildford",
@@ -639,8 +654,9 @@
           "notes": ""
         }
       ],
-      "photo_url": "https://images.unsplash.com/photo-1495615080073-6b89c9839ce0?w=800&q=80",
-      "region_slug": "south-east-england"
+      "photo_url": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?w=800&q=80",
+      "region_slug": "south-east-england",
+      "badge": "day tripper"
     },
     {
       "id": "st-albans",
@@ -676,7 +692,8 @@
         }
       ],
       "photo_url": "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=800&q=80",
-      "region_slug": "east-of-england"
+      "region_slug": "east-of-england",
+      "badge": "roman heritage"
     },
     {
       "id": "folkestone",
@@ -711,8 +728,9 @@
           "notes": ""
         }
       ],
-      "photo_url": "https://images.unsplash.com/photo-1473116763249-2faaef81ccda?w=800&q=80",
-      "region_slug": "south-east-england"
+      "photo_url": "https://images.unsplash.com/photo-1494526585095-c41746248156?w=800&q=80",
+      "region_slug": "south-east-england",
+      "badge": "rising star"
     },
     {
       "id": "hastings",
@@ -748,8 +766,9 @@
           "notes": ""
         }
       ],
-      "photo_url": "https://images.unsplash.com/photo-1467521040052-6e94a1a26d17?w=800&q=80",
-      "region_slug": "south-east-england"
+      "photo_url": "https://images.unsplash.com/photo-1568699271197-18e2a8d41e52?w=800&q=80",
+      "region_slug": "south-east-england",
+      "badge": "rugged coast"
     },
     {
       "id": "henley-on-thames",
@@ -785,8 +804,9 @@
           "notes": ""
         }
       ],
-      "photo_url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&q=80",
-      "region_slug": "south-east-england"
+      "photo_url": "https://images.unsplash.com/photo-1533929736458-ca588d08c8be?w=800&q=80",
+      "region_slug": "south-east-england",
+      "badge": "riverside escape"
     },
     {
       "id": "harrogate",
@@ -835,7 +855,8 @@
         }
       ],
       "photo_url": "https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=800&q=80",
-      "region_slug": "yorkshire"
+      "region_slug": "yorkshire",
+      "badge": "spa town"
     },
     {
       "id": "knaresborough",
@@ -885,7 +906,8 @@
         }
       ],
       "photo_url": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
-      "region_slug": "yorkshire"
+      "region_slug": "yorkshire",
+      "badge": "hidden gem"
     },
     {
       "id": "leeds",
@@ -921,7 +943,8 @@
         }
       ],
       "photo_url": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=800&q=80",
-      "region_slug": "yorkshire"
+      "region_slug": "yorkshire",
+      "badge": "city break"
     },
     {
       "id": "skipton",
@@ -970,7 +993,8 @@
         }
       ],
       "photo_url": "https://images.unsplash.com/photo-1595435934249-5df7ed86e1c0?w=800&q=80",
-      "region_slug": "yorkshire"
+      "region_slug": "yorkshire",
+      "badge": "market town"
     },
     {
       "id": "malton",
@@ -1006,7 +1030,8 @@
         }
       ],
       "photo_url": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&q=80",
-      "region_slug": "yorkshire"
+      "region_slug": "yorkshire",
+      "badge": "foodie find"
     },
     {
       "id": "hull",
@@ -1043,7 +1068,8 @@
         }
       ],
       "photo_url": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=800&q=80",
-      "region_slug": "yorkshire"
+      "region_slug": "yorkshire",
+      "badge": "city of culture"
     },
     {
       "id": "hebden-bridge",
@@ -1092,7 +1118,8 @@
         }
       ],
       "photo_url": "https://images.unsplash.com/photo-1495615080073-6b89c9839ce0?w=800&q=80",
-      "region_slug": "yorkshire"
+      "region_slug": "yorkshire",
+      "badge": "artisan town"
     },
     {
       "id": "buxton",
@@ -1128,7 +1155,8 @@
         }
       ],
       "photo_url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
-      "region_slug": "peak-district"
+      "region_slug": "peak-district",
+      "badge": "spa town"
     },
     {
       "id": "liverpool",
@@ -1164,8 +1192,9 @@
           "notes": ""
         }
       ],
-      "photo_url": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
-      "region_slug": "north-west-england"
+      "photo_url": "https://images.unsplash.com/photo-1565008576549-57569a49f82a?w=800&q=80",
+      "region_slug": "north-west-england",
+      "badge": "city break"
     },
     {
       "id": "chester",
@@ -1212,8 +1241,9 @@
           "notes": ""
         }
       ],
-      "photo_url": "https://images.unsplash.com/photo-1467521040052-6e94a1a26d17?w=800&q=80",
-      "region_slug": "north-west-england"
+      "photo_url": "https://images.unsplash.com/photo-1582034438086-c4f4e576a45e?w=800&q=80",
+      "region_slug": "north-west-england",
+      "badge": "roman walls"
     },
     {
       "id": "edale",
@@ -1249,7 +1279,8 @@
         }
       ],
       "photo_url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
-      "region_slug": "peak-district"
+      "region_slug": "peak-district",
+      "badge": "wild walks"
     },
     {
       "id": "lancaster",
@@ -1285,7 +1316,8 @@
         }
       ],
       "photo_url": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
-      "region_slug": "north-west-england"
+      "region_slug": "north-west-england",
+      "badge": "hidden gem"
     },
     {
       "id": "southport",
@@ -1321,7 +1353,8 @@
         }
       ],
       "photo_url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80",
-      "region_slug": "north-west-england"
+      "region_slug": "north-west-england",
+      "badge": "seaside classic"
     },
     {
       "id": "manchester",
@@ -1357,7 +1390,8 @@
         }
       ],
       "photo_url": "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=800&q=80",
-      "region_slug": "north-west-england"
+      "region_slug": "north-west-england",
+      "badge": "city break"
     },
     {
       "id": "conwy",
@@ -1393,7 +1427,8 @@
         }
       ],
       "photo_url": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
-      "region_slug": "wales"
+      "region_slug": "wales",
+      "badge": "medieval walls"
     },
     {
       "id": "formby",
@@ -1429,7 +1464,8 @@
         }
       ],
       "photo_url": "https://images.unsplash.com/photo-1440342359743-84fcb8c21f21?w=800&q=80",
-      "region_slug": "north-west-england"
+      "region_slug": "north-west-england",
+      "badge": "nature escape"
     },
     {
       "id": "llandudno",
@@ -1466,7 +1502,8 @@
         }
       ],
       "photo_url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80",
-      "region_slug": "wales"
+      "region_slug": "wales",
+      "badge": "victorian pier"
     },
     {
       "id": "york",
@@ -1503,7 +1540,8 @@
         }
       ],
       "photo_url": "https://images.unsplash.com/photo-1598887142488-3efe670eba7b?w=800&q=80",
-      "region_slug": "yorkshire"
+      "region_slug": "yorkshire",
+      "badge": "historic city"
     },
     {
       "id": "ilkley",
@@ -1538,8 +1576,9 @@
           "notes": ""
         }
       ],
-      "photo_url": "https://images.unsplash.com/photo-1495615080073-6b89c9839ce0?w=800&q=80",
-      "region_slug": "yorkshire"
+      "photo_url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
+      "region_slug": "yorkshire",
+      "badge": "moor & river"
     },
     {
       "id": "abergavenny",
@@ -1575,8 +1614,9 @@
           "notes": ""
         }
       ],
-      "photo_url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
-      "region_slug": "wales"
+      "photo_url": "https://images.unsplash.com/photo-1744787330227-b0cf5af9abfa?w=800&q=80",
+      "region_slug": "wales",
+      "badge": "foodie town"
     },
     {
       "id": "bath",
@@ -1625,8 +1665,9 @@
           "notes": ""
         }
       ],
-      "photo_url": "https://images.unsplash.com/photo-1575931953324-fcac7094999e?w=800&q=80",
-      "region_slug": "south-west-england"
+      "photo_url": "https://images.unsplash.com/DlpeGJBoCWw?w=800&q=80",
+      "region_slug": "south-west-england",
+      "badge": "georgian city"
     },
     {
       "id": "bradford-on-avon",
@@ -1663,8 +1704,9 @@
           "notes": ""
         }
       ],
-      "photo_url": "https://images.unsplash.com/photo-1590677195409-22e8d9e58f6e?w=800&q=80",
-      "region_slug": "south-west-england"
+      "photo_url": "https://images.unsplash.com/photo-1762538749774-34af7b5eada6?w=800&q=80",
+      "region_slug": "south-west-england",
+      "badge": "local secret"
     },
     {
       "id": "brockenhurst",
@@ -1701,7 +1743,8 @@
         }
       ],
       "photo_url": "https://images.unsplash.com/photo-1440342359743-84fcb8c21f21?w=800&q=80",
-      "region_slug": "south-east-england"
+      "region_slug": "south-east-england",
+      "badge": "forest escape"
     },
     {
       "id": "cardiff",
@@ -1739,7 +1782,8 @@
         }
       ],
       "photo_url": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
-      "region_slug": "wales"
+      "region_slug": "wales",
+      "badge": "welsh capital"
     },
     {
       "id": "cheltenham",
@@ -1777,7 +1821,8 @@
         }
       ],
       "photo_url": "https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=800&q=80",
-      "region_slug": "south-west-england"
+      "region_slug": "south-west-england",
+      "badge": "regency town"
     },
     {
       "id": "exeter",
@@ -1827,7 +1872,8 @@
         }
       ],
       "photo_url": "https://images.unsplash.com/photo-1548526928-6649b5e71442?w=800&q=80",
-      "region_slug": "south-west-england"
+      "region_slug": "south-west-england",
+      "badge": "hidden gem"
     },
     {
       "id": "faversham",
@@ -1865,7 +1911,8 @@
         }
       ],
       "photo_url": "https://images.unsplash.com/photo-1590677195409-22e8d9e58f6e?w=800&q=80",
-      "region_slug": "south-east-england"
+      "region_slug": "south-east-england",
+      "badge": "local secret"
     },
     {
       "id": "frome",
@@ -1901,7 +1948,8 @@
         }
       ],
       "photo_url": "https://images.unsplash.com/photo-1467521040052-6e94a1a26d17?w=800&q=80",
-      "region_slug": "south-west-england"
+      "region_slug": "south-west-england",
+      "badge": "artisan town"
     },
     {
       "id": "gloucester",
@@ -1937,7 +1985,8 @@
         }
       ],
       "photo_url": "https://images.unsplash.com/photo-1548526928-6649b5e71442?w=800&q=80",
-      "region_slug": "south-west-england"
+      "region_slug": "south-west-england",
+      "badge": "off the radar"
     },
     {
       "id": "margate",
@@ -1973,7 +2022,8 @@
         }
       ],
       "photo_url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80",
-      "region_slug": "south-east-england"
+      "region_slug": "south-east-england",
+      "badge": "rising star"
     },
     {
       "id": "norwich",
@@ -2009,8 +2059,9 @@
           "notes": ""
         }
       ],
-      "photo_url": "https://images.unsplash.com/photo-1598887142488-3efe670eba7b?w=800&q=80",
-      "region_slug": "east-of-england"
+      "photo_url": "https://images.unsplash.com/photo-1548526928-6649b5e71442?w=800&q=80",
+      "region_slug": "east-of-england",
+      "badge": "medieval city"
     },
     {
       "id": "oxford",
@@ -2061,7 +2112,8 @@
         }
       ],
       "photo_url": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=800&q=80",
-      "region_slug": "south-east-england"
+      "region_slug": "south-east-england",
+      "badge": "dreaming spires"
     },
     {
       "id": "rochester",
@@ -2097,7 +2149,8 @@
         }
       ],
       "photo_url": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
-      "region_slug": "south-east-england"
+      "region_slug": "south-east-england",
+      "badge": "hidden gem"
     },
     {
       "id": "saffron-walden",
@@ -2135,7 +2188,8 @@
         }
       ],
       "photo_url": "https://images.unsplash.com/photo-1590677195409-22e8d9e58f6e?w=800&q=80",
-      "region_slug": "east-of-england"
+      "region_slug": "east-of-england",
+      "badge": "local secret"
     },
     {
       "id": "salisbury",
@@ -2185,7 +2239,8 @@
         }
       ],
       "photo_url": "https://images.unsplash.com/photo-1548526928-6649b5e71442?w=800&q=80",
-      "region_slug": "south-west-england"
+      "region_slug": "south-west-england",
+      "badge": "cathedral city"
     },
     {
       "id": "sandwich",
@@ -2222,7 +2277,8 @@
         }
       ],
       "photo_url": "https://images.unsplash.com/photo-1590677195409-22e8d9e58f6e?w=800&q=80",
-      "region_slug": "south-east-england"
+      "region_slug": "south-east-england",
+      "badge": "step back in time"
     },
     {
       "id": "tenterden",
@@ -2260,7 +2316,8 @@
         }
       ],
       "photo_url": "https://images.unsplash.com/photo-1495615080073-6b89c9839ce0?w=800&q=80",
-      "region_slug": "south-east-england"
+      "region_slug": "south-east-england",
+      "badge": "wealden village"
     },
     {
       "id": "weston-super-mare",
@@ -2297,7 +2354,8 @@
         }
       ],
       "photo_url": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&q=80",
-      "region_slug": "south-west-england"
+      "region_slug": "south-west-england",
+      "badge": "seaside classic"
     }
   ]
 }

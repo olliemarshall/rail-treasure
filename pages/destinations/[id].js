@@ -63,6 +63,7 @@ export default function DestinationPage({ destination }) {
           <div className={styles.headerInner}>
             <div className={styles.headerMeta}>
               <span className={styles.region}>{region}</span>
+              <span className={styles.badge}>✦ {destination.badge || 'hidden gem'}</span>
               {multiOrigin && (
                 <span className={styles.multiOriginBadge}>🔀 Reachable from {new Set(routes.map(r => r.origin)).size} cities</span>
               )}

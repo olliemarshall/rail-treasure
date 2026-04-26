@@ -25,14 +25,14 @@
 }
 
 .logoIcon {
-  width: 1.875rem;
-  height: 1.875rem;
-  background: var(--rail);
-  border-radius: var(--radius-sm);
+  width: 2rem;
+  height: 2rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 0.9rem;
+  flex-shrink: 0;
+  border-radius: var(--radius-sm);
+  overflow: hidden;
 }
 
 .links {

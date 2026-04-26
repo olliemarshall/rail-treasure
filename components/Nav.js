@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { useState } from 'react'
 import { useRouter } from 'next/router'
+import Image from 'next/image'
 import styles from './Nav.module.css'
 
 const REGIONS = [
@@ -21,7 +22,9 @@ export default function Nav() {
   return (
     <nav className={styles.nav} aria-label="Main navigation">
       <Link href="/" className={styles.logo} aria-label="Rail Treasure home">
-        <div className={styles.logoIcon} aria-hidden="true">🚂</div>
+        <div className={styles.logoIcon}>
+          <Image src="/logo.png" alt="Rail Treasure" width={28} height={28} priority />
+        </div>
         <span>Rail Treasure</span>
       </Link>
 
