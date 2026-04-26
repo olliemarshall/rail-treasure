@@ -1,0 +1,1808 @@
+{
+  "meta": {
+    "schema_version": "1.1",
+    "last_updated": "2026-04",
+    "description": "Curated rail-accessible hidden gem destinations across the UK",
+    "total_destinations": 57,
+    "origins": [
+      "Bristol",
+      "Leeds",
+      "Liverpool",
+      "London",
+      "Manchester",
+      "York"
+    ],
+    "all_tags": [
+      "arts & culture",
+      "city break",
+      "coastal",
+      "countryside",
+      "foodie",
+      "historic",
+      "nature",
+      "quiet escape",
+      "riverside",
+      "scenic",
+      "village",
+      "walking"
+    ],
+    "journey_bands": [
+      "under 30 mins",
+      "30-60 mins",
+      "1-1.5 hrs",
+      "1.5-2 hrs",
+      "2 hrs+"
+    ],
+    "fields": {
+      "highlights": "Array of strings — 3-5 bullet points on what to do/see.",
+      "advance_fare_from_gbp": "Number — check Trainline/National Rail and update periodically.",
+      "direct": "Boolean — set false if a change is required.",
+      "operator": "e.g. 'Southeastern', 'GWR', 'TransPennine Express'."
+    }
+  },
+  "destinations": [
+    {
+      "id": "eynsford",
+      "name": "Eynsford",
+      "region": "South East England",
+      "tags": [
+        "village",
+        "countryside",
+        "riverside"
+      ],
+      "description": "Quaint Kent village with a ford, medieval bridge and riverside walks; feels like stepping back in time.",
+      "highlights": [],
+      "best_time_to_visit": "",
+      "photo_credit": "",
+      "routes": [
+        {
+          "origin": "London",
+          "departure_station": "London (multiple termini)",
+          "travel_time_mins": 50,
+          "journey_band": "30-60 mins",
+          "advance_fare_from_gbp": null,
+          "anytime_fare_from_gbp": null,
+          "fare_last_checked": "",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/london-to-eynsford",
+          "direct": true,
+          "operator": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "arundel",
+      "name": "Arundel",
+      "region": "South East England",
+      "tags": [
+        "historic",
+        "countryside"
+      ],
+      "description": "Charming market town with a dramatic castle, cathedral and scenic river walks.",
+      "highlights": [],
+      "best_time_to_visit": "",
+      "photo_credit": "",
+      "routes": [
+        {
+          "origin": "London",
+          "departure_station": "London (multiple termini)",
+          "travel_time_mins": 90,
+          "journey_band": "1-1.5 hrs",
+          "advance_fare_from_gbp": null,
+          "anytime_fare_from_gbp": null,
+          "fare_last_checked": "",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/london-to-arundel",
+          "direct": true,
+          "operator": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "amberley",
+      "name": "Amberley",
+      "region": "South East England",
+      "tags": [
+        "village",
+        "nature",
+        "walking"
+      ],
+      "description": "Tiny South Downs village surrounded by hills and walking trails straight from the station.",
+      "highlights": [],
+      "best_time_to_visit": "",
+      "photo_credit": "",
+      "routes": [
+        {
+          "origin": "London",
+          "departure_station": "London (multiple termini)",
+          "travel_time_mins": 95,
+          "journey_band": "1.5-2 hrs",
+          "advance_fare_from_gbp": null,
+          "anytime_fare_from_gbp": null,
+          "fare_last_checked": "",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/london-to-amberley",
+          "direct": true,
+          "operator": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "lewes",
+      "name": "Lewes",
+      "region": "South East England",
+      "tags": [
+        "historic",
+        "walking",
+        "countryside"
+      ],
+      "description": "Underrated town with cobbled streets, a castle and access to the South Downs.",
+      "highlights": [],
+      "best_time_to_visit": "",
+      "photo_credit": "",
+      "routes": [
+        {
+          "origin": "London",
+          "departure_station": "London (multiple termini)",
+          "travel_time_mins": 65,
+          "journey_band": "1-1.5 hrs",
+          "advance_fare_from_gbp": null,
+          "anytime_fare_from_gbp": null,
+          "fare_last_checked": "",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/london-to-lewes",
+          "direct": true,
+          "operator": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "rye",
+      "name": "Rye",
+      "region": "South East England",
+      "tags": [
+        "coastal",
+        "historic",
+        "village"
+      ],
+      "description": "Medieval town near the sea with cobbled streets and access to Camber Sands.",
+      "highlights": [],
+      "best_time_to_visit": "",
+      "photo_credit": "",
+      "routes": [
+        {
+          "origin": "London",
+          "departure_station": "London (multiple termini)",
+          "travel_time_mins": 70,
+          "journey_band": "1-1.5 hrs",
+          "advance_fare_from_gbp": null,
+          "anytime_fare_from_gbp": null,
+          "fare_last_checked": "",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/london-to-rye",
+          "direct": true,
+          "operator": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "whitstable",
+      "name": "Whitstable",
+      "region": "South East England",
+      "tags": [
+        "coastal",
+        "foodie"
+      ],
+      "description": "Laid-back coastal town known for oysters, beach huts and relaxed vibes.",
+      "highlights": [],
+      "best_time_to_visit": "",
+      "photo_credit": "",
+      "routes": [
+        {
+          "origin": "London",
+          "departure_station": "London (multiple termini)",
+          "travel_time_mins": 80,
+          "journey_band": "1-1.5 hrs",
+          "advance_fare_from_gbp": null,
+          "anytime_fare_from_gbp": null,
+          "fare_last_checked": "",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/london-to-whitstable",
+          "direct": true,
+          "operator": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ely",
+      "name": "Ely",
+      "region": "East of England",
+      "tags": [
+        "historic",
+        "riverside",
+        "quiet escape"
+      ],
+      "description": "Small cathedral city with peaceful riverside walks and big-sky fenland views.",
+      "highlights": [],
+      "best_time_to_visit": "",
+      "photo_credit": "",
+      "routes": [
+        {
+          "origin": "London",
+          "departure_station": "London (multiple termini)",
+          "travel_time_mins": 75,
+          "journey_band": "1-1.5 hrs",
+          "advance_fare_from_gbp": null,
+          "anytime_fare_from_gbp": null,
+          "fare_last_checked": "",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/london-to-ely",
+          "direct": true,
+          "operator": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "marlow",
+      "name": "Marlow",
+      "region": "South East England",
+      "tags": [
+        "riverside",
+        "countryside",
+        "foodie"
+      ],
+      "description": "Elegant Thames-side town with scenic walks and strong food scene.",
+      "highlights": [],
+      "best_time_to_visit": "",
+      "photo_credit": "",
+      "routes": [
+        {
+          "origin": "London",
+          "departure_station": "London (multiple termini)",
+          "travel_time_mins": 60,
+          "journey_band": "30-60 mins",
+          "advance_fare_from_gbp": null,
+          "anytime_fare_from_gbp": null,
+          "fare_last_checked": "",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/london-to-marlow",
+          "direct": true,
+          "operator": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "bury-st-edmunds",
+      "name": "Bury St Edmunds",
+      "region": "East of England",
+      "tags": [
+        "historic",
+        "quiet escape"
+      ],
+      "description": "Underrated Suffolk town with abbey ruins, gardens and a relaxed feel.",
+      "highlights": [],
+      "best_time_to_visit": "",
+      "photo_credit": "",
+      "routes": [
+        {
+          "origin": "London",
+          "departure_station": "London (multiple termini)",
+          "travel_time_mins": 105,
+          "journey_band": "1.5-2 hrs",
+          "advance_fare_from_gbp": null,
+          "anytime_fare_from_gbp": null,
+          "fare_last_checked": "",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/london-to-bury-st-edmunds",
+          "direct": true,
+          "operator": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "deal",
+      "name": "Deal",
+      "region": "South East England",
+      "tags": [
+        "coastal",
+        "quiet escape"
+      ],
+      "description": "Less crowded alternative to Brighton with a long pier and calm beach atmosphere.",
+      "highlights": [],
+      "best_time_to_visit": "",
+      "photo_credit": "",
+      "routes": [
+        {
+          "origin": "London",
+          "departure_station": "London (multiple termini)",
+          "travel_time_mins": 80,
+          "journey_band": "1-1.5 hrs",
+          "advance_fare_from_gbp": null,
+          "anytime_fare_from_gbp": null,
+          "fare_last_checked": "",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/london-to-deal",
+          "direct": true,
+          "operator": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "seaford-seven-sisters",
+      "name": "Seaford (Seven Sisters)",
+      "region": "South East England",
+      "tags": [
+        "coastal",
+        "walking"
+      ],
+      "description": "Gateway to dramatic white cliffs and one of the best coastal walks in England.",
+      "highlights": [],
+      "best_time_to_visit": "",
+      "photo_credit": "",
+      "routes": [
+        {
+          "origin": "London",
+          "departure_station": "London (multiple termini)",
+          "travel_time_mins": 90,
+          "journey_band": "1-1.5 hrs",
+          "advance_fare_from_gbp": null,
+          "anytime_fare_from_gbp": null,
+          "fare_last_checked": "",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/london-to-seaford-seven-sisters",
+          "direct": true,
+          "operator": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "broadstairs",
+      "name": "Broadstairs",
+      "region": "South East England",
+      "tags": [
+        "coastal",
+        "historic"
+      ],
+      "description": "Classic seaside town with sandy beaches and a slower pace than nearby hotspots.",
+      "highlights": [],
+      "best_time_to_visit": "",
+      "photo_credit": "",
+      "routes": [
+        {
+          "origin": "London",
+          "departure_station": "London (multiple termini)",
+          "travel_time_mins": 90,
+          "journey_band": "1-1.5 hrs",
+          "advance_fare_from_gbp": null,
+          "anytime_fare_from_gbp": null,
+          "fare_last_checked": "",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/london-to-broadstairs",
+          "direct": true,
+          "operator": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "chichester",
+      "name": "Chichester",
+      "region": "South East England",
+      "tags": [
+        "historic",
+        "countryside",
+        "arts & culture"
+      ],
+      "description": "Compact cathedral city near the South Downs and coast.",
+      "highlights": [],
+      "best_time_to_visit": "",
+      "photo_credit": "",
+      "routes": [
+        {
+          "origin": "London",
+          "departure_station": "London (multiple termini)",
+          "travel_time_mins": 95,
+          "journey_band": "1.5-2 hrs",
+          "advance_fare_from_gbp": null,
+          "anytime_fare_from_gbp": null,
+          "fare_last_checked": "",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/london-to-chichester",
+          "direct": true,
+          "operator": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "winchester",
+      "name": "Winchester",
+      "region": "South East England",
+      "tags": [
+        "historic",
+        "riverside",
+        "scenic"
+      ],
+      "description": "Beautiful small city with a cathedral, river walks and countryside nearby.",
+      "highlights": [],
+      "best_time_to_visit": "",
+      "photo_credit": "",
+      "routes": [
+        {
+          "origin": "London",
+          "departure_station": "London (multiple termini)",
+          "travel_time_mins": 60,
+          "journey_band": "30-60 mins",
+          "advance_fare_from_gbp": null,
+          "anytime_fare_from_gbp": null,
+          "fare_last_checked": "",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/london-to-winchester",
+          "direct": true,
+          "operator": "",
+          "notes": ""
+        },
+        {
+          "origin": "Bristol",
+          "departure_station": "Bristol Temple Meads",
+          "travel_time_mins": 75,
+          "journey_band": "1-1.5 hrs",
+          "advance_fare_from_gbp": null,
+          "anytime_fare_from_gbp": null,
+          "fare_last_checked": "",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/bristol-to-winchester",
+          "direct": true,
+          "operator": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "guildford",
+      "name": "Guildford",
+      "region": "South East England",
+      "tags": [
+        "walking",
+        "countryside",
+        "riverside"
+      ],
+      "description": "Easy-access town with cobbled high street and nearby Surrey Hills walking.",
+      "highlights": [],
+      "best_time_to_visit": "",
+      "photo_credit": "",
+      "routes": [
+        {
+          "origin": "London",
+          "departure_station": "London (multiple termini)",
+          "travel_time_mins": 40,
+          "journey_band": "30-60 mins",
+          "advance_fare_from_gbp": null,
+          "anytime_fare_from_gbp": null,
+          "fare_last_checked": "",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/london-to-guildford",
+          "direct": true,
+          "operator": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "st-albans",
+      "name": "St Albans",
+      "region": "East of England",
+      "tags": [
+        "historic",
+        "quiet escape"
+      ],
+      "description": "Roman history, cathedral and green parks just outside London.",
+      "highlights": [],
+      "best_time_to_visit": "",
+      "photo_credit": "",
+      "routes": [
+        {
+          "origin": "London",
+          "departure_station": "London (multiple termini)",
+          "travel_time_mins": 25,
+          "journey_band": "under 30 mins",
+          "advance_fare_from_gbp": null,
+          "anytime_fare_from_gbp": null,
+          "fare_last_checked": "",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/london-to-st-albans",
+          "direct": true,
+          "operator": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "folkestone",
+      "name": "Folkestone",
+      "region": "South East England",
+      "tags": [
+        "coastal",
+        "arts & culture"
+      ],
+      "description": "Up-and-coming coastal town with cliffs, harbour arm and creative vibe.",
+      "highlights": [],
+      "best_time_to_visit": "",
+      "photo_credit": "",
+      "routes": [
+        {
+          "origin": "London",
+          "departure_station": "London (multiple termini)",
+          "travel_time_mins": 55,
+          "journey_band": "30-60 mins",
+          "advance_fare_from_gbp": null,
+          "anytime_fare_from_gbp": null,
+          "fare_last_checked": "",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/london-to-folkestone",
+          "direct": true,
+          "operator": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "hastings",
+      "name": "Hastings",
+      "region": "South East England",
+      "tags": [
+        "coastal",
+        "scenic",
+        "historic"
+      ],
+      "description": "Edgier seaside town with cliffs, old town and wild coastal scenery.",
+      "highlights": [],
+      "best_time_to_visit": "",
+      "photo_credit": "",
+      "routes": [
+        {
+          "origin": "London",
+          "departure_station": "London (multiple termini)",
+          "travel_time_mins": 90,
+          "journey_band": "1-1.5 hrs",
+          "advance_fare_from_gbp": null,
+          "anytime_fare_from_gbp": null,
+          "fare_last_checked": "",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/london-to-hastings",
+          "direct": true,
+          "operator": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "henley-on-thames",
+      "name": "Henley-on-Thames",
+      "region": "South East England",
+      "tags": [
+        "riverside",
+        "countryside",
+        "scenic"
+      ],
+      "description": "Classic English riverside town with boating and relaxed countryside feel.",
+      "highlights": [],
+      "best_time_to_visit": "",
+      "photo_credit": "",
+      "routes": [
+        {
+          "origin": "London",
+          "departure_station": "London (multiple termini)",
+          "travel_time_mins": 65,
+          "journey_band": "1-1.5 hrs",
+          "advance_fare_from_gbp": null,
+          "anytime_fare_from_gbp": null,
+          "fare_last_checked": "",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/london-to-henley-on-thames",
+          "direct": true,
+          "operator": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "harrogate",
+      "name": "Harrogate",
+      "region": "Yorkshire",
+      "tags": [
+        "scenic",
+        "countryside"
+      ],
+      "description": "Stylish spa town with gardens, tea rooms and easy countryside access.",
+      "highlights": [],
+      "best_time_to_visit": "",
+      "photo_credit": "",
+      "routes": [
+        {
+          "origin": "York",
+          "departure_station": "York",
+          "travel_time_mins": 25,
+          "journey_band": "under 30 mins",
+          "advance_fare_from_gbp": null,
+          "anytime_fare_from_gbp": null,
+          "fare_last_checked": "",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/york-to-harrogate",
+          "direct": true,
+          "operator": "",
+          "notes": ""
+        },
+        {
+          "origin": "Leeds",
+          "departure_station": "Leeds",
+          "travel_time_mins": 30,
+          "journey_band": "under 30 mins",
+          "advance_fare_from_gbp": null,
+          "anytime_fare_from_gbp": null,
+          "fare_last_checked": "",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/leeds-to-harrogate",
+          "direct": true,
+          "operator": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "knaresborough",
+      "name": "Knaresborough",
+      "region": "Yorkshire",
+      "tags": [
+        "riverside",
+        "historic",
+        "scenic"
+      ],
+      "description": "Clifftop castle ruins and dramatic river gorge views.",
+      "highlights": [],
+      "best_time_to_visit": "",
+      "photo_credit": "",
+      "routes": [
+        {
+          "origin": "York",
+          "departure_station": "York",
+          "travel_time_mins": 20,
+          "journey_band": "under 30 mins",
+          "advance_fare_from_gbp": null,
+          "anytime_fare_from_gbp": null,
+          "fare_last_checked": "",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/york-to-knaresborough",
+          "direct": true,
+          "operator": "",
+          "notes": ""
+        },
+        {
+          "origin": "Leeds",
+          "departure_station": "Leeds",
+          "travel_time_mins": 60,
+          "journey_band": "30-60 mins",
+          "advance_fare_from_gbp": null,
+          "anytime_fare_from_gbp": null,
+          "fare_last_checked": "",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/leeds-to-knaresborough",
+          "direct": true,
+          "operator": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "leeds",
+      "name": "Leeds",
+      "region": "Yorkshire",
+      "tags": [
+        "city break",
+        "arts & culture"
+      ],
+      "description": "Bustling nearby city with strong food, culture and nightlife.",
+      "highlights": [],
+      "best_time_to_visit": "",
+      "photo_credit": "",
+      "routes": [
+        {
+          "origin": "York",
+          "departure_station": "York",
+          "travel_time_mins": 25,
+          "journey_band": "under 30 mins",
+          "advance_fare_from_gbp": null,
+          "anytime_fare_from_gbp": null,
+          "fare_last_checked": "",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/york-to-leeds",
+          "direct": true,
+          "operator": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "skipton",
+      "name": "Skipton",
+      "region": "Yorkshire",
+      "tags": [
+        "scenic",
+        "historic"
+      ],
+      "description": "Gateway to the Yorkshire Dales with a medieval castle and canal walks.",
+      "highlights": [],
+      "best_time_to_visit": "",
+      "photo_credit": "",
+      "routes": [
+        {
+          "origin": "York",
+          "departure_station": "York",
+          "travel_time_mins": 60,
+          "journey_band": "30-60 mins",
+          "advance_fare_from_gbp": null,
+          "anytime_fare_from_gbp": null,
+          "fare_last_checked": "",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/york-to-skipton",
+          "direct": true,
+          "operator": "",
+          "notes": ""
+        },
+        {
+          "origin": "Leeds",
+          "departure_station": "Leeds",
+          "travel_time_mins": 40,
+          "journey_band": "30-60 mins",
+          "advance_fare_from_gbp": null,
+          "anytime_fare_from_gbp": null,
+          "fare_last_checked": "",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/leeds-to-skipton",
+          "direct": true,
+          "operator": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "malton",
+      "name": "Malton",
+      "region": "Yorkshire",
+      "tags": [
+        "foodie",
+        "quiet escape"
+      ],
+      "description": "Small foodie town known as Yorkshire's culinary capital.",
+      "highlights": [],
+      "best_time_to_visit": "",
+      "photo_credit": "",
+      "routes": [
+        {
+          "origin": "York",
+          "departure_station": "York",
+          "travel_time_mins": 30,
+          "journey_band": "under 30 mins",
+          "advance_fare_from_gbp": null,
+          "anytime_fare_from_gbp": null,
+          "fare_last_checked": "",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/york-to-malton",
+          "direct": true,
+          "operator": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "hull",
+      "name": "Hull",
+      "region": "Yorkshire",
+      "tags": [
+        "historic",
+        "arts & culture",
+        "riverside"
+      ],
+      "description": "Underrated port city with museums and regenerated waterfront.",
+      "highlights": [],
+      "best_time_to_visit": "",
+      "photo_credit": "",
+      "routes": [
+        {
+          "origin": "York",
+          "departure_station": "York",
+          "travel_time_mins": 60,
+          "journey_band": "30-60 mins",
+          "advance_fare_from_gbp": null,
+          "anytime_fare_from_gbp": null,
+          "fare_last_checked": "",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/york-to-hull",
+          "direct": true,
+          "operator": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "hebden-bridge",
+      "name": "Hebden Bridge",
+      "region": "Yorkshire",
+      "tags": [
+        "arts & culture",
+        "scenic"
+      ],
+      "description": "Bohemian valley town packed with cafes, independent shops and hills.",
+      "highlights": [],
+      "best_time_to_visit": "",
+      "photo_credit": "",
+      "routes": [
+        {
+          "origin": "Manchester",
+          "departure_station": "Manchester Piccadilly",
+          "travel_time_mins": 40,
+          "journey_band": "30-60 mins",
+          "advance_fare_from_gbp": null,
+          "anytime_fare_from_gbp": null,
+          "fare_last_checked": "",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/manchester-to-hebden-bridge",
+          "direct": true,
+          "operator": "",
+          "notes": ""
+        },
+        {
+          "origin": "Leeds",
+          "departure_station": "Leeds",
+          "travel_time_mins": 40,
+          "journey_band": "30-60 mins",
+          "advance_fare_from_gbp": null,
+          "anytime_fare_from_gbp": null,
+          "fare_last_checked": "",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/leeds-to-hebden-bridge",
+          "direct": true,
+          "operator": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "buxton",
+      "name": "Buxton",
+      "region": "Peak District",
+      "tags": [
+        "walking",
+        "scenic"
+      ],
+      "description": "Historic spa town in the Peak District with grand architecture.",
+      "highlights": [],
+      "best_time_to_visit": "",
+      "photo_credit": "",
+      "routes": [
+        {
+          "origin": "Manchester",
+          "departure_station": "Manchester Piccadilly",
+          "travel_time_mins": 60,
+          "journey_band": "30-60 mins",
+          "advance_fare_from_gbp": null,
+          "anytime_fare_from_gbp": null,
+          "fare_last_checked": "",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/manchester-to-buxton",
+          "direct": true,
+          "operator": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "liverpool",
+      "name": "Liverpool",
+      "region": "North West England",
+      "tags": [
+        "city break",
+        "arts & culture",
+        "riverside"
+      ],
+      "description": "Iconic waterfront city with museums, music history and docks.",
+      "highlights": [],
+      "best_time_to_visit": "",
+      "photo_credit": "",
+      "routes": [
+        {
+          "origin": "Manchester",
+          "departure_station": "Manchester Piccadilly",
+          "travel_time_mins": 50,
+          "journey_band": "30-60 mins",
+          "advance_fare_from_gbp": null,
+          "anytime_fare_from_gbp": null,
+          "fare_last_checked": "",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/manchester-to-liverpool",
+          "direct": true,
+          "operator": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "chester",
+      "name": "Chester",
+      "region": "North West England",
+      "tags": [
+        "historic"
+      ],
+      "description": "Roman city with preserved walls and Tudor-style architecture.",
+      "highlights": [],
+      "best_time_to_visit": "",
+      "photo_credit": "",
+      "routes": [
+        {
+          "origin": "Manchester",
+          "departure_station": "Manchester Piccadilly",
+          "travel_time_mins": 60,
+          "journey_band": "30-60 mins",
+          "advance_fare_from_gbp": null,
+          "anytime_fare_from_gbp": null,
+          "fare_last_checked": "",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/manchester-to-chester",
+          "direct": true,
+          "operator": "",
+          "notes": ""
+        },
+        {
+          "origin": "Liverpool",
+          "departure_station": "Liverpool Lime Street",
+          "travel_time_mins": 45,
+          "journey_band": "30-60 mins",
+          "advance_fare_from_gbp": null,
+          "anytime_fare_from_gbp": null,
+          "fare_last_checked": "",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/liverpool-to-chester",
+          "direct": true,
+          "operator": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "edale",
+      "name": "Edale",
+      "region": "Peak District",
+      "tags": [
+        "walking",
+        "nature"
+      ],
+      "description": "Gateway village for serious Peak District hiking routes.",
+      "highlights": [],
+      "best_time_to_visit": "",
+      "photo_credit": "",
+      "routes": [
+        {
+          "origin": "Manchester",
+          "departure_station": "Manchester Piccadilly",
+          "travel_time_mins": 60,
+          "journey_band": "30-60 mins",
+          "advance_fare_from_gbp": null,
+          "anytime_fare_from_gbp": null,
+          "fare_last_checked": "",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/manchester-to-edale",
+          "direct": true,
+          "operator": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "lancaster",
+      "name": "Lancaster",
+      "region": "North West England",
+      "tags": [
+        "historic",
+        "riverside"
+      ],
+      "description": "Compact city with castle, canal and university vibe.",
+      "highlights": [],
+      "best_time_to_visit": "",
+      "photo_credit": "",
+      "routes": [
+        {
+          "origin": "Manchester",
+          "departure_station": "Manchester Piccadilly",
+          "travel_time_mins": 60,
+          "journey_band": "30-60 mins",
+          "advance_fare_from_gbp": null,
+          "anytime_fare_from_gbp": null,
+          "fare_last_checked": "",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/manchester-to-lancaster",
+          "direct": true,
+          "operator": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "southport",
+      "name": "Southport",
+      "region": "North West England",
+      "tags": [
+        "coastal",
+        "quiet escape"
+      ],
+      "description": "Classic Victorian seaside town with long beaches.",
+      "highlights": [],
+      "best_time_to_visit": "",
+      "photo_credit": "",
+      "routes": [
+        {
+          "origin": "Liverpool",
+          "departure_station": "Liverpool Lime Street",
+          "travel_time_mins": 30,
+          "journey_band": "under 30 mins",
+          "advance_fare_from_gbp": null,
+          "anytime_fare_from_gbp": null,
+          "fare_last_checked": "",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/liverpool-to-southport",
+          "direct": true,
+          "operator": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "manchester",
+      "name": "Manchester",
+      "region": "North West England",
+      "tags": [
+        "city break",
+        "arts & culture"
+      ],
+      "description": "Major northern city with strong arts and music scene.",
+      "highlights": [],
+      "best_time_to_visit": "",
+      "photo_credit": "",
+      "routes": [
+        {
+          "origin": "Liverpool",
+          "departure_station": "Liverpool Lime Street",
+          "travel_time_mins": 50,
+          "journey_band": "30-60 mins",
+          "advance_fare_from_gbp": null,
+          "anytime_fare_from_gbp": null,
+          "fare_last_checked": "",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/liverpool-to-manchester",
+          "direct": true,
+          "operator": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "conwy",
+      "name": "Conwy",
+      "region": "Wales",
+      "tags": [
+        "historic",
+        "scenic"
+      ],
+      "description": "Medieval walled town with one of Britain's best castles.",
+      "highlights": [],
+      "best_time_to_visit": "",
+      "photo_credit": "",
+      "routes": [
+        {
+          "origin": "Liverpool",
+          "departure_station": "Liverpool Lime Street",
+          "travel_time_mins": 100,
+          "journey_band": "1.5-2 hrs",
+          "advance_fare_from_gbp": null,
+          "anytime_fare_from_gbp": null,
+          "fare_last_checked": "",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/liverpool-to-conwy",
+          "direct": true,
+          "operator": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "formby",
+      "name": "Formby",
+      "region": "North West England",
+      "tags": [
+        "coastal",
+        "nature"
+      ],
+      "description": "National Trust dunes and pine forests right by the sea.",
+      "highlights": [],
+      "best_time_to_visit": "",
+      "photo_credit": "",
+      "routes": [
+        {
+          "origin": "Liverpool",
+          "departure_station": "Liverpool Lime Street",
+          "travel_time_mins": 25,
+          "journey_band": "under 30 mins",
+          "advance_fare_from_gbp": null,
+          "anytime_fare_from_gbp": null,
+          "fare_last_checked": "",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/liverpool-to-formby",
+          "direct": true,
+          "operator": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "llandudno",
+      "name": "Llandudno",
+      "region": "Wales",
+      "tags": [
+        "coastal",
+        "historic",
+        "scenic"
+      ],
+      "description": "Classic Welsh seaside resort with pier and mountain backdrop.",
+      "highlights": [],
+      "best_time_to_visit": "",
+      "photo_credit": "",
+      "routes": [
+        {
+          "origin": "Liverpool",
+          "departure_station": "Liverpool Lime Street",
+          "travel_time_mins": 110,
+          "journey_band": "1.5-2 hrs",
+          "advance_fare_from_gbp": null,
+          "anytime_fare_from_gbp": null,
+          "fare_last_checked": "",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/liverpool-to-llandudno",
+          "direct": true,
+          "operator": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "york",
+      "name": "York",
+      "region": "Yorkshire",
+      "tags": [
+        "historic",
+        "city break",
+        "arts & culture"
+      ],
+      "description": "Iconic medieval city with compact centre and huge history.",
+      "highlights": [],
+      "best_time_to_visit": "",
+      "photo_credit": "",
+      "routes": [
+        {
+          "origin": "Leeds",
+          "departure_station": "Leeds",
+          "travel_time_mins": 25,
+          "journey_band": "under 30 mins",
+          "advance_fare_from_gbp": null,
+          "anytime_fare_from_gbp": null,
+          "fare_last_checked": "",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/leeds-to-york",
+          "direct": true,
+          "operator": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "ilkley",
+      "name": "Ilkley",
+      "region": "Yorkshire",
+      "tags": [
+        "walking",
+        "riverside"
+      ],
+      "description": "Gateway to Ilkley Moor with riverside walks and hills.",
+      "highlights": [],
+      "best_time_to_visit": "",
+      "photo_credit": "",
+      "routes": [
+        {
+          "origin": "Leeds",
+          "departure_station": "Leeds",
+          "travel_time_mins": 30,
+          "journey_band": "under 30 mins",
+          "advance_fare_from_gbp": null,
+          "anytime_fare_from_gbp": null,
+          "fare_last_checked": "",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/leeds-to-ilkley",
+          "direct": true,
+          "operator": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "abergavenny",
+      "name": "Abergavenny",
+      "region": "Wales",
+      "tags": [
+        "walking",
+        "scenic",
+        "foodie"
+      ],
+      "description": "Gateway to the Brecon Beacons and one of Wales's great foodie towns. Dramatic mountain backdrop, world-class food festival and rugged hiking straight from town.",
+      "highlights": [],
+      "best_time_to_visit": "",
+      "photo_credit": "",
+      "routes": [
+        {
+          "origin": "Bristol",
+          "departure_station": "Bristol Temple Meads",
+          "travel_time_mins": 75,
+          "journey_band": "1-1.5 hrs",
+          "advance_fare_from_gbp": null,
+          "anytime_fare_from_gbp": null,
+          "fare_last_checked": "",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/bristol-to-abergavenny",
+          "direct": true,
+          "operator": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "bath",
+      "name": "Bath",
+      "region": "South West England",
+      "tags": [
+        "historic",
+        "scenic",
+        "foodie"
+      ],
+      "description": "UNESCO World Heritage city with Roman baths, jaw-dropping Georgian architecture and one of England's best independent food scenes. Just 12 minutes from Bristol.",
+      "highlights": [],
+      "best_time_to_visit": "",
+      "photo_credit": "",
+      "routes": [
+        {
+          "origin": "Bristol",
+          "departure_station": "Bristol Temple Meads",
+          "travel_time_mins": 12,
+          "journey_band": "under 30 mins",
+          "advance_fare_from_gbp": null,
+          "anytime_fare_from_gbp": null,
+          "fare_last_checked": "",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/bristol-to-bath",
+          "direct": true,
+          "operator": "",
+          "notes": ""
+        },
+        {
+          "origin": "London",
+          "departure_station": "London Paddington",
+          "travel_time_mins": 85,
+          "journey_band": "1-1.5 hrs",
+          "advance_fare_from_gbp": null,
+          "anytime_fare_from_gbp": null,
+          "fare_last_checked": "",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/london-to-bath",
+          "direct": true,
+          "operator": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "bradford-on-avon",
+      "name": "Bradford-on-Avon",
+      "region": "South West England",
+      "tags": [
+        "historic",
+        "riverside",
+        "village",
+        "walking"
+      ],
+      "description": "Tiny honey-stone town on the River Avon with a Saxon church, medieval tithe barn and the famous Bridge Tea Rooms. Utterly unspoilt.",
+      "highlights": [],
+      "best_time_to_visit": "",
+      "photo_credit": "",
+      "routes": [
+        {
+          "origin": "Bristol",
+          "departure_station": "Bristol Temple Meads",
+          "travel_time_mins": 33,
+          "journey_band": "30-60 mins",
+          "advance_fare_from_gbp": null,
+          "anytime_fare_from_gbp": null,
+          "fare_last_checked": "",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/bristol-to-bradford-on-avon",
+          "direct": true,
+          "operator": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "brockenhurst",
+      "name": "Brockenhurst",
+      "region": "South East England",
+      "tags": [
+        "nature",
+        "countryside",
+        "walking"
+      ],
+      "description": "The gateway to the New Forest — ponies roam the streets and wild swimming holes are a short walk from the station. Remarkably easy to reach.",
+      "highlights": [],
+      "best_time_to_visit": "",
+      "photo_credit": "",
+      "routes": [
+        {
+          "origin": "London",
+          "departure_station": "London Waterloo",
+          "travel_time_mins": 90,
+          "journey_band": "1-1.5 hrs",
+          "advance_fare_from_gbp": null,
+          "anytime_fare_from_gbp": null,
+          "fare_last_checked": "",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/london-to-brockenhurst",
+          "direct": true,
+          "operator": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "cardiff",
+      "name": "Cardiff",
+      "region": "Wales",
+      "tags": [
+        "city break",
+        "historic",
+        "riverside",
+        "arts & culture"
+      ],
+      "description": "Welsh capital with a fairy-tale castle in the city centre, excellent National Museum, vibrant Bay and beautiful Victorian arcades to explore.",
+      "highlights": [],
+      "best_time_to_visit": "",
+      "photo_credit": "",
+      "routes": [
+        {
+          "origin": "Bristol",
+          "departure_station": "Bristol Temple Meads",
+          "travel_time_mins": 50,
+          "journey_band": "30-60 mins",
+          "advance_fare_from_gbp": null,
+          "anytime_fare_from_gbp": null,
+          "fare_last_checked": "",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/bristol-to-cardiff",
+          "direct": true,
+          "operator": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "cheltenham",
+      "name": "Cheltenham",
+      "region": "South West England",
+      "tags": [
+        "historic",
+        "scenic",
+        "arts & culture",
+        "foodie"
+      ],
+      "description": "Elegant Regency spa town and the cultural gateway to the Cotswolds — famous for its festivals, Pittville Park and the annual Gold Cup horse races.",
+      "highlights": [],
+      "best_time_to_visit": "",
+      "photo_credit": "",
+      "routes": [
+        {
+          "origin": "Bristol",
+          "departure_station": "Bristol Temple Meads",
+          "travel_time_mins": 45,
+          "journey_band": "30-60 mins",
+          "advance_fare_from_gbp": null,
+          "anytime_fare_from_gbp": null,
+          "fare_last_checked": "",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/bristol-to-cheltenham",
+          "direct": true,
+          "operator": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "exeter",
+      "name": "Exeter",
+      "region": "South West England",
+      "tags": [
+        "historic",
+        "riverside",
+        "walking"
+      ],
+      "description": "Ancient city with medieval cathedral, Roman walls and underground passages. A genuine hidden gem with less than a tenth of Bath's visitor numbers.",
+      "highlights": [],
+      "best_time_to_visit": "",
+      "photo_credit": "",
+      "routes": [
+        {
+          "origin": "Bristol",
+          "departure_station": "Bristol Temple Meads",
+          "travel_time_mins": 60,
+          "journey_band": "30-60 mins",
+          "advance_fare_from_gbp": null,
+          "anytime_fare_from_gbp": null,
+          "fare_last_checked": "",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/bristol-to-exeter",
+          "direct": true,
+          "operator": "",
+          "notes": ""
+        },
+        {
+          "origin": "London",
+          "departure_station": "London Paddington",
+          "travel_time_mins": 130,
+          "journey_band": "2 hrs+",
+          "advance_fare_from_gbp": null,
+          "anytime_fare_from_gbp": null,
+          "fare_last_checked": "",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/london-to-exeter",
+          "direct": true,
+          "operator": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "faversham",
+      "name": "Faversham",
+      "region": "South East England",
+      "tags": [
+        "historic",
+        "village",
+        "foodie",
+        "quiet escape"
+      ],
+      "description": "Tiny Kent market town with Britain's oldest brewery, medieval guildhall and beautiful creekside walks. Consistently overlooked in favour of Canterbury.",
+      "highlights": [],
+      "best_time_to_visit": "",
+      "photo_credit": "",
+      "routes": [
+        {
+          "origin": "London",
+          "departure_station": "London Victoria",
+          "travel_time_mins": 60,
+          "journey_band": "30-60 mins",
+          "advance_fare_from_gbp": null,
+          "anytime_fare_from_gbp": null,
+          "fare_last_checked": "",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/london-to-faversham",
+          "direct": true,
+          "operator": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "frome",
+      "name": "Frome",
+      "region": "South West England",
+      "tags": [
+        "arts & culture",
+        "quiet escape"
+      ],
+      "description": "Once-forgotten Somerset market town now named one of Britain's coolest. Steep cobbled streets, independent traders, a thriving arts scene and no chains.",
+      "highlights": [],
+      "best_time_to_visit": "",
+      "photo_credit": "",
+      "routes": [
+        {
+          "origin": "Bristol",
+          "departure_station": "Bristol Temple Meads",
+          "travel_time_mins": 55,
+          "journey_band": "30-60 mins",
+          "advance_fare_from_gbp": null,
+          "anytime_fare_from_gbp": null,
+          "fare_last_checked": "",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/bristol-to-frome",
+          "direct": true,
+          "operator": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "gloucester",
+      "name": "Gloucester",
+      "region": "South West England",
+      "tags": [
+        "historic",
+        "riverside"
+      ],
+      "description": "Underrated cathedral city with stunning Victorian docks, medieval lanes and a cathedral whose cloister doubled as Hogwarts. Less visited than it deserves.",
+      "highlights": [],
+      "best_time_to_visit": "",
+      "photo_credit": "",
+      "routes": [
+        {
+          "origin": "Bristol",
+          "departure_station": "Bristol Temple Meads",
+          "travel_time_mins": 50,
+          "journey_band": "30-60 mins",
+          "advance_fare_from_gbp": null,
+          "anytime_fare_from_gbp": null,
+          "fare_last_checked": "",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/bristol-to-gloucester",
+          "direct": true,
+          "operator": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "margate",
+      "name": "Margate",
+      "region": "South East England",
+      "tags": [
+        "coastal",
+        "arts & culture"
+      ],
+      "description": "Edgy Kentish seaside town with Turner Contemporary gallery, retro arcades and a cool independent food scene. Often called 'Shoreditch-on-Sea'.",
+      "highlights": [],
+      "best_time_to_visit": "",
+      "photo_credit": "",
+      "routes": [
+        {
+          "origin": "London",
+          "departure_station": "London St Pancras",
+          "travel_time_mins": 90,
+          "journey_band": "1-1.5 hrs",
+          "advance_fare_from_gbp": null,
+          "anytime_fare_from_gbp": null,
+          "fare_last_checked": "",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/london-to-margate",
+          "direct": true,
+          "operator": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "norwich",
+      "name": "Norwich",
+      "region": "East of England",
+      "tags": [
+        "historic",
+        "arts & culture",
+        "quiet escape"
+      ],
+      "description": "Underrated medieval city with over 30 surviving medieval churches, a magnificent Norman castle and winding independent-shop-filled lanes.",
+      "highlights": [],
+      "best_time_to_visit": "",
+      "photo_credit": "",
+      "routes": [
+        {
+          "origin": "London",
+          "departure_station": "London Liverpool Street",
+          "travel_time_mins": 110,
+          "journey_band": "1.5-2 hrs",
+          "advance_fare_from_gbp": null,
+          "anytime_fare_from_gbp": null,
+          "fare_last_checked": "",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/london-to-norwich",
+          "direct": true,
+          "operator": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "oxford",
+      "name": "Oxford",
+      "region": "South East England",
+      "tags": [
+        "historic",
+        "arts & culture",
+        "riverside",
+        "walking"
+      ],
+      "description": "The dreaming spires city — more than its famous colleges. Beautiful meadows, the Bodleian library, hidden gardens and Morse filming locations around every corner.",
+      "highlights": [],
+      "best_time_to_visit": "",
+      "photo_credit": "",
+      "routes": [
+        {
+          "origin": "London",
+          "departure_station": "London Paddington",
+          "travel_time_mins": 55,
+          "journey_band": "30-60 mins",
+          "advance_fare_from_gbp": null,
+          "anytime_fare_from_gbp": null,
+          "fare_last_checked": "",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/london-to-oxford",
+          "direct": true,
+          "operator": "",
+          "notes": ""
+        },
+        {
+          "origin": "Bristol",
+          "departure_station": "Bristol Temple Meads",
+          "travel_time_mins": 80,
+          "journey_band": "1-1.5 hrs",
+          "advance_fare_from_gbp": null,
+          "anytime_fare_from_gbp": null,
+          "fare_last_checked": "",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/bristol-to-oxford",
+          "direct": true,
+          "operator": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "rochester",
+      "name": "Rochester",
+      "region": "South East England",
+      "tags": [
+        "historic",
+        "riverside"
+      ],
+      "description": "Compact Medway city with a dramatic Norman castle, cathedral and deep Dickens connections. Far less visited than its neighbour Canterbury.",
+      "highlights": [],
+      "best_time_to_visit": "",
+      "photo_credit": "",
+      "routes": [
+        {
+          "origin": "London",
+          "departure_station": "London Victoria",
+          "travel_time_mins": 35,
+          "journey_band": "30-60 mins",
+          "advance_fare_from_gbp": null,
+          "anytime_fare_from_gbp": null,
+          "fare_last_checked": "",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/london-to-rochester",
+          "direct": true,
+          "operator": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "saffron-walden",
+      "name": "Saffron Walden",
+      "region": "East of England",
+      "tags": [
+        "historic",
+        "village",
+        "quiet escape",
+        "countryside"
+      ],
+      "description": "Achingly pretty Essex market town with timber-framed buildings, a hedge maze, Bridge End Garden and a slower pace than almost anywhere this close to London.",
+      "highlights": [],
+      "best_time_to_visit": "",
+      "photo_credit": "",
+      "routes": [
+        {
+          "origin": "London",
+          "departure_station": "London Liverpool Street",
+          "travel_time_mins": 50,
+          "journey_band": "30-60 mins",
+          "advance_fare_from_gbp": null,
+          "anytime_fare_from_gbp": null,
+          "fare_last_checked": "",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/london-to-saffron-walden",
+          "direct": true,
+          "operator": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "salisbury",
+      "name": "Salisbury",
+      "region": "South West England",
+      "tags": [
+        "historic",
+        "countryside",
+        "quiet escape"
+      ],
+      "description": "Medieval city with England's tallest cathedral spire and easy access to Stonehenge. Far quieter and more authentic than nearby Bath.",
+      "highlights": [],
+      "best_time_to_visit": "",
+      "photo_credit": "",
+      "routes": [
+        {
+          "origin": "Bristol",
+          "departure_station": "Bristol Temple Meads",
+          "travel_time_mins": 65,
+          "journey_band": "1-1.5 hrs",
+          "advance_fare_from_gbp": null,
+          "anytime_fare_from_gbp": null,
+          "fare_last_checked": "",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/bristol-to-salisbury",
+          "direct": true,
+          "operator": "",
+          "notes": ""
+        },
+        {
+          "origin": "London",
+          "departure_station": "London Waterloo",
+          "travel_time_mins": 85,
+          "journey_band": "1-1.5 hrs",
+          "advance_fare_from_gbp": null,
+          "anytime_fare_from_gbp": null,
+          "fare_last_checked": "",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/london-to-salisbury",
+          "direct": true,
+          "operator": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "sandwich",
+      "name": "Sandwich",
+      "region": "South East England",
+      "tags": [
+        "historic",
+        "village",
+        "quiet escape"
+      ],
+      "description": "One of England's best-preserved medieval towns, barely touched since the 15th century. Toll bridges, ancient walls and the odd sense of having stepped centuries back.",
+      "highlights": [],
+      "best_time_to_visit": "",
+      "photo_credit": "",
+      "routes": [
+        {
+          "origin": "London",
+          "departure_station": "London Charing Cross",
+          "travel_time_mins": 80,
+          "journey_band": "1-1.5 hrs",
+          "advance_fare_from_gbp": null,
+          "anytime_fare_from_gbp": null,
+          "fare_last_checked": "",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/london-to-sandwich",
+          "direct": true,
+          "operator": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "tenterden",
+      "name": "Tenterden",
+      "region": "South East England",
+      "tags": [
+        "village",
+        "countryside",
+        "scenic",
+        "quiet escape"
+      ],
+      "description": "Pretty Wealden town with wide high street, steam railway and easy access to Romney Marsh. Feels genuinely off the tourist trail.",
+      "highlights": [],
+      "best_time_to_visit": "",
+      "photo_credit": "",
+      "routes": [
+        {
+          "origin": "London",
+          "departure_station": "London Charing Cross",
+          "travel_time_mins": 90,
+          "journey_band": "1-1.5 hrs",
+          "advance_fare_from_gbp": null,
+          "anytime_fare_from_gbp": null,
+          "fare_last_checked": "",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/london-to-tenterden",
+          "direct": true,
+          "operator": "",
+          "notes": ""
+        }
+      ]
+    },
+    {
+      "id": "weston-super-mare",
+      "name": "Weston-super-Mare",
+      "region": "South West England",
+      "tags": [
+        "coastal",
+        "historic",
+        "quiet escape"
+      ],
+      "description": "Classic British seaside town with huge sandy beaches, the Grand Pier and an unexpected street art scene. Sandcastle competitions in summer, enormous skies year-round.",
+      "highlights": [],
+      "best_time_to_visit": "",
+      "photo_credit": "",
+      "routes": [
+        {
+          "origin": "Bristol",
+          "departure_station": "Bristol Temple Meads",
+          "travel_time_mins": 35,
+          "journey_band": "30-60 mins",
+          "advance_fare_from_gbp": null,
+          "anytime_fare_from_gbp": null,
+          "fare_last_checked": "",
+          "trainline_url": "https://www.thetrainline.com/train-tickets/bristol-to-weston-super-mare",
+          "direct": true,
+          "operator": "",
+          "notes": ""
+        }
+      ]
+    }
+  ]
+}

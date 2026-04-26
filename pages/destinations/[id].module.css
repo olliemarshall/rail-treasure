@@ -1,0 +1,349 @@
+.page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 2rem 4rem;
+}
+
+.breadcrumb {
+  padding: 1.5rem 0 0;
+  font-size: 13px;
+}
+
+.breadcrumb a {
+  color: var(--ink-soft);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.breadcrumb a:hover {
+  color: var(--rail);
+}
+
+/* HEADER */
+.header {
+  padding: 2rem 0 2.5rem;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 2.5rem;
+}
+
+.headerMeta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.region {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--ink-soft);
+}
+
+.multiOriginBadge {
+  font-size: 11px;
+  font-weight: 500;
+  color: #1e4d7b;
+  background: #dbeafe;
+  padding: 3px 10px;
+  border-radius: 10px;
+}
+
+.title {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 600;
+  color: var(--ink);
+  line-height: 1.15;
+  margin-bottom: 1rem;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 1.2rem;
+}
+
+.tag {
+  font-size: 12px;
+  padding: 4px 12px;
+  border-radius: 20px;
+  border: 1px solid transparent;
+}
+
+.tag_coastal     { background: #dbeafe; color: #1e4d7b; border-color: #bfdbfe; }
+.tag_historic    { background: #ede9fe; color: #5b21b6; border-color: #ddd6fe; }
+.tag_walking     { background: #dcfce7; color: #166534; border-color: #bbf7d0; }
+.tag_scenic      { background: #fef9c3; color: #854d0e; border-color: #fde68a; }
+.tag_foodie      { background: #fee2e2; color: #991b1b; border-color: #fecaca; }
+.tag_countryside { background: #d1fae5; color: #064e3b; border-color: #a7f3d0; }
+.tag_riverside   { background: #dbeafe; color: #1e40af; border-color: #bfdbfe; }
+.tag_village     { background: #fce7f3; color: #9d174d; border-color: #fbcfe8; }
+.tag_nature      { background: #d1fae5; color: #065f46; border-color: #6ee7b7; }
+.tag_arts__culture { background: #f3e8ff; color: #6b21a8; border-color: #e9d5ff; }
+.tag_quiet_escape  { background: #f1f5f9; color: #475569; border-color: #cbd5e1; }
+.tag_city_break    { background: #fef3c7; color: #92400e; border-color: #fde68a; }
+
+.description {
+  font-size: 1.1rem;
+  color: var(--ink-mid);
+  line-height: 1.75;
+  max-width: 700px;
+  font-weight: 300;
+}
+
+/* LAYOUT */
+.content {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 3rem;
+  align-items: start;
+}
+
+/* SIDEBAR */
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  position: sticky;
+  top: 80px;
+}
+
+.sidebarCard {
+  background: var(--paper-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.4rem;
+}
+
+.sidebarTitle {
+  font-family: 'Playfair Display', serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--ink);
+  margin-bottom: 1rem;
+}
+
+.routes {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.routeBlock {
+  background: var(--paper-warm);
+  border-radius: 10px;
+  padding: 1rem;
+  border: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.routeHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.routeFrom {
+  font-size: 11px;
+  color: var(--ink-soft);
+  margin-bottom: 3px;
+}
+
+.routeTime {
+  font-size: 1.3rem;
+  font-family: 'Playfair Display', serif;
+  color: var(--ink);
+}
+
+.routeBand {
+  font-size: 11px;
+  color: var(--rail);
+  background: var(--rail-light);
+  padding: 3px 8px;
+  border-radius: 6px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.routeMeta {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.fare {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+}
+
+.fareLabel {
+  color: var(--ink-soft);
+}
+
+.fareValue {
+  font-weight: 500;
+  color: var(--rail);
+}
+
+.operator {
+  font-size: 12px;
+  color: var(--ink-soft);
+}
+
+.routeNotes {
+  font-size: 12px;
+  color: var(--ink-mid);
+  font-style: italic;
+}
+
+.bookBtn {
+  display: block;
+  background: var(--rail);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+.bookBtn:hover {
+  background: #235c41;
+}
+
+.fareDisclaimer {
+  font-size: 11px;
+  color: var(--ink-ghost);
+  margin-top: 0.8rem;
+  line-height: 1.5;
+}
+
+.bestTime {
+  font-size: 14px;
+  color: var(--ink-mid);
+}
+
+/* MAIN CONTENT */
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.sectionTitle {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--ink);
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.highlights {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.highlight {
+  font-size: 15px;
+  color: var(--ink-mid);
+  padding-left: 1.4rem;
+  position: relative;
+  line-height: 1.6;
+}
+
+.highlight::before {
+  content: '→';
+  position: absolute;
+  left: 0;
+  color: var(--rail);
+  font-size: 13px;
+}
+
+.placeholder {
+  font-size: 14px;
+  color: var(--ink-ghost);
+  font-style: italic;
+}
+
+.tagLinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tagLink {
+  font-size: 13px;
+  padding: 6px 14px;
+  border-radius: 20px;
+  border: 1px solid transparent;
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+.tagLink:hover {
+  opacity: 0.8;
+}
+
+.tagLink_coastal     { background: #dbeafe; color: #1e4d7b; border-color: #bfdbfe; }
+.tagLink_historic    { background: #ede9fe; color: #5b21b6; border-color: #ddd6fe; }
+.tagLink_walking     { background: #dcfce7; color: #166534; border-color: #bbf7d0; }
+.tagLink_scenic      { background: #fef9c3; color: #854d0e; border-color: #fde68a; }
+.tagLink_foodie      { background: #fee2e2; color: #991b1b; border-color: #fecaca; }
+.tagLink_countryside { background: #d1fae5; color: #064e3b; border-color: #a7f3d0; }
+.tagLink_riverside   { background: #dbeafe; color: #1e40af; border-color: #bfdbfe; }
+.tagLink_village     { background: #fce7f3; color: #9d174d; border-color: #fbcfe8; }
+.tagLink_nature      { background: #d1fae5; color: #065f46; border-color: #6ee7b7; }
+.tagLink_arts__culture { background: #f3e8ff; color: #6b21a8; border-color: #e9d5ff; }
+.tagLink_quiet_escape  { background: #f1f5f9; color: #475569; border-color: #cbd5e1; }
+.tagLink_city_break    { background: #fef3c7; color: #92400e; border-color: #fde68a; }
+
+/* FOOTER */
+.footer {
+  background: var(--ink);
+  color: rgba(255, 255, 255, 0.5);
+  padding: 2.5rem 2rem;
+  text-align: center;
+  font-size: 13px;
+}
+
+.footer strong {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+@media (max-width: 900px) {
+  .content {
+    grid-template-columns: 1fr;
+  }
+
+  .sidebar {
+    position: static;
+    order: 2;
+  }
+
+  .mainContent {
+    order: 1;
+  }
+}
+
+@media (max-width: 640px) {
+  .page {
+    padding: 0 1rem 3rem;
+  }
+}
