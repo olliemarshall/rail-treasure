@@ -12,13 +12,13 @@ export default function About() {
       </Head>
 
       <a href="#main" className="skip-link">Skip to content</a>
-      <Nav />
+      <Nav lang="en" />
 
       {/* HERO — full-width North Yorkshire landscape */}
       <div className={styles.hero}>
         <img
-          src="https://images.unsplash.com/photo-1751021156263-05e6d3592d86?w=1400&q=85"
-          alt="A train moves through a misty golden landscape"
+          src="https://images.unsplash.com/photo-1693164302743-01f18317260e?w=1400&q=85"
+          alt="A train travelling over Ribblehead Viaduct on a cloudy day, Yorkshire"
           className={styles.heroImg}
         />
         <div className={styles.heroOverlay}>
@@ -51,8 +51,8 @@ export default function About() {
           <section className={styles.splitSection}>
             <div className={styles.splitImage}>
               <img
-                src="https://images.unsplash.com/photo-1575278168181-b8a0ace37f9d?w=700&q=85"
-                alt="Two people walking through a green grass field"
+                src="https://images.unsplash.com/photo-1697099817319-579db56c417c?w=700&q=85"
+                alt="A yellow train travelling down tracks next to a lush green hillside"
                 className={styles.splitImg}
               />
             </div>
@@ -130,8 +130,8 @@ export default function About() {
             </div>
             <div className={styles.splitImage}>
               <img
-                src="https://images.unsplash.com/photo-1697099817319-579db56c417c?w=700&q=85"
-                alt="A yellow train travelling down tracks next to a lush green hillside"
+                src="https://images.unsplash.com/photo-1575278168181-b8a0ace37f9d?w=700&q=85"
+                alt="Two people walking through a green grass field"
                 className={styles.splitImg}
               />
             </div>

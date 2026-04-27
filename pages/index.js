@@ -5,6 +5,7 @@ import Nav from '../components/Nav'
 import HeroSearch from '../components/HeroSearch'
 import DestinationCard from '../components/DestinationCard'
 import { getAllDestinations, getAllTags, getAllOrigins, getJourneyBands, getMeta } from '../lib/destinations'
+import { T } from '../lib/translations'
 import styles from './index.module.css'
 
 export async function getStaticProps() {
@@ -24,6 +25,8 @@ export default function Home({ destinations, tags, origins, journeyBands, meta }
   const [activeTag,      setActiveTag]      = useState('all')
   const [activeOrigin,   setActiveOrigin]   = useState('')
   const [activeTimeBand, setActiveTimeBand] = useState('')
+  const [lang,           setLang]           = useState('en')
+  const t = T[lang] || T.en
   const [sortBy,         setSortBy]         = useState('name')
 
   const filtered = useMemo(() => {
@@ -78,9 +81,9 @@ export default function Home({ destinations, tags, origins, journeyBands, meta }
 
       <a href="#destinations" className="skip-link">Skip to destinations</a>
 
-      <Nav />
+      <Nav lang={lang} onLangChange={setLang} />
 
-      {/* HERO SEARCH — dominates the top of the page */}
+      {/* HERO SEARCH */}
       <HeroSearch
         tags={tags}
         origins={origins}
@@ -94,13 +97,14 @@ export default function Home({ destinations, tags, origins, journeyBands, meta }
         onOriginChange={setActiveOrigin}
         onTimeBandChange={setActiveTimeBand}
         resultCount={meta.total_destinations}
+        lang={lang}
       />
 
       {/* DESTINATIONS GRID */}
       <main className={styles.main} id="destinations">
         <div className={styles.resultsBar}>
           <p className={styles.resultsCount} aria-live="polite" aria-atomic="true">
-            <strong>{filtered.length}</strong> destination{filtered.length !== 1 ? 's' : ''} found
+            <strong>{filtered.length}</strong> {t.foundCount(filtered.length).replace(String(filtered.length), '').trim()}
           </p>
         </div>
 
@@ -124,8 +128,8 @@ export default function Home({ destinations, tags, origins, journeyBands, meta }
       {/* BROWSE BY REGION */}
       <section className={styles.regionsSection} aria-labelledby="regions-heading">
         <div className={styles.regionsInner}>
-          <h2 id="regions-heading" className={styles.regionsHeading}>Browse by region</h2>
-          <p className={styles.regionsSub}>Prefer to explore geographically? Each region has its own curated page.</p>
+          <h2 id="regions-heading" className={styles.regionsHeading}>{t.browseRegions}</h2>
+          <p className={styles.regionsSub}>{t.regionsSub}</p>
           <div className={styles.regionsGrid}>
             {regionGroups.map(([region, count]) => {
               const slug = region.toLowerCase().replace(/ /g, '-')

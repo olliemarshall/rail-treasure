@@ -2,7 +2,7 @@
   position: sticky;
   top: 0;
   z-index: 200;
-  background: rgba(250,249,245,0.94);
+  background: rgba(250,249,245,0.97);
   backdrop-filter: blur(14px);
   border-bottom: 1px solid var(--border);
   padding: 0 var(--space-xl);
@@ -19,8 +19,9 @@
   flex-shrink: 0;
 }
 
+/* Logo is black-on-white — no filter needed on light nav background */
 .logoImg {
-  height: 2.4rem;
+  height: 2.2rem;
   width: auto;
   display: block;
   object-fit: contain;
@@ -35,7 +36,7 @@
 
 .link {
   font-size: var(--text-sm);
-  font-weight: 400;
+  font-weight: 500;
   color: var(--ink-mid);
   text-decoration: none;
   background: none;
@@ -47,26 +48,19 @@
   cursor: pointer;
   transition: color 0.18s;
   white-space: nowrap;
+  font-family: 'DM Sans', sans-serif;
 }
+.link:hover, .link.active { color: var(--rail); }
 
-.link:hover,
-.link.active {
-  color: var(--rail);
-}
+/* Dropdown — CSS hover driven */
+.dropdown { position: relative; }
 
-/* Dropdown — use CSS hover so it never closes mid-click */
-.dropdown {
-  position: relative;
-}
-
-.dropdown:hover .dropdownMenu {
-  display: block;
-}
+.dropdown:hover .dropdownMenu { display: block; }
 
 .dropdownMenu {
   display: none;
   position: absolute;
-  top: calc(100% + 0.5rem); /* slight gap — covered by ::before bridge */
+  top: calc(100% + 0.5rem);
   left: 50%;
   transform: translateX(-50%);
   background: var(--paper-card);
@@ -79,15 +73,16 @@
   z-index: 300;
 }
 
-/* Invisible bridge between trigger and menu so hover doesn't gap-out */
+/* Bridge so hover doesn't gap-out moving into menu */
 .dropdownMenu::before {
   content: '';
   position: absolute;
   top: -0.75rem;
-  left: 0;
-  right: 0;
+  left: 0; right: 0;
   height: 0.75rem;
 }
+
+.dropdownTrigger { font-family: 'DM Sans', sans-serif; }
 
 .dropdownAll {
   display: block;
@@ -108,11 +103,41 @@
   border-radius: var(--radius-sm);
   transition: background 0.15s, color 0.15s;
 }
+.dropdownItem:hover { background: var(--rail-light); color: var(--rail); }
 
-.dropdownItem:hover {
-  background: var(--rail-light);
-  color: var(--rail);
+/* Language switcher */
+.langTrigger {
+  gap: 0.4rem;
+  color: var(--ink-mid);
 }
+.langCurrent { font-size: 1rem; line-height: 1; }
+
+.langMenu {
+  right: 0;
+  left: auto;
+  transform: none;
+  min-width: 9rem;
+}
+
+.langItem {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.45rem 0.75rem;
+  font-size: var(--text-sm);
+  color: var(--ink-mid);
+  border-radius: var(--radius-sm);
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  transition: background 0.15s, color 0.15s;
+  font-family: 'DM Sans', sans-serif;
+}
+.langItem:hover { background: var(--rail-light); color: var(--rail); }
+.langActive { color: var(--rail); font-weight: 600; }
+.langCheck { margin-left: auto; color: var(--rail); font-size: var(--text-xs); }
 
 /* Burger */
 .burger {
@@ -123,7 +148,6 @@
   border: none;
   padding: 0.3rem;
 }
-
 .burger span {
   display: block;
   width: 1.375rem;
@@ -137,15 +161,15 @@
 .mobileMenu {
   position: absolute;
   top: 3.75rem;
-  left: 0;
-  right: 0;
-  background: var(--paper);
+  left: 0; right: 0;
+  background: var(--paper-card);
   border-bottom: 1px solid var(--border);
   padding: var(--space-md) var(--space-xl);
   display: flex;
   flex-direction: column;
   gap: 0.1rem;
   z-index: 200;
+  box-shadow: var(--shadow-hover);
 }
 
 .mobileLink {
@@ -161,7 +185,7 @@
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  color: var(--ink-soft);
+  color: var(--rail);
   padding: 0.8rem 0 0.3rem;
 }
 
@@ -172,6 +196,16 @@
   display: block;
   border-bottom: 1px solid var(--border);
 }
+
+.mobileLangBtn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  font-family: 'DM Sans', sans-serif;
+  width: 100%;
+}
+.mobileLangActive { color: var(--rail) !important; font-weight: 600; }
 
 @media (max-width: 700px) {
   .links { display: none; }

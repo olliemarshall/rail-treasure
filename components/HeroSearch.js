@@ -1,3 +1,4 @@
+import { T } from '../lib/translations'
 import styles from './HeroSearch.module.css'
 
 const TAG_ICONS = {
@@ -7,27 +8,24 @@ const TAG_ICONS = {
 }
 
 export default function HeroSearch({
+  lang = 'en',
   tags, origins, journeyBands,
   query, activeTag, activeOrigin, activeTimeBand,
   onQueryChange, onTagChange, onOriginChange, onTimeBandChange,
   resultCount,
 }) {
+  const t = T[lang] || T.en
+
   return (
     <section className={styles.hero} aria-label="Search destinations">
 
-      {/* Top bar — logo + brand copy */}
+      {/* Slogan — no logo here, logo lives in the Nav */}
       <div className={styles.topBar}>
         <div className={styles.topBarInner}>
-          <div className={styles.logoWrap}>
-            <img
-              src="/logo.png"
-              alt="Rail Treasure"
-              className={styles.heroLogo}
-            />
-          </div>
-          <p className={styles.heroTagline}>
-            {resultCount} curated destinations · no car needed
-          </p>
+          <h1 className={styles.slogan}>
+            {t.heroLine1} <span className={styles.sloganEm}>{t.heroLine2}{t.heroEm}</span>
+          </h1>
+          <p className={styles.heroTagline}>{t.tagline(resultCount)}</p>
         </div>
       </div>
 
@@ -37,7 +35,7 @@ export default function HeroSearch({
 
           {/* Row 1 — main inputs */}
           <div className={styles.inputRow}>
-            <label htmlFor="search-input" className={styles.srOnly}>Search destinations</label>
+            <label htmlFor="search-input" className={styles.srOnly}>{t.searchPlaceholder}</label>
             <div className={styles.inputWrap} role="search">
               <svg className={styles.inputIcon} width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
                 <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
@@ -46,7 +44,7 @@ export default function HeroSearch({
                 id="search-input"
                 type="search"
                 className={styles.input}
-                placeholder="Search destinations, regions, vibes…"
+                placeholder={t.searchPlaceholder}
                 value={query}
                 onChange={e => onQueryChange(e.target.value)}
                 autoComplete="off"
@@ -56,26 +54,26 @@ export default function HeroSearch({
               )}
             </div>
 
-            <label htmlFor="origin-select" className={styles.srOnly}>Travelling from</label>
+            <label htmlFor="origin-select" className={styles.srOnly}>{t.fromAnywhere}</label>
             <div className={styles.selectWrap}>
               <svg className={styles.selectIcon} width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
                 <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/>
                 <circle cx="12" cy="9" r="2.5"/>
               </svg>
               <select id="origin-select" className={styles.select} value={activeOrigin} onChange={e => onOriginChange(e.target.value)}>
-                <option value="">From anywhere</option>
-                {origins.map(o => <option key={o} value={o}>From {o}</option>)}
+                <option value="">{t.fromAnywhere}</option>
+                {origins.map(o => <option key={o} value={o}>{t.fromPrefix} {o}</option>)}
               </select>
             </div>
 
-            <label htmlFor="time-select" className={styles.srOnly}>Journey time</label>
+            <label htmlFor="time-select" className={styles.srOnly}>{t.anyJourney}</label>
             <div className={styles.selectWrap}>
               <svg className={styles.selectIcon} width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
                 <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
               </svg>
               <select id="time-select" className={styles.select} value={activeTimeBand} onChange={e => onTimeBandChange(e.target.value)}>
-                <option value="">Any journey time</option>
-                {journeyBands.map(b => <option key={b} value={b}>{b}</option>)}
+                <option value="">{t.anyJourney}</option>
+                {journeyBands.map(b => <option key={b} value={b}>{t.journeyBands?.[b] || b}</option>)}
               </select>
             </div>
           </div>
@@ -86,7 +84,7 @@ export default function HeroSearch({
               className={`${styles.chip} ${activeTag === 'all' ? styles.chipActive : ''}`}
               onClick={() => onTagChange('all')}
               aria-pressed={activeTag === 'all'}
-            >All</button>
+            >{t.allDestinations}</button>
             {tags.map(tag => (
               <button
                 key={tag}
